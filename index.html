@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html class="result" lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="content-language" content="ja">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,user-scalable=no">
+	<script
+  	src="https://code.jquery.com/jquery-2.2.4.js"
+  	integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+  	crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen and (min-width:1024px)">
+	<link rel="stylesheet" type="text/css" href="css/medium.css" media="screen and (max-width:1023px) and (min-width:426px)">
+  	<link rel="stylesheet" type="text/css" href="css/small.css" media="screen and (max-width:425px)">
+	<title></title>
+</head>
+<body id="index">
+<div id="wrapper">
+	<header>
+		<div class="gradation-line"></div><!-- .gradation-line -->
+	</header>
+	<div id="topheader"></div><!-- #topheader -->
+	<div id="topvideowrapper">
+		<video id="topvideo" playsinline muted autoplay>
+			<source src="images/sample1.mp4">
+		</video>
+		<button id="btn_topskip">SKIP</button>
+	</div><!-- #topvideowrapper -->
+	<div id="main">
+		<!-- <input type="button" class="sample_btn" value="ajax通信で取得する"> -->
+	</div><!-- #main -->
+	<footer></footer>
+</div><!-- #wrapper -->
+<div id="filter"></div><!-- /filter -->
+<script src="/js/luxy.js" charset="utf-8"></script>
+<script>
+    luxy.init({
+        wrapper: '#wrapper',
+        targets : '.luxy-el',
+        wrapperSpeed:  0.08
+    });
+</script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

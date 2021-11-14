@@ -1,0 +1,169 @@
+@charset "utf-8";
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+/* layout */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: YuMincho, 'Yu Mincho', serif;
+	background-color: #000000;
+	color: #ffffff;
+	width: 100vw;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+	font-size: 15px;
+	line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+a {
+	text-decoration: none;
+  color: #ffffff;
+}
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+.clear {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  font-size: 0;
+  visibility: hidden;
+}
+.brtb {
+  display: none;
+}
+.brsp {
+  display: none;
+}
+.displaypc {
+  display: block;
+}
+.displaytb {
+  display: none;
+}
+.displaysp {
+  display: none;
+}
+.nondisplaysp {
+  display: inline-block;
+}
+
+/* .page */
+.page {
+  position: relative;
+  height: auto;
+  min-height: 100%;
+  box-sizing: border-box;
+}
+
+/* #wrapper */
+#wrapper {
+  position: relative;
+}
+
+/* filter用 */
+#filter{
+  position: absolute;
+  left: 0;
+  top: 12px;
+  background-image: url('../images/pattern-05.png');
+  background-repeat: repeat;
+  opacity: 0.2;
+  z-index: 100;
+  width: 100%;
+  height: calc(100% - 12px);
+  pointer-events: none;
+  /* mix-blend-mode: multiply; */
+}
+
+/* .gradation-line */
+.gradation-line {
+  animation      : GradationMove 2s ease-in-out infinite;
+  background     : linear-gradient(90deg, #FFDE53 45%, #FF8900, #FFDE53 55%);
+  background-size: 250% 250%;
+  height         : 12px;
+  width          : 100%;
+}
+@keyframes GradationMove {
+    0% { background-position: 100% 50% }
+  100% { background-position:   0% 50% }
+}
+
+/* index */
+#index #topvideo {
+  height: calc(100vh - 12px);
+}
+#index #btn_topskip {
+  position: absolute;
+  top: calc(100vh - 100px);
+  color: #BA6C00;
+  font-size: 36px;
+}
+
+#index #topheader {
+  display: none;
+}
+#index #main {
+  display: none;
+}
+#index footer {
+  display: none;
+}
