@@ -12,14 +12,32 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen and (min-width:1024px)">
 	<link rel="stylesheet" type="text/css" href="css/medium.css" media="screen and (max-width:1023px) and (min-width:426px)">
   	<link rel="stylesheet" type="text/css" href="css/small.css" media="screen and (max-width:425px)">
-	<title></title>
+  	<link rel="icon" href="images/samplefavicon.png">
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<title>"KICワンダフル</title>
 </head>
 <body id="index">
 <div id="wrapper">
 	<header>
 		<div class="gradation-line"></div><!-- .gradation-line -->
 	</header>
-	<div id="topheader"></div><!-- #topheader -->
+	<div id="topheader">
+		<h1><img src="images/kic_logo.svg" alt="KICワンダフルのロゴ"></h1>
+		<ul>
+			<li><a href="page00.html"><img src="images/samplenumber.png" alt="00ページへのリンク"></a></li>
+			<li class="newlink"><a href="#"><img src="images/samplenumber.png" alt="01ページへのリンク"></a></li>
+			<li class="futurelink"><a href="#"><img src="images/samplenumber.png" alt="02ページへのリンク"></a></li>
+			<li class="futurelink"><a href="#"><img src="images/samplenumber.png" alt="03ページへのリンク"></a></li>
+			<li class="futurelink"><a href="#"><img src="images/samplenumber.png" alt="04ページへのリンク"></a></li>
+			<li class="futurelink"><a href="#"><img src="images/samplenumber.png" alt="05ページへのリンク"></a></li>
+			<li class="futurelink"><a href="#"><img src="images/samplenumber.png" alt="06ページへのリンク"></a></li>
+			<li class="futurelink"><a href="#"><img src="images/samplenumber.png" alt="07ページへのリンク"></a></li>
+			<li class="futurelink"><a href="#"><img src="images/samplenumber.png" alt="08ページへのリンク"></a></li>
+			<li class="futurelink"><a href="#"><img src="images/samplenumber.png" alt="09ページへのリンク"></a></li>
+			<li class="futurelink"><a href="#"><img src="images/samplenumber.png" alt="10ページへのリンク"></a></li>
+			<li class="futurelink"><a href="#"><img src="images/samplenumber.png" alt="GOページへのリンク"></a></li>
+		</ul>
+	</div><!-- #topheader -->
 	<div id="topvideowrapper">
 		<video id="topvideo" playsinline muted autoplay>
 			<source src="images/sample1.mp4">
@@ -27,18 +45,33 @@
 		<button id="btn_topskip">SKIP</button>
 	</div><!-- #topvideowrapper -->
 	<div id="main">
-		<!-- <input type="button" class="sample_btn" value="ajax通信で取得する"> -->
+		<div id="mainvideowrapper">
+			<video id="mainvideo" playsinline muted autoplay>
+				<source src="images/sample2.mp4">
+			</video>
+		</div><!-- #mainvideowrapper -->
+		<input type="button" class="sample_btn" value="ajax通信で取得する">
+		<div id="mainlogo"><img src="images/samplethin.png" alt="GRGarageのロゴ"><img src="images/samplethin.png" alt="トヨタカローラ福岡株式会社のロゴ"></div>
 	</div><!-- #main -->
-	<footer></footer>
+	<footer>
+		<div id="footerleft"><img src="images/samplethin.png" alt="久留米自動車工科大学校のロゴ"></div>
+		<ul id="footerright">
+			<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+			<li><a href="#"><i class="fab fa-line"></i></a></li>
+			<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+			<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+		</ul>
+		<div class="clear"></div>
+	</footer>
 </div><!-- #wrapper -->
 <div id="filter"></div><!-- /filter -->
-<script src="/js/luxy.js" charset="utf-8"></script>
+<script src="js/luxy.js" charset="utf-8"></script>
 <script>
-    luxy.init({
-        wrapper: '#wrapper',
-        targets : '.luxy-el',
-        wrapperSpeed:  0.08
-    });
+    // luxy.init({
+    //     wrapper: '#wrapper',
+    //     targets : '.luxy-el',
+    //     wrapperSpeed:  0.08
+    // });
 </script>
 <script type="text/javascript" src="js/main.js"></script>
 </body>

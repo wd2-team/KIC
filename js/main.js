@@ -1,8 +1,9 @@
 $(function(){
     // スクロールでajax
-    $(window).scroll(function() {
-        console.log('windowスクロールなう');
-        if ($(this).scrollTop() > 0) {
+    // $(window).scroll(function() {
+    $('.sample_btn').click(function(){
+        // console.log('windowスクロールなう');
+        // if ($(this).scrollTop() > 0) {
         $.ajax({
             url: 'page00.html',
             type: 'GET',
@@ -12,7 +13,7 @@ $(function(){
         }).fail(function(data){
             alert('通信失敗！');
         });
-        }
+        // }
     });
 
     // 動画再生後フェード
