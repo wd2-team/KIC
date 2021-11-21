@@ -18,8 +18,8 @@
 </head>
 <body id="index">
 <div id="wrapper">
-	<header>
-		<div class="gradation-line"></div><!-- .gradation-line -->
+	<header class="gradation-linewrap">
+		<div class="gradation-line"></div>
 	</header>
 	<div id="topheader">
 		<h1><img src="images/kic_logo.svg" alt="KICワンダフルのロゴ"></h1>
@@ -40,20 +40,29 @@
 	</div><!-- #topheader -->
 	<div id="topvideowrapper">
 		<video id="topvideo" playsinline muted autoplay>
-			<source src="images/sample1.mp4">
+			<source src="images/car01.mp4">
 		</video>
 		<button id="btn_topskip">SKIP</button>
 	</div><!-- #topvideowrapper -->
-	<div id="main">
-		<div id="mainvideowrapper">
-			<video id="mainvideo" playsinline muted autoplay>
-				<source src="images/sample2.mp4">
-			</video>
-		</div><!-- #mainvideowrapper -->
-		<input type="button" class="sample_btn" value="ajax通信で取得する">
-		<div id="mainlogo"><img src="images/samplethin.png" alt="GRGarageのロゴ"><img src="images/samplethin.png" alt="トヨタカローラ福岡株式会社のロゴ"></div>
-	</div><!-- #main -->
-	<footer>
+	<div id="mainwrapper">
+		<div id="main">
+			<div id="mainvideowrapper">
+				<video id="mainvideo" playsinline muted autoplay>
+					<source src="images/sample2.mp4">
+				</video>
+			</div><!-- #mainvideowrapper -->
+			<input type="button" class="sample_btn" value="ajax通信で取得する">
+			<div id="mainlogo"><img src="images/samplethin.png" alt="GRGarageのロゴ"><img src="images/samplethin.png" alt="トヨタカローラ福岡株式会社のロゴ"></div>
+		</div><!-- #main -->
+	</div><!-- #mainwrapper -->
+	<div id="topleft"></div><!-- #topleft -->
+	<div id="topright" class="animation">
+		<a href="page00.html">
+			<p>PROLOGUE<br><span>プロローグ／序章</span></p>
+			<div id="toprightbg"></div>
+		</a>
+	</div><!-- #topright -->
+	<footer class="gradation-linewrap">
 		<div id="footerleft"><img src="images/samplethin.png" alt="久留米自動車工科大学校のロゴ"></div>
 		<ul id="footerright">
 			<li><a href="#"><i class="fab fa-instagram"></i></a></li>
@@ -62,6 +71,7 @@
 			<li><a href="#"><i class="fab fa-youtube"></i></a></li>
 		</ul>
 		<div class="clear"></div>
+		<div class="gradation-line"></div>
 	</footer>
 </div><!-- #wrapper -->
 <div id="filter"></div><!-- /filter -->

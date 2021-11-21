@@ -67,7 +67,7 @@ body {
 }
 a {
 	text-decoration: none;
-  color: #ffffff;
+  color: #FFB100;
 }
 button {
   background-color: transparent;
@@ -105,6 +105,17 @@ button {
 .nondisplaysp {
   display: inline-block;
 }
+.animation{
+  opacity : 0;
+  visibility: hidden;
+  transition: 2s;
+  transform: translateY(30px);
+}
+.active{
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
 
 /* .page */
 .page {
@@ -134,17 +145,30 @@ button {
   /* mix-blend-mode: multiply; */
 }
 
-/* .gradation-line */
-.gradation-line {
-  animation      : GradationMove 2s ease-in-out infinite;
-  background     : linear-gradient(90deg, #FFDE53 45%, #FF8900, #FFDE53 55%);
-  background-size: 250% 250%;
-  height         : 9px;
-  width          : 100%;
+/* .gradation-linewrap */
+.gradation-linewrap {
+  overflow: hidden;
+  position: relative;
 }
-@keyframes GradationMove {
-    0% { background-position: 100% 50% }
-  100% { background-position:   0% 50% }
+.gradation-linewrap:before {
+  animation: gradation-linewrap 2s cubic-bezier(.4, 0, .2, 1) forwards;
+  background: #000;
+  bottom: 0;
+  content: '';
+  left: 0;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+@keyframes gradation-linewrap {
+  100% {
+    transform: translateX(100%);
+  }
+}
+.gradation-line {
+  background: linear-gradient(90deg, #FFDE53, #FF8900);
 }
 
 /* index */
@@ -154,11 +178,15 @@ button {
 #index header {
   position: relative;
   height: 9px;
+  display: none;
+}
+#index header .gradation-line {
+  height: 9px;
 }
 #index #topvideowrapper {
   position: relative;
   width: 100vw;
-  height: calc(100vh - 9px);
+  height: 100vh;
   overflow: hidden;
 }
 #index #topvideo {
@@ -178,14 +206,15 @@ button {
 }
 
 #index #topheader {
-  display: none;
   position: relative;
   height: 165px;
+  display: none;
 }
 #index #topheader h1 {
   position: absolute;
   top: 42px;
   left: 56px;
+  display: none;
 }
 #index #topheader h1 img {
   width: 336px;
@@ -196,6 +225,7 @@ button {
   left: 0;
   right: 0;
   margin-top: 26px;
+  display: none;
 }
 #index #topheader ul li {
   display: inline-block;
@@ -217,35 +247,103 @@ button {
 #index #topheader ul li.futurelink a img {
   opacity: 0.3;
 }
-#index #main {
-  display: none;
-  position: relative;
+#index #mainwrapper {
   height: calc(100vh - (9px + 165px + 89px));
 }
-#index #main #mainvideowrapper {
+#index #mainwrapper #main {
+  position: relative;
+  height: 100%;
+}
+#index #mainwrapper #main #mainvideowrapper {
   position: relative;
   width: 100vw;
   height: calc(100% - (165px + 9px - 89px));
   overflow: hidden;
+  display: none;
 }
-#index #main #mainvideowrapper #mainvideo {
+#index #mainwrapper #main #mainvideowrapper #mainvideo {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   width: 600px;
 }
-#index #main #mainlogo img {
+#index #mainwrapper #main input {
+  position: absolute;
+  top: calc(50% + 128px);
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 43px;
+  display: none;
+}
+#index #mainwrapper #main #mainlogo {
+  position: absolute;
+  bottom: 41px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
+}
+#index #mainwrapper #main #mainlogo img {
   width: 200px;
+}
+#index #topleft {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 85px;
+  width: 219px;
+  height: 90px;
+}
+#index #topleft.animation {
+  transform: translateY(calc(-50% + 30px));
+}
+#index #topleft.active {
+  transform: translateY(-50%);
+}
+#index #topright {
+  display: none;
+  position: absolute;
+  top: 50%;
+  right: 85px;
+  width: 240px;
+  height: 183px;
+}
+#index #topright.animation {
+  transform: translateY(calc(-50% + 30px));
+}
+#index #topright.active {
+  transform: translateY(-50%);
+}
+#index #topright a p {
+  font-size: 24px;
+  position: relative;
+  top: calc(50% - 22px);
+}
+#index #topright a p span {
+  font-size: 14px;
+}
+#index #topright a #toprightbg{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url('../images/samplenumber.png');
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  opacity: 0.2;
 }
 #index footer {
   display: none;
   position: relative;
   height: 89px;
-  background: linear-gradient(90deg, #FFDE53, #FF8900);
 }
 #index footer #footerleft {
   float: left;
+  position: relative;
+  z-index: 1;
+  display: none;
 }
 #index footer #footerleft img {
   width: 236px;
@@ -254,6 +352,9 @@ button {
   float: right;
   margin-top: 33px;
   margin-right: 27px;
+  position: relative;
+  z-index: 1;
+  display: none;
 }
 #index footer ul#footerright li {
   display: inline-block;
@@ -263,6 +364,12 @@ button {
 #index footer ul#footerright li a i {
   font-size: 24px;
   color: #000000;
+}
+#index footer .gradation-line {
+  height: 89px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
 }
 
 /* page */
