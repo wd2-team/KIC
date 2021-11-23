@@ -48,5 +48,7 @@ $(window).on('load', function(){
     }, 500);
     setTimeout(function(){
         $('#pageheader').fadeIn();
+        $('#pageleftnumber img').css('opacity', '0.3');
+        $('#slidemenu').css ('margin-right', '40px');
     },3000);
 });
