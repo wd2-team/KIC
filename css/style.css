@@ -427,5 +427,39 @@ header {
 #pageheader ul li.futurelink a img {
   opacity: 0.3;
 }
+#pageleftnumber {
+  position: absolute;
+  top: 50%;
+}
+#pageleftnumber img {
+  display: none;
+  position: relative;
+  height: 464px;
+}
+#pageleftnumber img:nth-child(1) {
+  left: 0;
+  width: 48px;
+}
+#pageleftnumber img:nth-child(1).animation {
+  transform: translateY(calc(-50% - 30px));
+}
+#pageleftnumber img:nth-child(1).active {
+  transform: translateY(-50%);
+}
+#pageleftnumber img:nth-child(2) {
+  left: 60px;
+  width: 16px;
+  transform: translateY(-50%);
+}
+#pageleftnumber img:nth-child(3) {
+  left: 104px;
+  width: 350px;
+}
+#pageleftnumber img:nth-child(3).animation {
+  transform: translateY(calc(-50% + 30px));
+}
+#pageleftnumber img:nth-child(3).active {
+  transform: translateY(-50%);
+}
 
 /* page00 */

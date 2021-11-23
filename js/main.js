@@ -39,5 +39,14 @@ $(function(){
 // ロード
 $(window).on('load', function(){
     $('#pageheaderline').fadeIn();
-    $('#pageheader').fadeIn();
+    $('#pageleftnumber img:nth-child(1)').fadeIn();
+    $('#pageleftnumber img:nth-child(1)').addClass('active');
+    $('#pageleftnumber img:nth-child(3)').fadeIn();
+    $('#pageleftnumber img:nth-child(3)').addClass('active');
+    setTimeout(function(){
+        $('#pageleftnumber img:nth-child(2)').fadeIn();
+    }, 500);
+    setTimeout(function(){
+        $('#pageheader').fadeIn();
+    },3000);
 });
