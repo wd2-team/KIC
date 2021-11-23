@@ -1,20 +1,4 @@
 $(function(){
-    // スクロールでajax
-    // $(window).scroll(function() {
-    $('.sample_btn').click(function(){
-        // console.log('windowスクロールなう');
-        // if ($(this).scrollTop() > 0) {
-        $.ajax({
-            url: 'page00.html',
-            type: 'GET',
-            dataType: 'html'
-        }).done(function(data){
-            $('.result').html(data);
-        }).fail(function(data){
-            alert('通信失敗！');
-        });
-        // }
-    });
 
     // 動画再生後フェード
     var video = document.getElementById('topvideo');
@@ -43,14 +27,17 @@ $(function(){
             $('#topright').addClass('active');
         },9000);
         setTimeout(function(){
-            $('#main input').fadeIn(1000);
+            $('#main a#mainlink').fadeIn(1000);
         },10000);
     });
     btn_topskip.addEventListener("click", (e) => {
         video.currentTime += 999;
     });
 
-    $(window).on('load', function(){
+});
 
-    });
+// ロード
+$(window).on('load', function(){
+    $('#pageheaderline').fadeIn();
+    $('#pageheader').fadeIn();
 });

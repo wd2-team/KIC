@@ -268,13 +268,16 @@ button {
   transform: translateX(-50%) translateY(-50%);
   width: 600px;
 }
-#index #mainwrapper #main input {
+#index #mainwrapper #main a#mainlink {
   position: absolute;
   top: calc(50% + 128px);
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   width: 43px;
   display: none;
+}
+#index #mainwrapper #main a#mainlink img {
+  width: 43px;
 }
 #index #mainwrapper #main #mainlogo {
   position: absolute;
@@ -374,42 +377,55 @@ button {
 
 /* page */
 header {
+  display: none;
+}
+#pageheaderline {
+  position: relative;
+  height: 9px;
+  display: none;
+}
+#pageheaderline .gradation-line {
+  height: 9px;
+}
+#pageheader {
   position: relative;
   height: 165px;
+  display: none;
 }
-header h1 {
+#pageheader h1 {
   position: absolute;
   top: 42px;
   left: 56px;
 }
-header h1 img {
+#pageheader h1 img {
   width: 336px;
 }
-header ul {
+#pageheader ul {
   letter-spacing: -.4em;
   position: absolute;
   left: 0;
   right: 0;
   margin-top: 26px;
 }
-header ul li {
+#pageheader ul li {
   display: inline-block;
   letter-spacing: normal;
   width: 19px;
   margin: 0 17px;
 }
-header ul li.newlink:before {
+#pageheader ul li.newlink:before {
   content: 'NEW';
   color: #FFC238;
   margin-left: -5px;
 }
-header ul li.futurelink a {
+#pageheader ul li.futurelink a {
   pointer-events: none;
 }
-header ul li a img {
+#pageheader ul li a img {
   width: 25px;
 }
-header ul li.futurelink a img {
+#pageheader ul li.futurelink a img {
   opacity: 0.3;
 }
+
 /* page00 */
