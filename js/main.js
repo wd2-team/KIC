@@ -51,4 +51,15 @@ $(window).on('load', function(){
         $('#pageleftnumber img').css('opacity', '0.3');
         $('#slidemenu').css ('margin-right', '40px');
     },3000);
+    setTimeout(function(){
+        $('#pageinnerscroll #pageright a #pagerightbg').fadeIn();
+        $('#pageinnerscroll #pageright a #pagerightbg').addClass('active');
+    },6000);
+    setTimeout(function(){
+        $('#pageinnerscroll #pageright p').fadeIn();
+        $('#pageinnerscroll #pageright p').addClass('active');
+    },7000);
+    setTimeout(function(){
+        $('#pagescroll').fadeIn();
+    },8000);
 });
