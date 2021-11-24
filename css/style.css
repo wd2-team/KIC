@@ -331,7 +331,7 @@ button {
   position: absolute;
   top: 0;
   left: 0;
-  background: url('../images/samplenumber.png');
+  background: url('../images/00.svg');
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
@@ -529,7 +529,7 @@ header {
   position: absolute;
   top: 0;
   left: 0;
-  background: url('../images/samplenumber.png');
+  background: url('../images/00.svg');
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
