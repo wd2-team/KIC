@@ -496,14 +496,15 @@ header {
   width: 43px;
 }
 #pageinnerscroll {
-  height: calc(100vh - 174px);
+  height: 100vh;
   position: absolute;
   overflow-y: scroll;
   width: 100%;
+  top: 0;
 }
 #pageinnerscroll #pageright {
   position: absolute;
-  top: calc(100vh - 454px);
+  top: calc(100vh - 289px);
   right: 85px;
   width: 276px;
   height: 209px;
@@ -547,10 +548,31 @@ header {
 #page00 {
   overflow-y: hidden;
 }
-#pageinnerscroll-p01,
-#pageinnerscroll-p02,
-#pageinnerscroll-p03,
-#pageinnerscroll-p04,
-#pageinnerscroll-p05 {
+#page00innerscroll-pall {
+  height: 2000px;
+  padding-top: 100vh;
+  color: #FFB100;
+  width: 1000px;
+  margin: 0 auto;
+  text-align: left;
+}
+#page00innerscroll-p01,
+#page00innerscroll-p02,
+#page00innerscroll-p03,
+#page00innerscroll-p04,
+#page00innerscroll-p05 {
   display: none;
+}
+#page00innerscroll-p01 {
+  font-size: 66px;
+  line-height: 110px;
+  margin-bottom: 170px;
+}
+#page00innerscroll-p02,
+#page00innerscroll-p03,
+#page00innerscroll-p04,
+#page00innerscroll-p05 {
+  font-size: 29px;
+  line-height: 76px;
+  margin-bottom: 70px;
 }
