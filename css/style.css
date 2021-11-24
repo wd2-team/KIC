@@ -151,7 +151,7 @@ button {
   position: relative;
 }
 .gradation-linewrap:before {
-  animation: gradation-linewrap 2s cubic-bezier(.4, 0, .2, 1) forwards;
+  animation: gradation-linewrap 2s cubic-bezier(0.25, 0.1, 0.25, 1.0) forwards;
   background: #000;
   bottom: 0;
   content: '';
@@ -546,4 +546,11 @@ header {
 /* page00 */
 #page00 {
   overflow-y: hidden;
+}
+#pageinnerscroll-p01,
+#pageinnerscroll-p02,
+#pageinnerscroll-p03,
+#pageinnerscroll-p04,
+#pageinnerscroll-p05 {
+  display: none;
 }
