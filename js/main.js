@@ -36,8 +36,23 @@ $(function(){
 
 });
 
+    // スクロールで表示
+    var box = document.getElementById( 'pageinnerscroll' );
+    box.onscroll = function(){
+        $(".page00innerscroll-p").each(function() {
+            var scroll = $(window).scrollTop();
+            var blockPosition = $(this).offset().top;
+            var windowHeight = $(window).height();
+            if (scroll > blockPosition - windowHeight + 500) {
+                $(this).fadeIn();
+                $(this).addClass("active");
+            }
+        });
+    };
+
 // ロード
 $(window).on('load', function(){
+    $('#page00').css('pointer-events', 'none');
     $('#pageheaderline').fadeIn();
     $('#pageleftnumber img:nth-child(1)').fadeIn();
     $('#pageleftnumber img:nth-child(1)').addClass('active');
@@ -49,7 +64,7 @@ $(window).on('load', function(){
     setTimeout(function(){
         $('#pageheader').fadeIn();
         $('#pageleftnumber img').css('opacity', '0.3');
-        $('#slidemenu').css ('margin-right', '40px');
+        $('#slidemenu').css('margin-right', '40px');
     },3000);
     setTimeout(function(){
         $('#pageinnerscroll #pageright a #pagerightbg').fadeIn();
@@ -61,5 +76,6 @@ $(window).on('load', function(){
     },7000);
     setTimeout(function(){
         $('#pagescroll').fadeIn();
+        $('#page00').css('pointer-events', 'all');
     },8000);
 });
