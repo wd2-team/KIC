@@ -714,7 +714,7 @@ header {
 #page00innerscroll-p03,
 #page00innerscroll-p04,
 #page00innerscroll-p05 {
-  display: none;
+  opacity: 0;
 }
 #page00innerscroll-p01 {
   font-size: 66px;

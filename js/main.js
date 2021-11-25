@@ -45,8 +45,8 @@ $(function(){
             var scroll = $(window).scrollTop();
             var blockPosition = $(this).offset().top;
             var windowHeight = $(window).height();
-            if (scroll > blockPosition - windowHeight + 500) {
-                $(this).fadeIn();
+            if (scroll > blockPosition - windowHeight + 150) {
+                $(this).css('opacity', '1');
                 $(this).addClass("active");
             }
         });
