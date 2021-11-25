@@ -50,6 +50,12 @@ $(function(){
                 $(this).addClass("active");
             }
         });
+        var scroll = $(window).scrollTop();
+        var page00p02Position = $('#page00innerscroll-p02').offset().top;
+        var windowHeight = $(window).height();
+        if (scroll > page00p02Position - windowHeight + 150) {
+            $('#page00back video').fadeIn();
+        }
     };
 
 // ロード
