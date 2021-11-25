@@ -132,14 +132,14 @@ button {
 
 /* filter用 */
 #filter{
-  position: absolute;
-  left: 0;
-  top: 9px;
+  position: fixed;
+  left: -10rem;
+  top: -10rem;
   background-image: url('../images/noise.png');
   background-repeat: repeat;
   z-index: 100;
-  width: 100%;
-  height: calc(100% - 9px);
+  width: calc(100% + 20rem);
+  height: calc(100% + 20rem);
   pointer-events: none;
   -webkit-animation: noise 1s steps(2) infinite;
   -moz-animation: noise 1s steps(2) infinite;
