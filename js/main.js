@@ -1,13 +1,15 @@
 $(function(){
 
-    // 動画再生後フェード
+    // // 動画再生後フェード
     var video = document.getElementById('topvideo');
     var btn_topskip = document.getElementById("btn_topskip");
     video.addEventListener("ended", function() {
         $('#topvideowrapper').fadeOut();
-        $('header').fadeIn();
-        $('footer').fadeIn();
-        $('#topheader').fadeIn();
+        setTimeout(function(){
+            $('header').fadeIn();
+            $('footer').fadeIn();
+            $('#topheader').fadeIn();
+        },200);
         setTimeout(function(){
             $('#mainvideowrapper').fadeIn();
         },3000);
@@ -52,6 +54,7 @@ $(function(){
 
 // ロード
 $(window).on('load', function(){
+
     $('#page00').css('pointer-events', 'none');
     $('#pageheaderline').fadeIn();
     $('#pageleftnumber img:nth-child(1)').fadeIn();
