@@ -835,9 +835,9 @@ header {
   transform: translateY(0);
 }
 #blacksheer {
-  background: -moz-linear-gradient(top, #000000, transparent 50%);
-  background: -webkit-linear-gradient(top, #000000, transparent 50%);
-  background: linear-gradient(to bottom, #000000, transparent 50%);
+  background: -moz-linear-gradient(top, #000000 5%, transparent 50%);
+  background: -webkit-linear-gradient(top, #000000 5%, transparent 50%);
+  background: linear-gradient(to bottom, #000000 5%, transparent 50%);
   width: 100%;
   height: 100%;
   position: fixed;
