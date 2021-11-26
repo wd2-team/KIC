@@ -302,7 +302,7 @@ button {
 }
 .gradation-linewrap:before {
   animation: gradation-linewrap 2s cubic-bezier(0.25, 0.1, 0.25, 1.0) forwards;
-  background: #000;
+  background: #000000;
   bottom: 0;
   content: '';
   left: 0;
@@ -577,7 +577,7 @@ header {
   pointer-events: none;
 }
 #pageheader ul li a img {
-  width: 25px;
+  height: 18px;
 }
 #pageheader ul li.futurelink a img {
   opacity: 0.3;
