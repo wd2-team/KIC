@@ -388,11 +388,33 @@ button {
   color: #FFC238;
   margin-left: -5px;
 }
+#index #topheader ul li a {
+  position: relative;
+}
 #index #topheader ul li.futurelink a {
   pointer-events: none;
 }
+#index #topheader ul li a::after {
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 2px;
+  opacity: 0;
+  visibility: hidden;
+  transition: .3s;
+}
+#index #topheader ul li:nth-child(1) a::after {
+  background: #FFDE53;
+}
+#index #topheader ul li a:hover::after {
+  bottom: -4px;
+  opacity: 1;
+  visibility: visible;
+}
 #index #topheader ul li a img {
-  width: 25px;
+  height: 18px;
 }
 #index #topheader ul li.futurelink a img {
   opacity: 0.3;
@@ -573,8 +595,30 @@ header {
   color: #FFC238;
   margin-left: -5px;
 }
+#pageheader ul li a {
+  position: relative;
+}
 #pageheader ul li.futurelink a {
   pointer-events: none;
+}
+#pageheader ul li a::after {
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 2px;
+  opacity: 0;
+  visibility: hidden;
+  transition: .3s;
+}
+#pageheader ul li:nth-child(1) a::after {
+  background: #FFDE53;
+}
+#pageheader ul li a:hover::after {
+  bottom: -4px;
+  opacity: 1;
+  visibility: visible;
 }
 #pageheader ul li a img {
   height: 18px;
