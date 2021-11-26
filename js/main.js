@@ -36,6 +36,11 @@ $(function(){
         video.currentTime += 999;
     });
 
+    var mainvideo = document.getElementById('mainvideo01');
+    mainvideo.addEventListener("ended", function() {
+        $('#mainvideo01').fadeOut();
+    });
+
 });
 
     // スクロールで表示

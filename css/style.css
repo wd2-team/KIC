@@ -411,12 +411,17 @@ button {
   overflow: hidden;
   display: none;
 }
-#index #mainwrapper #main #mainvideowrapper #mainvideo {
+#index #mainwrapper #main #mainvideowrapper #mainvideo01,
+#index #mainwrapper #main #mainvideowrapper #mainvideo02 {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
-  width: 600px;
+  width: 100%;
+  height: 100%;
+}
+#index #mainwrapper #main #mainvideowrapper #mainvideo01 {
+  z-index: 1;
 }
 #index #mainwrapper #main a#mainlink {
   position: absolute;
