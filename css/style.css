@@ -88,24 +88,6 @@ button {
   font-size: 0;
   visibility: hidden;
 }
-.brtb {
-  display: none;
-}
-.brsp {
-  display: none;
-}
-.displaypc {
-  display: block;
-}
-.displaytb {
-  display: none;
-}
-.displaysp {
-  display: none;
-}
-.nondisplaysp {
-  display: inline-block;
-}
 .animation{
   opacity : 0;
   visibility: hidden;
