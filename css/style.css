@@ -384,9 +384,14 @@ button {
   margin: 0 17px;
 }
 #index #topheader ul li.newlink:before {
-  content: 'NEW';
-  color: #FFC238;
-  margin-left: -5px;
+  content: '';
+  display: inline-block;
+  background-image: url('../images/new_00.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  width: 27px;
+  height: 7px;
 }
 #index #topheader ul li a {
   position: relative;
@@ -560,6 +565,7 @@ header {
   position: relative;
   height: 9px;
   display: none;
+  z-index: 1;
 }
 #pageheaderline .gradation-line {
   height: 9px;
@@ -568,6 +574,7 @@ header {
   position: relative;
   height: 165px;
   display: none;
+  z-index: 1;
 }
 #pageheader h1 {
   position: absolute;
@@ -591,9 +598,14 @@ header {
   margin: 0 17px;
 }
 #pageheader ul li.newlink:before {
-  content: 'NEW';
-  color: #FFC238;
-  margin-left: -5px;
+  content: '';
+  display: inline-block;
+  background-image: url('../images/new_00.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  width: 27px;
+  height: 7px;
 }
 #pageheader ul li a {
   position: relative;
@@ -629,6 +641,7 @@ header {
 #pageleftnumber {
   position: absolute;
   top: 50%;
+  z-index: 1;
 }
 #pageleftnumber img {
   display: none;
@@ -820,4 +833,14 @@ header {
   background-repeat: no-repeat;
   opacity: 0.2;
   transform: translateY(0);
+}
+#blacksheer {
+  background: -moz-linear-gradient(top, #000000, transparent 50%);
+  background: -webkit-linear-gradient(top, #000000, transparent 50%);
+  background: linear-gradient(to bottom, #000000, transparent 50%);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  pointer-events: none;
 }
