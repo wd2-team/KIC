@@ -368,7 +368,7 @@ button {
   display: none;
 }
 #index #topheader h1 img {
-  width: 336px;
+  width: 260px;
 }
 #index #topheader ul {
   letter-spacing: -.4em;
@@ -391,7 +391,7 @@ button {
   background-size: contain;
   background-repeat: no-repeat;
   vertical-align: middle;
-  width: 27px;
+  width: 25px;
   height: 7px;
 }
 #index #topheader ul li a {
@@ -403,9 +403,9 @@ button {
 #index #topheader ul li a::after {
   position: absolute;
   bottom: -8px;
-  left: 0;
+  left: -10;
   content: '';
-  width: 100%;
+  width: 120%;
   height: 2px;
   opacity: 0;
   visibility: hidden;
@@ -420,7 +420,7 @@ button {
   visibility: visible;
 }
 #index #topheader ul li a img {
-  height: 18px;
+  height: 13px;
 }
 #index #topheader ul li.futurelink a img {
   opacity: 0.3;
@@ -532,6 +532,8 @@ button {
   display: none;
 }
 #index footer #footerleft img {
+  margin-top: 17px;
+  margin-left: 45px;
   width: 236px;
 }
 #index footer ul#footerright {
@@ -647,11 +649,11 @@ header {
 #pageleftnumber img {
   display: none;
   position: relative;
-  height: 464px;
+  height: 480px;
 }
 #pageleftnumber img:nth-child(1) {
   left: 0;
-  width: 48px;
+  width: 52px;
 }
 #pageleftnumber img:nth-child(1).animation {
   transform: translateY(calc(-50% - 50px));
@@ -660,13 +662,13 @@ header {
   transform: translateY(-50%);
 }
 #pageleftnumber img:nth-child(2) {
-  left: 60px;
+  left: 10px;
   width: 16px;
   transform: translateY(-50%);
 }
 #pageleftnumber img:nth-child(3) {
-  left: 104px;
-  width: 350px;
+  left: 25px;
+  width: 370px;
 }
 #pageleftnumber img:nth-child(3).animation {
   transform: translateY(calc(-50% + 50px));
@@ -678,8 +680,8 @@ header {
   position: absolute;
   top: calc(50% - 100px);
   right: -40px;
-  width: 40px;
-  height: 200px;
+  width: 50px;
+  height: 220px;
   background: linear-gradient(180deg, #FFDE53, #FF8900);
   transition: 1s;
 }
@@ -688,7 +690,7 @@ header {
   height: 40px;
 }
 #slidemenu ul li:first-child {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 #slidemenu ul li a {
   color: #000000;
@@ -700,8 +702,8 @@ header {
 #pagescroll {
   display: none;
   position: absolute;
-  top: calc(100vh - 180px);
-  right: 20px;
+  top: calc(100vh - 160px);
+  right: 40px;
   width: 43px;
   height: 100px;
 }
@@ -717,9 +719,9 @@ header {
 }
 #pageinnerscroll #pageright {
   position: absolute;
-  top: calc(100vh - 289px);
-  right: 85px;
-  width: 276px;
+  top: calc(100vh - 260px);
+  right: 120px;
+  width: 250px;
   height: 209px;
 }
 #pageinnerscroll #pageright a p {
@@ -747,7 +749,7 @@ header {
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
-  opacity: 0.2;
+  opacity: 0.3;
   display: none;
 }
 #pageinnerscroll #pageright a #pagerightbg.animation {
@@ -768,7 +770,7 @@ header {
 #page00innerscroll-pall {
   padding-top: 100vh;
   color: #FFB100;
-  width: 1000px;
+  width: 1050px;
   margin: 0 auto;
   text-align: left;
 }
@@ -780,7 +782,7 @@ header {
   opacity: 0;
 }
 #page00innerscroll-p01 {
-  font-size: 66px;
+  font-size: 68px;
   line-height: 110px;
   margin-bottom: 170px;
 }
@@ -788,8 +790,8 @@ header {
 #page00innerscroll-p03,
 #page00innerscroll-p04,
 #page00innerscroll-p05 {
-  font-size: 29px;
-  line-height: 76px;
+  font-size: 30px;
+  line-height: 80px;
   margin-bottom: 70px;
 }
 #pageunderlogo {
