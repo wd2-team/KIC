@@ -353,6 +353,7 @@ button {
   left: calc(50% - 40px);
   color: #BA6C00;
   font-size: 36px;
+  width: 80px;
 }
 
 #index #topheader {
@@ -653,7 +654,7 @@ header {
   width: 48px;
 }
 #pageleftnumber img:nth-child(1).animation {
-  transform: translateY(calc(-50% - 30px));
+  transform: translateY(calc(-50% - 50px));
 }
 #pageleftnumber img:nth-child(1).active {
   transform: translateY(-50%);
@@ -668,7 +669,7 @@ header {
   width: 350px;
 }
 #pageleftnumber img:nth-child(3).animation {
-  transform: translateY(calc(-50% + 30px));
+  transform: translateY(calc(-50% + 50px));
 }
 #pageleftnumber img:nth-child(3).active {
   transform: translateY(-50%);

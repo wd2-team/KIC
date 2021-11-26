@@ -56,9 +56,9 @@ $(function(){
             }
         });
         var scroll = $(window).scrollTop();
-        var page00p02Position = $('#page00innerscroll-p02').offset().top;
+        var page00p03Position = $('#page00innerscroll-p03').offset().top;
         var windowHeight = $(window).height();
-        if (scroll > page00p02Position - windowHeight + 150) {
+        if (scroll > page00p03Position - windowHeight + 150) {
             $('#page00back video').fadeIn();
         }
     };
@@ -67,29 +67,31 @@ $(function(){
 $(window).on('load', function(){
 
     $('#page00').css('pointer-events', 'none');
-    $('#pageheaderline').fadeIn();
-    $('#pageleftnumber img:nth-child(1)').fadeIn();
+    $('#pageheaderline').fadeIn(1000);
+    $('#pageleftnumber img:nth-child(1)').fadeIn(1000);
     $('#pageleftnumber img:nth-child(1)').addClass('active');
-    $('#pageleftnumber img:nth-child(3)').fadeIn();
+    $('#pageleftnumber img:nth-child(3)').fadeIn(1000);
     $('#pageleftnumber img:nth-child(3)').addClass('active');
     setTimeout(function(){
-        $('#pageleftnumber img:nth-child(2)').fadeIn();
+        $('#pageleftnumber img:nth-child(2)').fadeIn(1000);
     }, 500);
     setTimeout(function(){
-        $('#pageheader').fadeIn();
         $('#pageleftnumber img').css('opacity', '0.3');
-        $('#slidemenu').css('margin-right', '40px');
     },3000);
     setTimeout(function(){
-        $('#pageinnerscroll #pageright a #pagerightbg').fadeIn();
+        $('#pageheader').fadeIn(1000);
+        $('#slidemenu').css('margin-right', '40px');
+    },4500);
+    setTimeout(function(){
+        $('#pageinnerscroll #pageright a #pagerightbg').fadeIn(1000);
         $('#pageinnerscroll #pageright a #pagerightbg').addClass('active');
     },6000);
     setTimeout(function(){
-        $('#pageinnerscroll #pageright p').fadeIn();
+        $('#pageinnerscroll #pageright p').fadeIn(1000);
         $('#pageinnerscroll #pageright p').addClass('active');
     },7000);
     setTimeout(function(){
-        $('#pagescroll').fadeIn();
+        $('#pagescroll').fadeIn(1000);
         $('#page00').css('pointer-events', 'all');
     },8000);
 
