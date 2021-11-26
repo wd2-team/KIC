@@ -43,6 +43,26 @@ $(function(){
 
 });
 
+    // モーダルウィンドウを開く
+    $('.js-modal-open').on('click', function(){
+      var target = $(this).data('target');
+      var modal = document.getElementById(target);
+      // scrollPosition = $(window).scrollTop();
+      // $('body').addClass('fixed').css({'top': -scrollPosition});
+      winScrollTop = $(window).scrollTop();
+      $(modal).fadeIn();
+      return false;
+    });
+
+    // モーダルウィンドウを閉じる
+    $('.js-modal-close').on('click', function(){
+      // $('body').removeClass('fixed');
+      // window.scrollTo( 0 , scrollPosition );
+      $('body,html').stop().animate({scrollTop:winScrollTop}, 100);
+      $('.js-modal').fadeOut();
+      return false;
+    });
+
     // スクロールで表示
     var box = document.getElementById( 'pageinnerscroll' );
     box.onscroll = function(){
