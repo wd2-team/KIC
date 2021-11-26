@@ -83,8 +83,8 @@ $(window).on('load', function(){
         $('#slidemenu').css('margin-right', '50px');
     },4500);
     setTimeout(function(){
-        $('#pageinnerscroll #pageright a #pagerightbg').fadeIn();
-        $('#pageinnerscroll #pageright a #pagerightbg').addClass('active');
+        $('#pageinnerscroll #pageright').fadeIn();
+        $('#pageinnerscroll #pageright').addClass('active');
     },6000);
     setTimeout(function(){
         $('#pageinnerscroll #pageright p').fadeIn();
@@ -98,11 +98,8 @@ $(window).on('load', function(){
 });
 
 if(window.navigator.userAgent.indexOf("Chrome") >= 0 && window.navigator.userAgent.indexOf("Edge") == -1){
-    // Chrome の場合は WebP ファイルが表示される
   }else{
-    // Chrome 以外の場合は APNG 利用可否を判定する
     APNG.ifNeeded().then(function () {
-      // APNG に未対応のブラウザ(例：IE, Edge)では、JSライブラリ「apng-canvas」により表示可能にする
       var images = document.querySelectorAll(".apng-image");
       for (var i = 0; i < images.length; i++){ APNG.animateImage(images[i]); }
     });
