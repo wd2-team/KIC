@@ -565,6 +565,7 @@ header {
   position: relative;
   height: 9px;
   display: none;
+  z-index: 1;
 }
 #pageheaderline .gradation-line {
   height: 9px;
@@ -573,6 +574,7 @@ header {
   position: relative;
   height: 165px;
   display: none;
+  z-index: 1;
 }
 #pageheader h1 {
   position: absolute;
@@ -639,6 +641,7 @@ header {
 #pageleftnumber {
   position: absolute;
   top: 50%;
+  z-index: 1;
 }
 #pageleftnumber img {
   display: none;
@@ -830,4 +833,14 @@ header {
   background-repeat: no-repeat;
   opacity: 0.2;
   transform: translateY(0);
+}
+#blacksheer {
+  background: -moz-linear-gradient(top, #000000, transparent 50%);
+  background: -webkit-linear-gradient(top, #000000, transparent 50%);
+  background: linear-gradient(to bottom, #000000, transparent 50%);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  pointer-events: none;
 }
