@@ -92,4 +92,16 @@ $(window).on('load', function(){
         $('#pagescroll').fadeIn();
         $('#page00').css('pointer-events', 'all');
     },8000);
+
 });
+
+if(window.navigator.userAgent.indexOf("Chrome") >= 0 && window.navigator.userAgent.indexOf("Edge") == -1){
+    // Chrome の場合は WebP ファイルが表示される
+  }else{
+    // Chrome 以外の場合は APNG 利用可否を判定する
+    APNG.ifNeeded().then(function () {
+      // APNG に未対応のブラウザ(例：IE, Edge)では、JSライブラリ「apng-canvas」により表示可能にする
+      var images = document.querySelectorAll(".apng-image");
+      for (var i = 0; i < images.length; i++){ APNG.animateImage(images[i]); }
+    });
+  }
