@@ -63,10 +63,10 @@
 		</video>
 	</div>
 	<div id="pageinnerscroll">
-		<div id="pageright">
+		<div id="pageright" class="animation">
 			<a href="page00.html">
 				<p class="animation">PROLOGUE<br><span>プロローグ／序章</span></p>
-				<div id="pagerightbg" class="animation"></div>
+				<div id="pagerightbg"></div>
 			</a>
 		</div>
 		<div id="page00innerscroll-pall">
@@ -106,18 +106,6 @@
     //     targets : '.luxy-el',
     //     wrapperSpeed:  0.08
     // });
-</script>
-<script>
-	if(window.navigator.userAgent.indexOf("Chrome") >= 0 && window.navigator.userAgent.indexOf("Edge") == -1){
-		// Chrome の場合は WebP ファイルが表示される
-	}else{
-		// Chrome 以外の場合は APNG 利用可否を判定する
-		APNG.ifNeeded().then(function () {
-			// APNG に未対応のブラウザ(例：IE, Edge)では、JSライブラリ「apng-canvas」により表示可能にする
-			var images = document.querySelectorAll(".apng-image");
-			for (var i = 0; i < images.length; i++){ APNG.animateImage(images[i]); }
-		});
-	}
 </script>
 <script type="text/javascript" src="js/main.js"></script>
 </body>

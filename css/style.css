@@ -723,6 +723,14 @@ header {
   right: 120px;
   width: 250px;
   height: 209px;
+  display: none;
+}
+
+#pageinnerscroll #pageright.animation {
+  transform: translateY(calc(30px));
+}
+#pageinnerscroll #pageright.active {
+  transform: translateY(0);
 }
 #pageinnerscroll #pageright a p {
   font-size: 24px;
@@ -750,13 +758,6 @@ header {
   background-position: center center;
   background-repeat: no-repeat;
   opacity: 0.3;
-  display: none;
-}
-#pageinnerscroll #pageright a #pagerightbg.animation {
-  transform: translateY(calc(30px));
-}
-#pageinnerscroll #pageright a #pagerightbg.active {
-  transform: translateY(0);
 }
 
 /* page00 */
