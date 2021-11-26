@@ -56,10 +56,22 @@ $(function(){
             }
         });
         var scroll = $(window).scrollTop();
-        var page00p03Position = $('#page00innerscroll-p03').offset().top;
         var windowHeight = $(window).height();
+        var page00p03Position = $('#page00innerscroll-p03').offset().top;
         if (scroll > page00p03Position - windowHeight + 150) {
             $('#page00back video').fadeIn();
+        }
+        var page00underlogoPosition = $('#pageunderlogo').offset().top;
+        if (scroll > page00underlogoPosition - windowHeight + 150) {
+            $('#pageleftnumber img:nth-child(3)').css('opacity', '0');
+        } else {
+            $('#pageleftnumber img:nth-child(3)').css('opacity', '0.3');
+        }
+        var page00bluePosition = $('#pageblue').offset().top;
+        if(scroll > page00bluePosition - 150) {
+            $('#pagescroll').fadeOut();
+        } else {
+            $('#pagescroll').fadeIn();
         }
     };
 
@@ -98,9 +110,9 @@ $(window).on('load', function(){
 });
 
 if(window.navigator.userAgent.indexOf("Chrome") >= 0 && window.navigator.userAgent.indexOf("Edge") == -1){
-  }else{
+}else{
     APNG.ifNeeded().then(function () {
-      var images = document.querySelectorAll(".apng-image");
-      for (var i = 0; i < images.length; i++){ APNG.animateImage(images[i]); }
+        var images = document.querySelectorAll(".apng-image");
+        for (var i = 0; i < images.length; i++){ APNG.animateImage(images[i]); }
     });
-  }
+}
