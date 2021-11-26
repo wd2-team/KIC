@@ -665,6 +665,7 @@ header {
   left: 10px;
   width: 16px;
   transform: translateY(-50%);
+  transition: 1s;
 }
 #pageleftnumber img:nth-child(3) {
   left: 25px;
@@ -678,12 +679,13 @@ header {
 }
 #slidemenu {
   position: absolute;
-  top: calc(50% - 100px);
-  right: -40px;
+  top: calc(50% - 110px);
+  right: -50px;
   width: 50px;
   height: 220px;
   background: linear-gradient(180deg, #FFDE53, #FF8900);
   transition: 1s;
+  z-index: 1;
 }
 #slidemenu ul li {
   margin: 5px 0;
@@ -706,6 +708,7 @@ header {
   right: 40px;
   width: 43px;
   height: 100px;
+  z-index: 1;
 }
 #pagescroll img {
   width: 43px;
