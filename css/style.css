@@ -64,6 +64,7 @@ body {
 	line-height: 20px;
   text-align: center;
   letter-spacing: 0.03em;
+  min-width: 1440px;
 }
 a {
 	text-decoration: none;
@@ -439,6 +440,7 @@ button {
   height: calc(100% - (165px + 9px - 89px));
   overflow: hidden;
   display: none;
+  min-width: 1440px;
 }
 #index #mainwrapper #main #mainvideowrapper #mainvideo01,
 #index #mainwrapper #main #mainvideowrapper #mainvideo02 {
@@ -454,7 +456,7 @@ button {
 }
 #index #mainwrapper #main a#mainlink {
   position: absolute;
-  top: calc(50% + 128px);
+  bottom: 100px;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   width: 43px;
