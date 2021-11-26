@@ -63,6 +63,7 @@ $(function(){
         }
         var page00underlogoPosition = $('#pageunderlogo').offset().top;
         if (scroll > page00underlogoPosition - windowHeight + 150) {
+            $('#pageunderlogo img').fadeIn(1500);
             $('#pageleftnumber img:nth-child(3)').css('opacity', '0');
         } else {
             $('#pageleftnumber img:nth-child(3)').css('opacity', '0.3');
@@ -80,12 +81,13 @@ $(window).on('load', function(){
 
     $('#page00').css('pointer-events', 'none');
     $('#pageheaderline').fadeIn();
-    $('#pageleftnumber img:nth-child(1)').fadeIn();
-    $('#pageleftnumber img:nth-child(1)').addClass('active');
+    $('#pageleftnumber img:first-child').fadeIn();
+    $('#pageleftnumber img:first-child').addClass('active');
     $('#pageleftnumber img:nth-child(3)').fadeIn();
     $('#pageleftnumber img:nth-child(3)').addClass('active');
     setTimeout(function(){
-        $('#pageleftnumber img:nth-child(2)').fadeIn();
+        // $('#pageleftnumber img:nth-child(2)').fadeIn();
+        $('#pageleftnumber img:nth-child(2)').css('opacity', '1');
     }, 500);
     setTimeout(function(){
         $('#pageleftnumber img').css('opacity', '0.3');
