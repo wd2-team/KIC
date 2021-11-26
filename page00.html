@@ -14,6 +14,7 @@
   	<link rel="stylesheet" type="text/css" href="css/small.css" media="screen and (max-width:425px)">
   	<link rel="icon" href="images/samplefavicon.png">
   	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/apng-canvas/2.1.1/apng-canvas.min.js"></script>
 	<title>"KICワンダフル</title>
 </head>
 <body id="page00">
@@ -53,7 +54,8 @@
 		</ul>
 	</div>
 	<div id="pagescroll">
-		<img src="images/samplescroll.gif" alt="スクロールを促すマーク">
+		<source type="image/webp" srcset="images/drive.webp" />
+		<img src="images/drive.png" alt="スクロールを促すマーク" class="apng-image" />
 	</div>
 	<div id="page00back">
 		<video id="topvideo" playsinline muted autoplay>
@@ -104,6 +106,18 @@
     //     targets : '.luxy-el',
     //     wrapperSpeed:  0.08
     // });
+</script>
+<script>
+	if(window.navigator.userAgent.indexOf("Chrome") >= 0 && window.navigator.userAgent.indexOf("Edge") == -1){
+		// Chrome の場合は WebP ファイルが表示される
+	}else{
+		// Chrome 以外の場合は APNG 利用可否を判定する
+		APNG.ifNeeded().then(function () {
+			// APNG に未対応のブラウザ(例：IE, Edge)では、JSライブラリ「apng-canvas」により表示可能にする
+			var images = document.querySelectorAll(".apng-image");
+			for (var i = 0; i < images.length; i++){ APNG.animateImage(images[i]); }
+		});
+	}
 </script>
 <script type="text/javascript" src="js/main.js"></script>
 </body>
