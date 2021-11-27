@@ -570,6 +570,9 @@ button {
   position: relative;
   top: calc(50% - 22px);
 }
+#index #topright a p img {
+  width: 160px;
+}
 #index #topright a p span {
   font-size: 14px;
 }
@@ -820,6 +823,9 @@ header {
 }
 #pageinnerscroll #pageright a p.active {
   transform: translateY(-50%);
+}
+#pageinnerscroll #pageright a p img {
+  width: 160px;
 }
 #pageinnerscroll #pageright a p span {
   font-size: 14px;
