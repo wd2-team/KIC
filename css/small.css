@@ -47,6 +47,15 @@ border-collapse: collapse;
 border-spacing: 0;
 }
 
+/* support iOS */
+html{
+  height: -webkit-fill-available;
+}
+body{
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+}
+
 /* layout */
 * {
   box-sizing: border-box;
@@ -405,11 +414,11 @@ button {
   transform: translateX(-50%) translateY(-50%);
   /* min-width: 100%; */
   /* min-height: 100%; */
-  width: 100%;
+  width: 150%;
 }
 #index #btn_topskip {
   position: absolute;
-  top: calc(100vh - 61px);
+  top: calc(100vh - 140px);
   left: calc(50% - 22px);
   color: #BA6C00;
   font-size: 36px;
