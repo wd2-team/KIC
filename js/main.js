@@ -30,8 +30,12 @@ $(function(){
             $('#topright').addClass('active');
         },9000);
         setTimeout(function(){
-            $('#main a#mainlink').fadeIn(1000);
+            $('#topright p').fadeIn();
+            $('#topright p').addClass('active');
         },10000);
+        setTimeout(function(){
+            $('#main a#mainlink').fadeIn(1000);
+        },11500);
     });
     btn_topskip.addEventListener("click", (e) => {
         video.currentTime += 999;

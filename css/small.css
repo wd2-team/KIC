@@ -592,7 +592,14 @@ button {
 #index #topright a p {
   font-size: 24px;
   position: relative;
-  top: calc(50% - 22px);
+  top: 50%;
+  display: none;
+}
+#index #topright a p.animation {
+  transform: translateY(calc(-50% + 30px));
+}
+#index #topright a p.active {
+  transform: translateY(-50%);
 }
 #index #topright a p img {
   width: 160px;
