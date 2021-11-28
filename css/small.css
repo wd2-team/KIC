@@ -446,6 +446,9 @@ button {
 #index #topheader ul li:first-child {
   margin-top: 0;
 }
+#index #topheader ul li:last-child {
+  margin-left: 8px;
+}
 #index #topheader ul li.newlink:before {
   content: '';
   display: inline-block;
@@ -648,30 +651,38 @@ header {
 }
 #pageheader {
   position: relative;
-  height: 165px;
+  height: 82px;
   display: none;
   z-index: 1;
 }
 #pageheader h1 {
   position: absolute;
-  top: 42px;
-  left: 56px;
+  top: 22px;
+  left: 22px;
 }
 #pageheader h1 img {
-  width: 230px;
+  width: 110px;
 }
 #pageheader ul {
   letter-spacing: -.4em;
   position: absolute;
-  left: 0;
   right: 0;
-  margin-top: 26px;
+  top: 82px;
+  width: 48px;
+  z-index: 1;
+  height: calc(100vh - (9px + 58px + 82px * 2));
 }
 #pageheader ul li {
   display: inline-block;
   letter-spacing: normal;
-  width: 19px;
-  margin: 0 17px;
+  width: 16px;
+  margin: calc((100vh - (9px + 58px + 82px * 2) - (40px + 20px * 11)) / 11 / 2) 16px;
+}
+#pageheader ul li:first-child {
+  margin-top: 0;
+}
+#pageheader ul li:last-child {
+  margin-left: 8px;
 }
 #pageheader ul li.newlink:before {
   content: '';
@@ -719,6 +730,7 @@ header {
   position: absolute;
   top: 50%;
   z-index: 1;
+  pointer-events: none;
 }
 #pageleftnumber img {
   display: none;
@@ -727,7 +739,7 @@ header {
 }
 #pageleftnumber img:first-child {
   left: 0;
-  width: 52px;
+  width: 37px;
 }
 #pageleftnumber img:first-child.animation {
   transform: translateY(calc(-50% - 50px));
@@ -737,7 +749,7 @@ header {
 }
 #pageleftnumber img:nth-child(2) {
   left: 10px;
-  width: 16px;
+  width: 12px;
   transform: translateY(-50%);
   transition: 1s;
   display: inline-block;
@@ -745,7 +757,7 @@ header {
 }
 #pageleftnumber img:nth-child(3) {
   left: 25px;
-  width: 370px;
+  width: 236px;
 }
 #pageleftnumber img:nth-child(3).animation {
   transform: translateY(calc(-50% + 50px));
@@ -762,6 +774,7 @@ header {
   background: linear-gradient(180deg, #FFDE53, #FF8900);
   transition: 1s;
   z-index: 1;
+  display: none;
 }
 #slidemenu ul li {
   margin: 5px auto;
@@ -781,14 +794,14 @@ header {
 #pagescroll {
   display: none;
   position: absolute;
-  top: calc(100vh - 160px);
-  right: 40px;
-  width: 43px;
-  height: 100px;
+  bottom: 22px;
+  right: 12px;
+  width: 22px;
+  height: 50px;
   z-index: 1;
 }
 #pagescroll img {
-  width: 43px;
+  width: 22px;
 }
 #pageinnerscroll {
   height: 100vh;
@@ -798,12 +811,12 @@ header {
   top: 0;
 }
 #pageinnerscroll #pageright {
-  position: absolute;
+  position: relative;
   top: calc(100vh - 260px);
-  right: 120px;
-  width: 250px;
+  width: 130px;
   height: 209px;
   display: none;
+  margin: 0 auto;
 }
 
 #pageinnerscroll #pageright.animation {
@@ -857,15 +870,16 @@ header {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+  left: -50%;
+  overflow: hidden;
 }
 #page00back video {
-  width: 100%;
+  width: 135%;
   display: none;
 }
 #page00innerscroll-pall {
   padding-top: 100vh;
   color: #FFB100;
-  width: 1050px;
   margin: 0 auto;
   text-align: left;
 }
