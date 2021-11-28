@@ -5,11 +5,12 @@ $(function(){
     var btn_topskip = document.getElementById("btn_topskip");
     video.addEventListener("ended", function() {
         $('#topvideowrapper').fadeOut();
+        $('#index #mainwrapper').css('display','block');
         setTimeout(function(){
             $('header').fadeIn();
             $('footer').fadeIn();
             $('#topheader').fadeIn();
-        },200);
+        },500);
         setTimeout(function(){
             $('#mainvideowrapper').fadeIn();
         },3000);

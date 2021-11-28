@@ -505,6 +505,7 @@ button {
 }
 #index #mainwrapper {
   height: calc(100vh - (9px + 82px + 58px));
+  display: none;
 }
 #index #mainwrapper #main {
   position: relative;
