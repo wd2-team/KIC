@@ -402,7 +402,7 @@ button {
   transform: translateX(-50%) translateY(-50%);
   /* min-width: 100%; */
   /* min-height: 100%; */
-  width: 100%;
+  width: 150%;
 }
 #index #btn_topskip {
   position: absolute;
