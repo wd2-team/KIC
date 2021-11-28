@@ -47,6 +47,15 @@ border-collapse: collapse;
 border-spacing: 0;
 }
 
+/* support iOS */
+html{
+  height: -webkit-fill-available;
+}
+body{
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+}
+
 /* layout */
 * {
   box-sizing: border-box;
