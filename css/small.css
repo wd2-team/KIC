@@ -430,16 +430,21 @@ button {
 #index #topheader ul {
   letter-spacing: -.4em;
   position: absolute;
-  left: 0;
   right: 0;
-  margin-top: 26px;
+  top: 82px;
+  width: 48px;
   display: none;
+  z-index: 1;
+  height: calc(100vh - (9px + 58px + 82px * 2));
 }
 #index #topheader ul li {
   display: inline-block;
   letter-spacing: normal;
-  width: 19px;
-  margin: 0 17px;
+  width: 16px;
+  margin: calc((100vh - (9px + 58px + 82px * 2) - (40px + 20px * 11)) / 11 / 2) 16px;
+}
+#index #topheader ul li:first-child {
+  margin-top: 0;
 }
 #index #topheader ul li.newlink:before {
   content: '';
@@ -484,7 +489,7 @@ button {
   opacity: 0.3;
 }
 #index #mainwrapper {
-  height: calc(100vh - (9px + 82px + 89px));
+  height: calc(100vh - (9px + 82px + 58px));
 }
 #index #mainwrapper #main {
   position: relative;
@@ -493,10 +498,9 @@ button {
 #index #mainwrapper #main #mainvideowrapper {
   position: relative;
   width: 100vw;
-  height: calc(100% - (82px + 9px - 89px));
+  height: calc(100% - (82px + 9px - 58px));
   overflow: hidden;
   display: none;
-  min-width: 1440px;
 }
 #index #mainwrapper #main #mainvideowrapper #mainvideo01,
 #index #mainwrapper #main #mainvideowrapper #mainvideo02 {
@@ -504,7 +508,7 @@ button {
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
-  width: 100%;
+  width: 200%;
   height: 100%;
 }
 #index #mainwrapper #main #mainvideowrapper #mainvideo01 {
@@ -512,30 +516,31 @@ button {
 }
 #index #mainwrapper #main a#mainlink {
   position: absolute;
-  bottom: 100px;
+  bottom: 28px;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
-  width: 43px;
+  width: 31px;
   display: none;
 }
 #index #mainwrapper #main a#mainlink img {
-  width: 43px;
+  width: 31px;
 }
 #index #mainwrapper #main #mainlogo {
   position: absolute;
-  bottom: 41px;
+  bottom: 17px;
   left: 50%;
   transform: translateX(-50%);
   display: none;
+  width: 100%;
 }
 #index #mainwrapper #main #mainlogo img:first-child {
-  height: 33px;
-  margin-right: 45px;
+  height: 16px;
+  margin-right: 10px;
 }
 #index #mainwrapper #main #mainlogo img:nth-child(2) {
-  height: 16px;
-  margin-bottom: 7px;
-  margin-left: 45px;
+  height: 8px;
+  margin-bottom: 4px;
+  margin-left: 10px;
 }
 #index #topleft {
   display: none;
@@ -552,7 +557,7 @@ button {
   transform: translateY(-50%);
 }
 #index #topright {
-  display: none;
+  display: none !important;
   position: absolute;
   top: 50%;
   right: 85px;
@@ -591,7 +596,7 @@ button {
 #index footer {
   display: none;
   position: relative;
-  height: 89px;
+  height: 58px;
 }
 #index footer #footerleft {
   float: left;
@@ -600,29 +605,29 @@ button {
   display: none;
 }
 #index footer #footerleft img {
-  margin-top: 17px;
-  margin-left: 45px;
-  width: 236px;
+  margin-top: 13px;
+  margin-left: 16px;
+  width: 159px;
 }
 #index footer ul#footerright {
   float: right;
-  margin-top: 33px;
-  margin-right: 27px;
+  margin-top: 19px;
+  margin-right: 19px;
   position: relative;
   z-index: 1;
   display: none;
 }
 #index footer ul#footerright li {
   display: inline-block;
-  width: 24px;
-  margin: 0 15px;
+  width: 20px;
+  margin: 0 6px;
 }
 #index footer ul#footerright li a i {
   font-size: 24px;
   color: #000000;
 }
 #index footer .gradation-line {
-  height: 89px;
+  height: 58px;
   position: absolute;
   width: 100%;
   bottom: 0;
