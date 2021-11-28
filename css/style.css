@@ -99,6 +99,9 @@ button {
   visibility: visible;
   transform: translateY(0);
 }
+.brsp {
+  display: none;
+}
 
 /* .page */
 .page {

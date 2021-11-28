@@ -98,6 +98,9 @@ button {
   visibility: visible;
   transform: translateY(0);
 }
+.brsp {
+  display: inline-block;
+}
 
 /* .page */
 .page {
@@ -816,9 +819,9 @@ header {
 }
 #pageinnerscroll #pageright {
   position: relative;
-  top: calc(100vh - 260px);
+  top: calc(100vh - 82px - 47px);
   width: 130px;
-  height: 209px;
+  height: 47px;
   display: none;
   margin: 0 auto;
 }
@@ -848,10 +851,10 @@ header {
   transform: translateY(-50%);
 }
 #pageinnerscroll #pageright a p img {
-  width: 160px;
+  width: 130px;
 }
 #pageinnerscroll #pageright a p span {
-  font-size: 14px;
+  font-size: 10px;
 }
 #pageinnerscroll #pageright a #pagerightbg {
   width: 100%;
@@ -864,6 +867,7 @@ header {
   background-position: center center;
   background-repeat: no-repeat;
   opacity: 0.3;
+  display: none;
 }
 
 /* page00 */
@@ -886,6 +890,7 @@ header {
   color: #FFB100;
   margin: 0 auto;
   text-align: left;
+  padding-left: 22px;
 }
 #page00innerscroll-p01,
 #page00innerscroll-p02,
@@ -895,27 +900,24 @@ header {
   opacity: 0;
 }
 #page00innerscroll-p01 {
-  font-size: 68px;
-  line-height: 110px;
-  margin-bottom: 170px;
+  font-size: 33px;
+  line-height: 54px;
+  margin-bottom: 134px;
 }
 #page00innerscroll-p02,
 #page00innerscroll-p03,
 #page00innerscroll-p04,
 #page00innerscroll-p05 {
-  font-size: 30px;
-  line-height: 80px;
-  margin-bottom: 70px;
+  font-size: 16px;
+  line-height: 38px;
+  margin-bottom: 50px;
 }
 #pageunderlogo {
-  margin-top: 370px;
-  margin-bottom: 260px;
-  text-align: left;
-  height: 268px;
+  width: 275px;
+  margin: 154px auto 220px auto;
 }
 #pageunderlogo img {
-  width: 593px;
-  margin-left: 250px;
+  width: 100%;
   display: none;
 }
 #pageblue {
@@ -924,11 +926,11 @@ header {
   background: linear-gradient(rgba(0,0,0,0),rgba(0,0,128,.5) 40% 60%,rgba(0,0,0,0));
 }
 #pageunder {
-  position: absolute;
-  top: calc(50% - 104px);
-  left: 250px;
-  width: 276px;
-  height: 209px;
+  position: relative;
+  top: calc(9px + 82px + 40px * 2 + ((100vh - (9px + 58px + 82px * 2) - (40px + 20px * 11)) / 11));
+  width: 144px;
+  height: 110px;
+  margin: 0 auto;
 }
 #pageunder a {
   pointer-events: none;
@@ -942,8 +944,11 @@ header {
   top: 50%;
   transform: translateY(-50%);
 }
+#pageunder a p img {
+  width: 130px;
+}
 #pageunder a p span {
-  font-size: 14px;
+  font-size: 10px;
 }
 #pageunder a #pageunderbg {
   width: 100%;
