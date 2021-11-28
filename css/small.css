@@ -406,7 +406,7 @@ button {
 }
 #index #btn_topskip {
   position: absolute;
-  top: calc(100vh - 61px);
+  top: calc(100vh - 140px);
   left: calc(50% - 22px);
   color: #BA6C00;
   font-size: 36px;
