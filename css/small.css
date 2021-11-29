@@ -461,6 +461,8 @@ button {
   vertical-align: middle;
   width: 25px;
   height: 7px;
+  padding-bottom: 3px;
+  margin-left: -2px;
 }
 #index #topheader ul li a {
   position: relative;
@@ -472,9 +474,9 @@ button {
 #index #topheader ul li a::after {
   position: absolute;
   bottom: -8px;
-  left: -10%;
+  left: -20%;
   content: '';
-  width: 120%;
+  width: 140%;
   height: 2px;
   opacity: 0;
   visibility: hidden;
@@ -599,6 +601,7 @@ button {
 }
 #index #topright a p span {
   font-size: 14px;
+  letter-spacing: 0.3em;
 }
 #index #topright a #toprightbg{
   width: 100%;
@@ -610,7 +613,7 @@ button {
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
-  opacity: 0.2;
+  opacity: 0.5;
 }
 #index footer {
   display: none;
@@ -709,6 +712,8 @@ header {
   vertical-align: middle;
   width: 25px;
   height: 7px;
+  padding-bottom: 3px;
+  margin-left: -2px;
 }
 #pageheader ul li a {
   position: relative;
@@ -720,9 +725,9 @@ header {
 #pageheader ul li a::after {
   position: absolute;
   bottom: -8px;
-  left: -10%;
+  left: -20%;
   content: '';
-  width: 120%;
+  width: 140%;
   height: 2px;
   opacity: 0;
   visibility: hidden;
@@ -864,6 +869,7 @@ header {
 }
 #pageinnerscroll #pageright a p span {
   font-size: 10px;
+  letter-spacing: 0.3em;
 }
 #pageinnerscroll #pageright a #pagerightbg {
   width: 100%;
@@ -875,7 +881,7 @@ header {
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
-  opacity: 0.3;
+  opacity: 0.5;
   display: none;
 }
 
@@ -958,6 +964,7 @@ header {
 }
 #pageunder a p span {
   font-size: 10px;
+  letter-spacing: 1.5em;
 }
 #pageunder a #pageunderbg {
   width: 100%;
@@ -969,7 +976,7 @@ header {
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
-  opacity: 0.2;
+  opacity: 0.3;
   transform: translateY(0);
 }
 #blacksheer {
