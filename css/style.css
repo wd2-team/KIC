@@ -924,6 +924,7 @@ header {
 }
 #pageunder a p img {
   width: 90%;
+  margin-left: -10px;
 }
 #pageunder a p span {
   font-size: 14px;

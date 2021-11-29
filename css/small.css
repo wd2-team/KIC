@@ -938,7 +938,7 @@ header {
 #pageblue {
   height: 100vh;
   position: relative;
-  background: linear-gradient(rgba(0,0,0,0),rgba(0,0,128,.5) 20% 80%,rgba(0,0,0,0));
+  background: linear-gradient(rgba(0,0,0,0),rgba(0,0,128,.5) 10% 90%,rgba(0,0,0,0));
 }
 #pageunder {
   position: relative;
@@ -976,7 +976,7 @@ header {
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
-  opacity: 0.3;
+  opacity: 0.4;
   transform: translateY(0);
 }
 #blacksheer {
