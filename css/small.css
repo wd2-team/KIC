@@ -887,10 +887,10 @@ header {
   transform: translateY(-50%);
   left: -50%;
   overflow: hidden;
+  display: none;
 }
 #page00back video {
   width: 135%;
-  display: none;
 }
 #page00innerscroll-pall {
   padding-top: 100vh;

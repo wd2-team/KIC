@@ -84,7 +84,7 @@ $(function(){
         var windowHeight = $(window).height();
         var page00p03Position = $('#page00innerscroll-p03').offset().top;
         if (scroll > page00p03Position - windowHeight + 150) {
-            $('#page00back video').fadeIn();
+            $('#page00back').fadeIn();
         }
         var page00underlogoPosition = $('#pageunderlogo').offset().top;
         if (scroll > page00underlogoPosition - windowHeight + 150) {

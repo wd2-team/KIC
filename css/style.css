@@ -855,10 +855,10 @@ header {
   position: absolute;
   top: 53%;
   transform: translateY(-50%);
+  display: none;
 }
 #page00back video {
   width: 100%;
-  display: none;
 }
 #page00innerscroll-pall {
   padding-top: 100vh;
