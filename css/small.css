@@ -378,7 +378,7 @@ button {
   letter-spacing: -.4em;
   position: absolute;
   right: 0;
-  top: calc((100% - 398px) / 2);
+  top: calc((100% - 444px) / 2);
   width: 48px;
   display: none;
   z-index: 1;
@@ -388,7 +388,7 @@ button {
   display: inline-block;
   letter-spacing: normal;
   width: 16px;
-  margin: 6px 16px;
+  margin: 8px 16px;
 
 }
 #mobileheader ul li:first-child {
