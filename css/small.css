@@ -427,7 +427,7 @@ button {
   letter-spacing: -.4em;
   position: absolute;
   right: 0;
-  top: 97px;
+  top: calc((100vh - 444px) / 2);
   width: 48px;
   display: none;
   z-index: 1;
@@ -437,7 +437,7 @@ button {
   display: inline-block;
   letter-spacing: normal;
   width: 16px;
-  margin: calc((100vh - (9px + 58px + 97px * 2) - (40px + 20px * 11)) / 11 / 2) 16px;
+  margin: 8px 16px;
 }
 #index #topheader ul li:first-child {
   margin-top: 0;
@@ -678,7 +678,7 @@ header {
   letter-spacing: -.4em;
   position: absolute;
   right: 0;
-  top: 97px;
+  top: calc((100vh - 444px) / 2);
   width: 48px;
   z-index: 1;
   /* height: calc(100vh - (9px + 58px + 82px * 2)); */
@@ -687,7 +687,7 @@ header {
   display: inline-block;
   letter-spacing: normal;
   width: 16px;
-  margin: calc((100vh - (9px + 58px + 97px * 2) - (40px + 20px * 11)) / 11 / 2) 16px;
+  margin: 8px 16px;
 }
 #pageheader ul li:first-child {
   margin-top: 0;
