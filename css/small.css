@@ -953,6 +953,7 @@ header {
 }
 #page00 #wrapper {
   height: 100vh;
+  overflow-y: hidden;
 }
 #page00back {
   position: absolute;
