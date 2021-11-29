@@ -105,10 +105,17 @@ $(function(){
     const setVh = () => {
       const vh = window.innerHeight * 0.01;
       document.documentElement.style.setProperty('--vh', `${vh}px`);
+      console.log(vh);
     };
      
     window.addEventListener('load', setVh);
     window.addEventListener('resize', setVh);
+    window.addEventListener('resize', resizealert);
+
+    function resizealert() {
+      //リサイズ時に実行する処理
+      alert("スクロールされた？");
+    }
 
 // ロード
 $(window).on('load', function(){
