@@ -17,6 +17,7 @@ $(function(){
         setTimeout(function(){
             $('#topheader h1').fadeIn(1000);
             $('#topheader ul').fadeIn(1000);
+            $('#mobileheader ul').fadeIn(1000);
             $('#mainlogo').fadeIn(1000);
             $('#footerleft').fadeIn(1000);
             $('#footerright').fadeIn(1000);
@@ -135,6 +136,7 @@ $(window).on('load', function(){
     },3000);
     setTimeout(function(){
         $('#pageheader').fadeIn(1000);
+        $('#mobileheader ul').fadeIn(1000);
         $('#slidemenu').css('margin-right', '50px');
     },4500);
     setTimeout(function(){

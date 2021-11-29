@@ -373,6 +373,75 @@ button {
   width: 34px;
 }
 
+/* mobileheader */
+#mobileheader ul {
+  letter-spacing: -.4em;
+  position: absolute;
+  right: 0;
+  top: calc((100% - 398px) / 2);
+  width: 48px;
+  display: none;
+  z-index: 1;
+  /* height: calc(100vh - (9px + 58px + 82px * 2)); */
+}
+#mobileheader ul li {
+  display: inline-block;
+  letter-spacing: normal;
+  width: 16px;
+  margin: 6px 16px;
+
+}
+#mobileheader ul li:first-child {
+  margin-top: 0;
+}
+#mobileheader ul li:last-child {
+  margin-left: 8px;
+}
+#mobileheader ul li.newlink:before {
+  content: '';
+  display: inline-block;
+  background-image: url('../images/new_00.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  width: 25px;
+  height: 7px;
+  padding-bottom: 3px;
+  margin-left: -2px;
+}
+#mobileheader ul li a {
+  position: relative;
+  padding-bottom: 3px;
+}
+#mobileheader ul li.futurelink a {
+  pointer-events: none;
+}
+#mobileheader ul li a::after {
+  position: absolute;
+  bottom: -8px;
+  left: -20%;
+  content: '';
+  width: 140%;
+  height: 2px;
+  opacity: 0;
+  visibility: hidden;
+  transition: .3s;
+}
+#mobileheader ul li:first-child a::after {
+  background: #FFDE53;
+}
+#mobileheader ul li a:hover::after {
+  bottom: -4px;
+  opacity: 1;
+  visibility: visible;
+}
+#mobileheader ul li a img {
+  height: 12px;
+}
+#mobileheader ul li.futurelink a img {
+  opacity: 0.3;
+}
+
 /* index */
 #index {
   overflow-y: hidden;
@@ -429,7 +498,7 @@ button {
   right: 0;
   top: calc((100vh - 444px) / 2);
   width: 48px;
-  display: none;
+  display: none !important;
   z-index: 1;
   /* height: calc(100vh - (9px + 58px + 82px * 2)); */
 }
@@ -682,6 +751,7 @@ header {
   width: 48px;
   z-index: 1;
   /* height: calc(100vh - (9px + 58px + 82px * 2)); */
+  display: none !important;
 }
 #pageheader ul li {
   display: inline-block;
