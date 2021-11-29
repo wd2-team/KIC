@@ -110,6 +110,12 @@ button {
 .brsp {
   display: inline-block;
 }
+.fadein {
+  opacity: 1;
+}
+.fadeout {
+  opacity: 0;
+}
 
 /* .page */
 .page {
@@ -571,7 +577,7 @@ button {
   width: 100vw;
   height: calc(100% - (82px + 9px - 58px));
   overflow: hidden;
-  display: none;
+  opacity: 0;
   transition: 1s;
 }
 #index #mainwrapper #main #mainvideowrapper #mainvideo01,
@@ -962,7 +968,7 @@ header {
   transform: translateY(-50%);
   left: -50%;
   overflow: hidden;
-  display: none;
+  opacity: 0;
   transition: 1s;
 }
 #page00back video {
