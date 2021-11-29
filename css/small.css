@@ -887,7 +887,7 @@ header {
   transform: translateY(-50%);
   left: -50%;
   overflow: hidden;
-  /* display: none; */
+  display: none;
 }
 #page00back video {
   width: 135%;
