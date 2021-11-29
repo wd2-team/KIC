@@ -402,12 +402,12 @@ button {
   transform: translateX(-50%) translateY(-50%);
   /* min-width: 100%; */
   /* min-height: 100%; */
-  width: 150%;
+  width: 170%;
 }
 #index #btn_topskip {
   position: absolute;
-  top: calc(100vh - 140px);
-  top: calc(var(--vh, 1vh) * 100 - 140px);
+  top: calc(100vh - 120px);
+  top: calc(var(--vh, 1vh) * 100 - 120px);
   left: calc(50% - 22px);
   color: #BA6C00;
   font-size: 36px;
@@ -426,7 +426,7 @@ button {
   display: none;
 }
 #index #topheader h1 img {
-  width: 110px;
+  width: 140px;
 }
 #index #topheader ul {
   letter-spacing: -.4em;
@@ -491,7 +491,7 @@ button {
   visibility: visible;
 }
 #index #topheader ul li a img {
-  height: 13px;
+  height: 12px;
 }
 #index #topheader ul li.futurelink a img {
   opacity: 0.3;
@@ -680,7 +680,7 @@ header {
   left: 22px;
 }
 #pageheader h1 img {
-  width: 110px;
+  width: 120px;
 }
 #pageheader ul {
   letter-spacing: -.4em;
@@ -742,7 +742,7 @@ header {
   visibility: visible;
 }
 #pageheader ul li a img {
-  height: 13px;
+  height: 12px;
 }
 #pageheader ul li.futurelink a img {
   opacity: 0.3;
@@ -891,7 +891,7 @@ header {
 }
 #page00back {
   position: absolute;
-  top: 50%;
+  top: 60%;
   transform: translateY(-50%);
   left: -50%;
   overflow: hidden;
@@ -938,7 +938,7 @@ header {
 #pageblue {
   height: 100vh;
   position: relative;
-  background: linear-gradient(rgba(0,0,0,0),rgba(0,0,128,.5) 40% 60%,rgba(0,0,0,0));
+  background: linear-gradient(rgba(0,0,0,0),rgba(0,0,128,.5) 20% 80%,rgba(0,0,0,0));
 }
 #pageunder {
   position: relative;
