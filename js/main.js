@@ -12,7 +12,7 @@ $(function(){
             $('#topheader').fadeIn();
         },500);
         setTimeout(function(){
-            $('#mainvideowrapper').fadeIn();
+            // $('#mainvideowrapper').fadeIn();
             $('#mainvideowrapper').attr('style', 'display: block');
         },3000);
         setTimeout(function(){
@@ -86,7 +86,7 @@ $(function(){
         var windowHeight = $(window).height();
         var page00p03Position = $('#page00innerscroll-p03').offset().top;
         if (scroll > page00p03Position - windowHeight + 150) {
-            $('#page00back').fadeIn();
+            // $('#page00back').fadeIn();
             $('#page00back').attr('style', 'display: block');
         }
         var page00underlogoPosition = $('#pageunderlogo').offset().top;
