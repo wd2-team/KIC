@@ -411,7 +411,7 @@ button {
   display: none;
 }
 #index #topheader h1 img {
-  width: 230px;
+  width: 260px;
 }
 #index #topheader ul {
   letter-spacing: -.4em;
@@ -487,10 +487,10 @@ button {
 #index #mainwrapper #main #mainvideowrapper #mainvideo01,
 #index #mainwrapper #main #mainvideowrapper #mainvideo02 {
   position: absolute;
-  top: 50%;
+  top: 43%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
-  width: 100%;
+  width: 120%;
   height: 140%;
 }
 #index #mainwrapper #main #mainvideowrapper #mainvideo01 {
@@ -498,7 +498,7 @@ button {
 }
 #index #mainwrapper #main a#mainlink {
   position: absolute;
-  bottom: 100px;
+  bottom: 50px;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   width: 43px;
@@ -527,7 +527,7 @@ button {
   display: none;
   position: absolute;
   top: 50%;
-  left: 85px;
+  left: 105px;
   width: 219px;
   height: 90px;
 }
@@ -541,7 +541,7 @@ button {
   display: none;
   position: absolute;
   top: 50%;
-  right: 85px;
+  right: 105px;
   width: 240px;
   height: 183px;
 }
