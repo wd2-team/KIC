@@ -19,8 +19,12 @@ $(function(){
             // });
             $('#mainvideowrapper').addClass('showvideo');
             let mainvideowrap = document.getElementById('mainvideowrapper');
-            mainvideowrap.insertAdjacentHTML('beforeend', '<video id="mainvideo01" playsinline muted autoplay><source src="images/start.mp4"></video><video id="mainvideo02" playsinline muted autoplay loop><source src="images/loop.mp4"></video>');
+            mainvideowrap.insertAdjacentHTML('beforeend', '<video id="mainvideo01" playsinline muted autoplay><source src="images/start.mp4"></video>');
         },3000);
+        setTimeout(function(){
+            let mainvideowrap = document.getElementById('mainvideowrapper');
+            mainvideowrap.insertAdjacentHTML('beforeend', '<video id="mainvideo02" playsinline muted autoplay loop><source src="images/loop.mp4"></video>');
+        },4000);
         setTimeout(function(){
             $('#topheader h1').fadeIn(1000);
             $('#topheader ul').fadeIn(1000);
