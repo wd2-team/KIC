@@ -10,7 +10,7 @@ $(function(){
             $('header').fadeIn();
             $('footer').fadeIn();
             $('#topheader').fadeIn();
-        },500);
+        },1000);
         setTimeout(function(){
             // $('#mainvideowrapper').fadeIn();
             // $('#mainvideowrapper').css({
