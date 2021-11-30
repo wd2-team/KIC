@@ -18,8 +18,8 @@ $(function(){
             //     opacity: '1'
             // });
             $('#mainvideowrapper').addClass('showvideo');
-            let element = document.getElementById('mainvideowrapper');
-            element.insertAdjacentHTML('beforeend', '<video id="mainvideo01" playsinline muted autoplay><source src="images/start.mp4"></video><video id="mainvideo02" playsinline muted autoplay loop><source src="images/loop.mp4"></video>');
+            let mainvideowrap = document.getElementById('mainvideowrapper');
+            mainvideowrap.insertAdjacentHTML('beforeend', '<video id="mainvideo01" playsinline muted autoplay><source src="images/start.mp4"></video><video id="mainvideo02" playsinline muted autoplay loop><source src="images/loop.mp4"></video>');
         },3000);
         setTimeout(function(){
             $('#topheader h1').fadeIn(1000);
@@ -49,10 +49,36 @@ $(function(){
         video.currentTime += 999;
     });
 
-    var mainvideo = document.getElementById('mainvideo01');
-    mainvideo.addEventListener("ended", function() {
-        $('#mainvideo01').fadeOut();
-    });
+    var target = document.getElementById('mainvideowrapper');
+    function example() {
+
+    // 要素が追加された時に実行する処理
+        var mainvideo = document.getElementById('mainvideo01');
+        mainvideo.addEventListener("ended", function() {
+            // $('#mainvideo01').fadeOut();
+            $('#mainvideo01').css({display: 'none'});
+        });
+        // mainvideo.on('ended',function() {
+        //     $('#mainvideo01').css({display: 'none'});
+        // });
+        // $(document).on('ended', '#mainvideo01', function() {
+        //     $(this).css('z-index', '0');
+        // });
+
+    }
+    var mo = new MutationObserver(example);
+    mo.observe(target, {childList: true});
+
+    // var mainvideo = document.getElementById('mainvideo01');
+    // // mainvideo.addEventListener("ended", function() {
+    // //     $('#mainvideo01').fadeOut();
+    // // });
+    // // mainvideo.on('ended',function() {
+    // //     $('#mainvideo01').css({display: 'none'});
+    // // });
+    // $(document).on('ended', '#mainvideo01', function() {
+    //     $(this).css('z-index', '0');
+    // });
 
 });
 
