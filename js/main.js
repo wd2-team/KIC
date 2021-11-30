@@ -18,6 +18,8 @@ $(function(){
             //     opacity: '1'
             // });
             $('#mainvideowrapper').addClass('showvideo');
+            let element = document.getElementById('mainvideowrapper');
+            element.insertAdjacentHTML('beforeend', '<video id="mainvideo01" playsinline muted autoplay><source src="images/start.mp4"></video><video id="mainvideo02" playsinline muted autoplay loop><source src="images/loop.mp4"></video>');
         },3000);
         setTimeout(function(){
             $('#topheader h1').fadeIn(1000);
