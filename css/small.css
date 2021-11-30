@@ -572,6 +572,8 @@ button {
   height: calc(100% - (82px + 9px - 58px));
   overflow: hidden;
   display: none;
+  opacity: 0;
+  transition: 1s;
 }
 #index #mainwrapper #main #mainvideowrapper #mainvideo01,
 #index #mainwrapper #main #mainvideowrapper #mainvideo02 {
@@ -962,6 +964,8 @@ header {
   left: -50%;
   overflow: hidden;
   display: none;
+  opacity: 0;
+  transition: 1s;
 }
 #page00back video {
   width: 135%;

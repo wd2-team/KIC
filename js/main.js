@@ -12,7 +12,11 @@ $(function(){
             $('#topheader').fadeIn();
         },500);
         setTimeout(function(){
-            $('#mainvideowrapper').fadeIn();
+            // $('#mainvideowrapper').fadeIn();
+            $('#mainvideowrapper').css({
+                display: 'block',
+                opacity: '1'
+            });
         },3000);
         setTimeout(function(){
             $('#topheader h1').fadeIn(1000);
@@ -85,7 +89,11 @@ $(function(){
         var windowHeight = $(window).height();
         var page00p03Position = $('#page00innerscroll-p03').offset().top;
         if (scroll > page00p03Position - windowHeight + 150) {
-            $('#page00back').fadeIn();
+            // $('#page00back').fadeIn();
+            $('#page00back').css({
+                display: 'block',
+                opacity: '1'
+            });
         }
         var page00underlogoPosition = $('#pageunderlogo').offset().top;
         if (scroll > page00underlogoPosition - windowHeight + 150) {
