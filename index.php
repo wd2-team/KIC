@@ -25,7 +25,7 @@
 	<div id="topheader">
 		<h1><a href="index.php"><img src="images/kic_logo.svg" alt="KICワンダフルのロゴ"></a></h1>
 		<ul>
-		<li class="newlink"><a href="./page/page00"><img src="images/navi_number_00.svg" alt="00ページへのリンク"></a></li>
+		<li class="newlink"><a href="/page/page00"><img src="images/navi_number_00.svg" alt="00ページへのリンク"></a></li>
 			<li class="futurelink"><a href="#"><img src="images/navi_number_01.svg" alt="01ページへのリンク"></a></li>
 			<li class="futurelink"><a href="#"><img src="images/navi_number_02.svg" alt="02ページへのリンク"></a></li>
 			<li class="futurelink"><a href="#"><img src="images/navi_number_03.svg" alt="03ページへのリンク"></a></li>
@@ -48,7 +48,7 @@
 	<div id="mainwrapper">
 		<div id="main">
 			<div id="mainvideowrapper"></div><!-- #mainvideowrapper -->
-			<a id="mainlink" href="page00.html"><source type="image/webp" srcset="images/drive.webp" />
+			<a id="mainlink" href="page/page00.php"><source type="image/webp" srcset="images/drive.webp" />
 					<img src="images/drive.png" alt="スクロールを促すマーク" class="apng-image" /></a>
 			<div id="mainlogo"><img src="images/gr_garage.svg" alt="GRGarageのロゴ"><img src="images/toyota_collora_white.svg" alt="トヨタカローラ福岡株式会社のロゴ"></div>
 		</div><!-- #main -->
@@ -68,7 +68,7 @@
 		</div><!-- .modal-content -->
 	</div><!-- #.modal -->
 	<div id="topright" class="animation">
-		<a href="page00.html">
+		<a href="page/page00.php">
 			<p class="animation"><img src="images/prologue.svg" alt="PROLOGUE"><br><span>プロローグ／序章</span></p>
 			<div id="toprightbg"></div>
 		</a>
@@ -86,7 +86,7 @@
 	</footer>
 	<div id="mobileheader" class="displaysp">
 		<ul>
-			<li class="newlink"><a href="page00.html"><img src="images/navi_number_00.svg" alt="00ページへのリンク"></a></li>
+			<li class="newlink"><a href="page/page00.php"><img src="images/navi_number_00.svg" alt="00ページへのリンク"></a></li>
 			<li class="futurelink"><a href="#"><img src="images/navi_number_01.svg" alt="01ページへのリンク"></a></li>
 			<li class="futurelink"><a href="#"><img src="images/navi_number_02.svg" alt="02ページへのリンク"></a></li>
 			<li class="futurelink"><a href="#"><img src="images/navi_number_03.svg" alt="03ページへのリンク"></a></li>
