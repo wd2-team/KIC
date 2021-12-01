@@ -10,10 +10,21 @@ $(function(){
             $('header').fadeIn();
             $('footer').fadeIn();
             $('#topheader').fadeIn();
-        },500);
+        },1000);
         setTimeout(function(){
-            $('#mainvideowrapper').fadeIn();
-        },3000);
+            // $('#mainvideowrapper').fadeIn();
+            // $('#mainvideowrapper').css({
+            //     display: 'block',
+            //     opacity: '1'
+            // });
+            $('#mainvideowrapper').addClass('showvideo');
+            let mainvideowrap = document.getElementById('mainvideowrapper');
+            mainvideowrap.insertAdjacentHTML('beforeend', '<video id="mainvideo01" playsinline muted autoplay><source src="images/start.mp4"></video>');
+        },3500);
+        setTimeout(function(){
+            let mainvideowrap = document.getElementById('mainvideowrapper');
+            mainvideowrap.insertAdjacentHTML('beforeend', '<video id="mainvideo02" playsinline muted autoplay loop><source src="images/loop.mp4"></video>');
+        },4500);
         setTimeout(function(){
             $('#topheader h1').fadeIn(1000);
             $('#topheader ul').fadeIn(1000);
@@ -42,10 +53,36 @@ $(function(){
         video.currentTime += 999;
     });
 
-    var mainvideo = document.getElementById('mainvideo01');
-    mainvideo.addEventListener("ended", function() {
-        $('#mainvideo01').fadeOut();
-    });
+    var target = document.getElementById('mainvideowrapper');
+    function example() {
+
+    // 要素が追加された時に実行する処理
+        var mainvideo = document.getElementById('mainvideo01');
+        mainvideo.addEventListener("ended", function() {
+            // $('#mainvideo01').fadeOut();
+            $('#mainvideo01').css({display: 'none'});
+        });
+        // mainvideo.on('ended',function() {
+        //     $('#mainvideo01').css({display: 'none'});
+        // });
+        // $(document).on('ended', '#mainvideo01', function() {
+        //     $(this).css('z-index', '0');
+        // });
+
+    }
+    var mo = new MutationObserver(example);
+    mo.observe(target, {childList: true});
+
+    // var mainvideo = document.getElementById('mainvideo01');
+    // // mainvideo.addEventListener("ended", function() {
+    // //     $('#mainvideo01').fadeOut();
+    // // });
+    // // mainvideo.on('ended',function() {
+    // //     $('#mainvideo01').css({display: 'none'});
+    // // });
+    // $(document).on('ended', '#mainvideo01', function() {
+    //     $(this).css('z-index', '0');
+    // });
 
 });
 
@@ -85,7 +122,12 @@ $(function(){
         var windowHeight = $(window).height();
         var page00p03Position = $('#page00innerscroll-p03').offset().top;
         if (scroll > page00p03Position - windowHeight + 150) {
-            $('#page00back').fadeIn();
+            // $('#page00back').fadeIn();
+            // $('#page00back').css({
+            //     display: 'block',
+            //     opacity: '1'
+            // });
+            $('#page00back').addClass('showvideo');
         }
         var page00underlogoPosition = $('#pageunderlogo').offset().top;
         if (scroll > page00underlogoPosition - windowHeight + 150) {

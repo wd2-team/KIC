@@ -110,6 +110,19 @@ button {
 .brsp {
   display: inline-block;
 }
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.showvideo {
+  display: block !important;
+  animation-name: fade-in;
+  animation-duration: 1s;
+}
 
 /* .page */
 .page {
@@ -953,6 +966,7 @@ header {
 }
 #page00 #wrapper {
   height: 100vh;
+  overflow-y: hidden;
 }
 #page00back {
   position: absolute;
