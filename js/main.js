@@ -156,3 +156,17 @@ if(window.navigator.userAgent.indexOf("Chrome") >= 0 && window.navigator.userAge
         for (var i = 0; i < images.length; i++){ APNG.animateImage(images[i]); }
     });
 }
+
+// スマホ横向き禁止
+window.onorientationchange = function () {
+    switch ( window.orientation ) {
+        case 0:
+            break;
+        case 90:
+            alert('画面を縦にしてくださいね');
+            break;
+        case -90:
+            alert('画面を縦にしてくださいね');
+            break;
+}
+}
