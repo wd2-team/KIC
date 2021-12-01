@@ -47,14 +47,7 @@
 	</div><!-- #topvideowrapper -->
 	<div id="mainwrapper">
 		<div id="main">
-			<div id="mainvideowrapper">
-				<!-- <video id="mainvideo01" playsinline muted autoplay>
-					<source src="images/start.mp4">
-				</video>
-				<video id="mainvideo02" playsinline muted autoplay loop>
-					<source src="images/loop.mp4">
-				</video> -->
-			</div><!-- #mainvideowrapper -->
+			<div id="mainvideowrapper"></div><!-- #mainvideowrapper -->
 			<a id="mainlink" href="page00.html"><source type="image/webp" srcset="images/drive.webp" />
 					<img src="images/drive.png" alt="スクロールを促すマーク" class="apng-image" /></a>
 			<div id="mainlogo"><img src="images/gr_garage.svg" alt="GRGarageのロゴ"><img src="images/toyota_collora_white.svg" alt="トヨタカローラ福岡株式会社のロゴ"></div>
@@ -66,14 +59,14 @@
 		</a>
 	</div><!-- #topleft -->
 	<div id="modal-video" class="modal js-modal">
-		<div class="modal-bg js-modal-close"></div>
+		<div class="modal-bg js-modal-close"></div><!-- .modal-bg -->
 		<div class="modal-content">
 			<div class="modal-inner">
 				<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/0RrD7rPZn80" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				<a href="#" class="js-modal-close"><img src="images/modal_close.svg"></a>
-			</div>
-		</div>
-	</div>
+			</div><!-- .modal-inner -->
+		</div><!-- .modal-content -->
+	</div><!-- #.modal -->
 	<div id="topright" class="animation">
 		<a href="page00.html">
 			<p class="animation"><img src="images/prologue.svg" alt="PROLOGUE"><br><span>プロローグ／序章</span></p>
@@ -106,9 +99,9 @@
 			<li class="futurelink"><a href="#"><img src="images/navi_number_10.svg" alt="10ページへのリンク"></a></li>
 			<li class="futurelink"><a href="#"><img src="images/navi_number_GO.svg" alt="GOページへのリンク"></a></li>
 		</ul>
-	</div>
+	</div><!-- #mobileheader -->
 </div><!-- #wrapper -->
-<div id="filter"></div><!-- /filter -->
+<div id="filter"></div><!-- #filter -->
 <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
