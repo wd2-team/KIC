@@ -158,32 +158,31 @@ if(window.navigator.userAgent.indexOf("Chrome") >= 0 && window.navigator.userAge
 }
 
 // スマホ横向き禁止
-window.onload = ()=>{
-  setResult();
-}
-window.addEventListener("orientationchange", ()=>{
-  setResult();
-});
-function setResult(){
-  const result = document.querySelector("#result");
-  const angle = getAngle();
-  if( angle.isPortrait ) {
-    console.log('縦向き');
-  }
-  else{
-    console.log('横向き');
-    alert('画面を縦にしてください');
-  }
-}
-function getAngle(){
-  let angle = screen && screen.orientation && screen.orientation.angle;
-  if ( angle === undefined ) {
-    angle = window.orientation;
-  }
-  const isPortrait = (angle === 0);
-  return({
-          value: angle,           // 具体的な角度
-     isPortrait: isPortrait,      // 縦向き
-    isLandscape: ! isPortrait,    // 横向き
-  });
-}
+// window.onload = ()=>{
+//   setResult();
+// }
+// window.addEventListener("orientationchange", ()=>{
+//   setResult();
+// });
+// function setResult(){
+//   const angle = getAngle();
+//   if( angle.isPortrait ) {
+//     console.log('縦向き');
+//   }
+//   else{
+//     console.log('横向き');
+//     alert('画面を縦にしてください');
+//   }
+// }
+// function getAngle(){
+//   let angle = screen && screen.orientation && screen.orientation.angle;
+//   if ( angle === undefined ) {
+//     angle = window.orientation;
+//   }
+//   const isPortrait = (angle === 0);
+//   return({
+//     value: angle,
+//     isPortrait: isPortrait,
+//     isLandscape: ! isPortrait,
+//   });
+// }
