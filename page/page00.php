@@ -1,22 +1,4 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="content-language" content="ja">
-	<meta name="description" content="">
-	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,user-scalable=no">
-	<script
-  	src="https://code.jquery.com/jquery-2.2.4.js"
-  	integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
-  	crossorigin="anonymous"></script>
-	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen and (min-width:1024px)">
-	<link rel="stylesheet" type="text/css" href="css/medium.css" media="screen and (max-width:1023px) and (min-width:5001px)">
-  	<link rel="stylesheet" type="text/css" href="css/small.css" media="screen and (max-width:500px)">
-  	<!-- <link rel="icon" href="#"> -->
-  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/apng-canvas/2.1.1/apng-canvas.min.js"></script>
-	<title>"KICワンダフル</title>
-</head>
+<?php include("../_inc/header.php"); ?>
 <body id="page00">
 <div id="wrapper" class="page">
 	<header></header>
@@ -24,10 +6,10 @@
 		<div class="gradation-line"></div>
 	</div>
 	<div id="pageheader">
-		<h1><a href="index.html"><img src="images/kic_logo.svg" alt="KICワンダフルのロゴ"></a></h1>
+		<h1><a href="/index.php"><img src="images/kic_logo.svg" alt="KICワンダフルのロゴ"></a></h1>
 		<ul>
-			<li class="newlink"><a href="page00.html"><img src="images/navi_number_00.svg" alt="00ページへのリンク"></a></li>
-			<li class="futurelink"><a href="#"><img src="images/navi_number_01.svg" alt="01ページへのリンク"></a></li>
+		<li class="newlink"><a href="./page/page00"><img src="images/navi_number_00.svg" alt="00ページへのリンク"></a></li>
+			<li class="futurelink"><a href="#"><img src="../images/navi_number_01.svg" alt="01ページへのリンク"></a></li>
 			<li class="futurelink"><a href="#"><img src="images/navi_number_02.svg" alt="02ページへのリンク"></a></li>
 			<li class="futurelink"><a href="#"><img src="images/navi_number_03.svg" alt="03ページへのリンク"></a></li>
 			<li class="futurelink"><a href="#"><img src="images/navi_number_04.svg" alt="04ページへのリンク"></a></li>
@@ -42,8 +24,8 @@
 	</div>
 	<div id="mobileheader" class="displaysp">
 		<ul>
-			<li class="newlink"><a href="page00.html"><img src="images/navi_number_00.svg" alt="00ページへのリンク"></a></li>
-			<li class="futurelink"><a href="#"><img src="images/navi_number_01.svg" alt="01ページへのリンク"></a></li>
+		<li class="newlink"><a href="./page/page00"><img src="images/navi_number_00.svg" alt="00ページへのリンク"></a></li>
+			<li class="futurelink"><a href="#"><img src="../images/navi_number_01.svg" alt="01ページへのリンク"></a></li>
 			<li class="futurelink"><a href="#"><img src="images/navi_number_02.svg" alt="02ページへのリンク"></a></li>
 			<li class="futurelink"><a href="#"><img src="images/navi_number_03.svg" alt="03ページへのリンク"></a></li>
 			<li class="futurelink"><a href="#"><img src="images/navi_number_04.svg" alt="04ページへのリンク"></a></li>
@@ -111,24 +93,4 @@
 		<div id="blacksheer"></div>
 	</div>
 	<footer></footer>
-	<div id="mobileheader" class="displaysp">
-		<ul>
-			<li class="newlink"><a href="page00.html"><img src="images/navi_number_00.svg" alt="00ページへのリンク"></a></li>
-			<li class="futurelink"><a href="#"><img src="images/navi_number_01.svg" alt="01ページへのリンク"></a></li>
-			<li class="futurelink"><a href="#"><img src="images/navi_number_02.svg" alt="02ページへのリンク"></a></li>
-			<li class="futurelink"><a href="#"><img src="images/navi_number_03.svg" alt="03ページへのリンク"></a></li>
-			<li class="futurelink"><a href="#"><img src="images/navi_number_04.svg" alt="04ページへのリンク"></a></li>
-			<li class="futurelink"><a href="#"><img src="images/navi_number_05.svg" alt="05ページへのリンク"></a></li>
-			<li class="futurelink"><a href="#"><img src="images/navi_number_06.svg" alt="06ページへのリンク"></a></li>
-			<li class="futurelink"><a href="#"><img src="images/navi_number_07.svg" alt="07ページへのリンク"></a></li>
-			<li class="futurelink"><a href="#"><img src="images/navi_number_08.svg" alt="08ページへのリンク"></a></li>
-			<li class="futurelink"><a href="#"><img src="images/navi_number_09.svg" alt="09ページへのリンク"></a></li>
-			<li class="futurelink"><a href="#"><img src="images/navi_number_10.svg" alt="10ページへのリンク"></a></li>
-			<li class="futurelink"><a href="#"><img src="images/navi_number_GO.svg" alt="GOページへのリンク"></a></li>
-		</ul>
-	</div>
-</div><!-- #wrapper -->
-<div id="filter"></div><!-- /filter -->
-<script type="text/javascript" src="js/main.js"></script>
-</body>
-</html>
+	<?php include("../_inc/footer.php"); ?>
