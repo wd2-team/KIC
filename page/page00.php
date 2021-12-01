@@ -6,62 +6,62 @@
 		<div class="gradation-line"></div>
 	</div>
 	<div id="pageheader">
-		<h1><a href="/index.php"><img src="images/kic_logo.svg" alt="KICワンダフルのロゴ"></a></h1>
+		<h1><a href="index.php"><img src="../images/kic_logo.svg" alt="KICワンダフルのロゴ"></a></h1>
 		<ul>
-		<li class="newlink"><a href="./page/page00"><img src="images/navi_number_00.svg" alt="00ページへのリンク"></a></li>
+		<li class="newlink"><a href="./page/page00"><img src="../images/navi_number_00.svg" alt="00ページへのリンク"></a></li>
 			<li class="futurelink"><a href="#"><img src="../images/navi_number_01.svg" alt="01ページへのリンク"></a></li>
-			<li class="futurelink"><a href="#"><img src="images/navi_number_02.svg" alt="02ページへのリンク"></a></li>
-			<li class="futurelink"><a href="#"><img src="images/navi_number_03.svg" alt="03ページへのリンク"></a></li>
-			<li class="futurelink"><a href="#"><img src="images/navi_number_04.svg" alt="04ページへのリンク"></a></li>
-			<li class="futurelink"><a href="#"><img src="images/navi_number_05.svg" alt="05ページへのリンク"></a></li>
-			<li class="futurelink"><a href="#"><img src="images/navi_number_06.svg" alt="06ページへのリンク"></a></li>
-			<li class="futurelink"><a href="#"><img src="images/navi_number_07.svg" alt="07ページへのリンク"></a></li>
-			<li class="futurelink"><a href="#"><img src="images/navi_number_08.svg" alt="08ページへのリンク"></a></li>
-			<li class="futurelink"><a href="#"><img src="images/navi_number_09.svg" alt="09ページへのリンク"></a></li>
-			<li class="futurelink"><a href="#"><img src="images/navi_number_10.svg" alt="10ページへのリンク"></a></li>
-			<li class="futurelink"><a href="#"><img src="images/navi_number_GO.svg" alt="GOページへのリンク"></a></li>
+			<li class="futurelink"><a href="#"><img src="../images/navi_number_02.svg" alt="02ページへのリンク"></a></li>
+			<li class="futurelink"><a href="#"><img src="../images/navi_number_03.svg" alt="03ページへのリンク"></a></li>
+			<li class="futurelink"><a href="#"><img src="../images/navi_number_04.svg" alt="04ページへのリンク"></a></li>
+			<li class="futurelink"><a href="#"><img src="../images/navi_number_05.svg" alt="05ページへのリンク"></a></li>
+			<li class="futurelink"><a href="#"><img src="../images/navi_number_06.svg" alt="06ページへのリンク"></a></li>
+			<li class="futurelink"><a href="#"><img src="../images/navi_number_07.svg" alt="07ページへのリンク"></a></li>
+			<li class="futurelink"><a href="#"><img src="../images/navi_number_08.svg" alt="08ページへのリンク"></a></li>
+			<li class="futurelink"><a href="#"><img src="../images/navi_number_09.svg" alt="09ページへのリンク"></a></li>
+			<li class="futurelink"><a href="#"><img src="../images/navi_number_10.svg" alt="10ページへのリンク"></a></li>
+			<li class="futurelink"><a href="#"><img src="../images/navi_number_GO.svg" alt="GOページへのリンク"></a></li>
 		</ul>
 	</div>
 	<div id="mobileheader" class="displaysp">
 		<ul>
-		<li class="newlink"><a href="./page/page00"><img src="images/navi_number_00.svg" alt="00ページへのリンク"></a></li>
+		<li class="newlink"><a href="./page/page00"><img src="../images/navi_number_00.svg" alt="00ページへのリンク"></a></li>
 			<li class="futurelink"><a href="#"><img src="../images/navi_number_01.svg" alt="01ページへのリンク"></a></li>
-			<li class="futurelink"><a href="#"><img src="images/navi_number_02.svg" alt="02ページへのリンク"></a></li>
-			<li class="futurelink"><a href="#"><img src="images/navi_number_03.svg" alt="03ページへのリンク"></a></li>
-			<li class="futurelink"><a href="#"><img src="images/navi_number_04.svg" alt="04ページへのリンク"></a></li>
-			<li class="futurelink"><a href="#"><img src="images/navi_number_05.svg" alt="05ページへのリンク"></a></li>
-			<li class="futurelink"><a href="#"><img src="images/navi_number_06.svg" alt="06ページへのリンク"></a></li>
-			<li class="futurelink"><a href="#"><img src="images/navi_number_07.svg" alt="07ページへのリンク"></a></li>
-			<li class="futurelink"><a href="#"><img src="images/navi_number_08.svg" alt="08ページへのリンク"></a></li>
-			<li class="futurelink"><a href="#"><img src="images/navi_number_09.svg" alt="09ページへのリンク"></a></li>
-			<li class="futurelink"><a href="#"><img src="images/navi_number_10.svg" alt="10ページへのリンク"></a></li>
-			<li class="futurelink"><a href="#"><img src="images/navi_number_GO.svg" alt="GOページへのリンク"></a></li>
+			<li class="futurelink"><a href="#"><img src="../images/navi_number_02.svg" alt="02ページへのリンク"></a></li>
+			<li class="futurelink"><a href="#"><img src="../images/navi_number_03.svg" alt="03ページへのリンク"></a></li>
+			<li class="futurelink"><a href="#"><img src="../images/navi_number_04.svg" alt="04ページへのリンク"></a></li>
+			<li class="futurelink"><a href="#"><img src="../images/navi_number_05.svg" alt="05ページへのリンク"></a></li>
+			<li class="futurelink"><a href="#"><img src="../images/navi_number_06.svg" alt="06ページへのリンク"></a></li>
+			<li class="futurelink"><a href="#"><img src="../images/navi_number_07.svg" alt="07ページへのリンク"></a></li>
+			<li class="futurelink"><a href="#"><img src="../images/navi_number_08.svg" alt="08ページへのリンク"></a></li>
+			<li class="futurelink"><a href="#"><img src="../images/navi_number_09.svg" alt="09ページへのリンク"></a></li>
+			<li class="futurelink"><a href="#"><img src="../images/navi_number_10.svg" alt="10ページへのリンク"></a></li>
+			<li class="futurelink"><a href="#"><img src="../images/navi_number_GO.svg" alt="GOページへのリンク"></a></li>
 		</ul>
 	</div>
 	<div id="pageleftnumber">
-		<img class="animation" src="images/ae86restoreproject.svg">
-		<img src="images/restore_kana.svg">
-		<img class="animation" src="images/00_side.svg">
+		<img class="animation" src="../images/ae86restoreproject.svg">
+		<img src="../images/restore_kana.svg">
+		<img class="animation" src="../images/00_side.svg">
 	</div>
 	<div id="slidemenu">
 		<ul>
-			<li><a href="https://www.instagram.com/kurume_industrial_college/"><img src="images/sns_instagram.svg" alt="instagramへのリンク"></a></li>
-			<li><a href="https://page.line.me/kic-car"><img src="images/sns_line.svg" alt="lineへのリンク"></a></li>
-			<li><a href="https://twitter.com/kic_car""><img src="images/sns_twitter.svg" alt="twitterへのリンク"></a></li>
-			<li><a href="https://www.youtube.com/channel/UC0Ge2DKsUJFaxYJQjj1S8lw/featured"><img src="images/sns_youtube.svg" alt="yotubeへのリンク"></a></li>
+			<li><a href="https://www.instagram.com/kurume_industrial_college/"><img src="../images/sns_instagram.svg" alt="instagramへのリンク"></a></li>
+			<li><a href="https://page.line.me/kic-car"><img src="../images/sns_line.svg" alt="lineへのリンク"></a></li>
+			<li><a href="https://twitter.com/kic_car""><img src="../images/sns_twitter.svg" alt="twitterへのリンク"></a></li>
+			<li><a href="https://www.youtube.com/channel/UC0Ge2DKsUJFaxYJQjj1S8lw/featured"><img src="../images/sns_youtube.svg" alt="yotubeへのリンク"></a></li>
 		</ul>
 	</div>
 	<div id="pagescroll">
 		<source type="image/webp" srcset="images/drive.webp" />
-		<img src="images/drive.png" alt="スクロールを促すマーク" class="apng-image" />
+		<img src="../images/drive.png" alt="スクロールを促すマーク" class="apng-image" />
 	</div>
 	<div id="page00back">
-		<video id="topvideo" src="images/car02.mp4" autoplay muted playsinline></video>
+		<video id="topvideo" src="../images/car02.mp4" autoplay muted playsinline></video>
 	</div>
 	<div id="pageinnerscroll">
 		<div id="pageright" class="animation">
 			<a href="page00.html">
-				<p class="animation"><img src="images/prologue.svg" alt="PROLOGUE"><br><span>プロローグ／序章</span></p>
+				<p class="animation"><img src="../images/prologue.svg" alt="PROLOGUE"><br><span>プロローグ／序章</span></p>
 				<div id="pagerightbg"></div>
 			</a>
 		</div>
@@ -80,12 +80,12 @@
 			</div>
 		</div>
 		<div id="pageunderlogo">
-			<img src="images/kic_logo.svg" alt="KICワンダフルのロゴ">
+			<img src="../images/kic_logo.svg" alt="KICワンダフルのロゴ">
 		</div>
 		<div id="pageblue">
 			<div id="pageunder">
 				<a href="page01.html">
-					<p><img src="images/comingsoon.svg" alt="COMINGSOON"><br><span>準備中</span></p>
+					<p><img src="../images/comingsoon.svg" alt="COMINGSOON"><br><span>準備中</span></p>
 					<div id="pageunderbg"></div>
 				</a>
 			</div>
