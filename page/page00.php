@@ -6,7 +6,7 @@
 		<div class="gradation-line"></div>
 	</div>
 	<div id="pageheader">
-		<h1><a href="index.php"><img src="../images/kic_logo.svg" alt="KICワンダフルのロゴ"></a></h1>
+		<h1><a href="/index"><img src="../images/kic_logo.svg" alt="KICワンダフルのロゴ"></a></h1>
 		<ul>
 		<li class="newlink"><a href="./page/page00"><img src="../images/navi_number_00.svg" alt="00ページへのリンク"></a></li>
 			<li class="futurelink"><a href="#"><img src="../images/navi_number_01.svg" alt="01ページへのリンク"></a></li>
