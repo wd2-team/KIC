@@ -140,15 +140,15 @@ $(window).on('load', function(){
     setTimeout(function(){
         $('#pageinnerscroll #pageright').fadeIn();
         $('#pageinnerscroll #pageright').addClass('active');
-    },4500);
+    },4400);
     setTimeout(function(){
         $('#pageinnerscroll #pageright p').fadeIn();
         $('#pageinnerscroll #pageright p').addClass('active');
-    },5500);
+    },5400);
     setTimeout(function(){
         $('#pagescroll').fadeIn();
         $('#page00').css('pointer-events', 'all');
-    },7000);
+    },6900);
 
 });
 
