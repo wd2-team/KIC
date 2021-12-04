@@ -856,7 +856,7 @@ header {
   position: absolute;
   top: 0;
   left: 0;
-  background: url('../images/00.svg');
+  background-image: url('../images/00.svg');
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
@@ -968,4 +968,16 @@ header {
   position: fixed;
   top: 0;
   pointer-events: none;
+}
+
+/* page01 */
+#page01 #pageinnerscroll #pageright a #pagerightbg {
+  background-image: url('../images/01.svg');
+}
+#page01innerscroll-pall {
+  padding-top: 100vh;
+  color: #FFB100;
+  width: 1050px;
+  margin: 0 auto;
+  text-align: left;
 }

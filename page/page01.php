@@ -62,17 +62,17 @@
 				<div id="pagerightbg"></div>
 			</a>
 		</div>
-		<div id="page00innerscroll-pall">
-			<div id="page00innerscroll-p01" class="page00innerscroll-p animation">
+		<div id="page01innerscroll-pall">
+			<div id="page01innerscroll-p01" class="page01innerscroll-p animation">
 				学生たちの手で、<br>時代を超えた名車が<br class="brsp">美しく蘇る。
 			</div>
-			<div id="page00innerscroll-p02" class="page00innerscroll-p animation">
+			<div id="page01innerscroll-p02" class="page01innerscroll-p animation">
 				KICが、これまで挑んできた<br class="brsp">レストアプロジェクトの名車達。<br>「TOYOTA TRUENO AE86」<br>「MAZDA RX-7 FD」<br>「NISSAN SILVIA S13」<br>あなたは、<br class="brsp">この３台のクルマを知っていますか？<br>そう、かつて人気アニメに登場し<br>多くのファンから今も愛されている名車達。</div>
-			<div id="page00innerscroll-p03" class="page00innerscroll-p animation">
+			<div id="page01innerscroll-p03" class="page01innerscroll-p animation">
 				そして、もう一台…。<br>「TOYOTA COROLLA LEVIN AE86」<br>新たなるレストアプロジェクトの物語が<br class="brsp">今走り出します。</div>
-			<div id="page00innerscroll-p04" class="page00innerscroll-p animation">
+			<div id="page01innerscroll-p04" class="page01innerscroll-p animation">
 				KIC 一級自動車工学科、<br class="brsp">車体整備工学科、<br>数々のクルマと向き合ってきた<br class="brsp">トヨタカローラ福岡が<br>” 技術 ”と” 感性 ”を駆使し、<br class="brsp">クルマを整備する<br>楽しさを伝える産学共同プロジェクト。</div>
-			<div id="page00innerscroll-p05" class="page00innerscroll-p animation">
+			<div id="page01innerscroll-p05" class="page01innerscroll-p animation">
 				動かないエンジンと、<br class="brsp">錆でボロボロのボディを<br>学生とプロエンジニアの手により<br class="brsp">美しくパワフルに蘇らせる<br>「ワンダフル」で「ドラマチック」な<br class="brsp">物語が始動する。
 			</div>
 		</div>
