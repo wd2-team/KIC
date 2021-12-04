@@ -31,18 +31,18 @@ $(function(){
         setTimeout(function(){
             $('#topleft').fadeIn();
             $('#topleft').addClass('active');
-        },8000);
+        },7000);
         setTimeout(function(){
             $('#topright').fadeIn();
             $('#topright').addClass('active');
-        },9000);
+        },8000);
         setTimeout(function(){
             $('#topright p').fadeIn();
             $('#topright p').addClass('active');
-        },10000);
+        },9000);
         setTimeout(function(){
             $('#main a#mainlink').fadeIn(1000);
-        },11500);
+        },10000);
     });
     btn_topskip.addEventListener("click", (e) => {
         video.currentTime += 999;
