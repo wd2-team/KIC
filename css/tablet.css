@@ -103,7 +103,10 @@ button {
   display: none;
 }
 .displaysp {
-  display: none;
+  display: none !important;
+}
+.nondisplaysp {
+  display: block;
 }
 @keyframes fade-in {
   from {
