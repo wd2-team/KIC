@@ -55,12 +55,9 @@
 		<source type="image/webp" srcset="images/drive.webp" />
 		<img src="../images/drive.png" alt="スクロールを促すマーク" class="apng-image" />
 	</div>
-	<div id="page00back">
-		<video id="topvideo" src="../images/car02.mp4" autoplay muted playsinline></video>
-	</div>
 	<div id="pageinnerscroll">
 		<div id="pageright" class="animation">
-			<a href="page01.html">
+			<a href="page01">
 				<p class="animation"><img src="../images/cardelivery.svg" alt="CARDELIVERY"><br><span>カローラレビン納車</span></p>
 				<div id="pagerightbg"></div>
 			</a>
@@ -84,7 +81,7 @@
 		</div>
 		<div id="pageblue">
 			<div id="pageunder">
-				<a href="page01.html">
+				<a href="page02">
 					<p><img src="../images/comingsoon.svg" alt="COMINGSOON"><br><span>準備中</span></p>
 					<div id="pageunderbg"></div>
 				</a>

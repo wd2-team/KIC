@@ -60,7 +60,7 @@
 	</div>
 	<div id="pageinnerscroll">
 		<div id="pageright" class="animation">
-			<a href="page00.html">
+			<a href="page00">
 				<p class="animation"><img src="../images/prologue.svg" alt="PROLOGUE"><br><span>プロローグ／序章</span></p>
 				<div id="pagerightbg"></div>
 			</a>
@@ -84,7 +84,7 @@
 		</div>
 		<div id="pageblue">
 			<div id="pageunder">
-				<a href="page01.html">
+				<a href="page01">
 					<p><img src="../images/comingsoon.svg" alt="COMINGSOON"><br><span>準備中</span></p>
 					<div id="pageunderbg"></div>
 				</a>
