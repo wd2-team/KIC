@@ -1,5 +1,5 @@
 <?php include("../_inc/header.php"); ?>
-<body id="page00">
+<body id="page01">
 <div id="wrapper" class="page">
 	<header></header>
 	<div id="pageheaderline" class="gradation-linewrap">
@@ -8,8 +8,8 @@
 	<div id="pageheader">
 		<h1><a href="../index"><img src="../images/kic_logo.svg" alt="KICワンダフルのロゴ"></a></h1>
 		<ul>
-			<li class="newlink"><a href="./page/page00"><img src="../images/navi_number_00.svg" alt="00ページへのリンク"></a></li>
-			<li class="futurelink"><a href="#"><img src="../images/navi_number_01.svg" alt="01ページへのリンク"></a></li>
+			<li><a href="./page/page00"><img src="../images/navi_number_00.svg" alt="00ページへのリンク"></a></li>
+			<li class="newlink"><a href="./page/page01"><img src="../images/navi_number_01.svg" alt="01ページへのリンク"></a></li>
 			<li class="futurelink"><a href="#"><img src="../images/navi_number_02.svg" alt="02ページへのリンク"></a></li>
 			<li class="futurelink"><a href="#"><img src="../images/navi_number_03.svg" alt="03ページへのリンク"></a></li>
 			<li class="futurelink"><a href="#"><img src="../images/navi_number_04.svg" alt="04ページへのリンク"></a></li>
@@ -24,8 +24,8 @@
 	</div>
 	<div id="mobileheader" class="displaysp">
 		<ul>
-			<li class="newlink"><a href="./page/page00"><img src="../images/navi_number_00.svg" alt="00ページへのリンク"></a></li>
-			<li class="futurelink"><a href="#"><img src="../images/navi_number_01.svg" alt="01ページへのリンク"></a></li>
+			<li><a href="./page/page00"><img src="../images/navi_number_00.svg" alt="00ページへのリンク"></a></li>
+			<li class="newlink"><a href="./page/page01"><img src="../images/navi_number_01.svg" alt="01ページへのリンク"></a></li>
 			<li class="futurelink"><a href="#"><img src="../images/navi_number_02.svg" alt="02ページへのリンク"></a></li>
 			<li class="futurelink"><a href="#"><img src="../images/navi_number_03.svg" alt="03ページへのリンク"></a></li>
 			<li class="futurelink"><a href="#"><img src="../images/navi_number_04.svg" alt="04ページへのリンク"></a></li>
@@ -41,7 +41,7 @@
 	<div id="pageleftnumber">
 		<img class="animation" src="../images/ae86restoreproject.svg">
 		<img src="../images/restore_kana.svg">
-		<img class="animation" src="../images/00_side.svg">
+		<img class="animation" src="../images/01_side.svg">
 	</div>
 	<div id="slidemenu">
 		<ul>
@@ -60,8 +60,8 @@
 	</div>
 	<div id="pageinnerscroll">
 		<div id="pageright" class="animation">
-			<a href="page00.html">
-				<p class="animation"><img src="../images/prologue.svg" alt="PROLOGUE"><br><span>プロローグ／序章</span></p>
+			<a href="page01.html">
+				<p class="animation"><img src="../images/cardelivery.svg" alt="CARDELIVERY"><br><span>カローラレビン納車</span></p>
 				<div id="pagerightbg"></div>
 			</a>
 		</div>
