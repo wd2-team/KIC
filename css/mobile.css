@@ -110,6 +110,12 @@ button {
 .brsp {
   display: inline-block;
 }
+.displaysp {
+  display: block;
+}
+.nondisplaysp {
+  display: none !important;
+}
 @keyframes fade-in {
   from {
     opacity: 0;
@@ -499,7 +505,7 @@ button {
 #index #topheader h1 {
   position: absolute;
   top: 22px;
-  left: 22px;
+  left: 20px;
   display: none;
 }
 #index #topheader h1 img {
@@ -630,8 +636,8 @@ button {
   display: none;
   position: absolute;
   top: calc(9px + 82px + 63px / 2 + 40px);
-  left: calc(50% - 143px / 2);
-  width: 143px;
+  left: calc(50% - 153px / 2);
+  width: 153px;
   height: 63px;
 }
 #index #topleft.animation {
@@ -751,7 +757,7 @@ header {
 #pageheader h1 {
   position: absolute;
   top: 22px;
-  left: 22px;
+  left: 20px;
 }
 #pageheader h1 img {
   width: 120px;

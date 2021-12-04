@@ -37,11 +37,14 @@ $(function(){
             $('#topright').addClass('active');
         },8000);
         setTimeout(function(){
+            $('#main a.displaysp').fadeIn(1000);
+        },8500);
+        setTimeout(function(){
             $('#topright p').fadeIn();
             $('#topright p').addClass('active');
         },9000);
         setTimeout(function(){
-            $('#main a#mainlink').fadeIn(1000);
+            $('#main a.nondisplaysp').fadeIn(1000);
         },10300);
     });
     btn_topskip.addEventListener("click", (e) => {
