@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="content-language" content="ja">
-	<meta name="description" content="">
+	<meta name="description" content="AE86 LEVIN RESTORE PROJECT｜久留米自動車工科大学校（旧：久留米工業技術専門学校）">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,user-scalable=no">
 	<script
   	src="https://code.jquery.com/jquery-2.2.4.js"
@@ -20,5 +20,5 @@
   	<!-- <link rel="icon" href="#"> -->
   	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/apng-canvas/2.1.1/apng-canvas.min.js"></script>
-	<title>"KICワンダフル</title>
+	<title>AE86 LEVIN RESTORE PROJECT｜久留米自動車工科大学校（旧：久留米工業技術専門学校）</title>
 </head>
