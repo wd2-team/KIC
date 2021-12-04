@@ -53,8 +53,8 @@
 	<div id="mainwrapper">
 		<div id="main">
 			<div id="mainvideowrapper"></div><!-- #mainvideowrapper -->
-			<a id="mainlink" class="nondisplaysp" href="page/page00.php"><source type="image/webp" srcset="images/drive.webp" /><img src="images/drive.png" alt="スクロールを促すマーク" class="apng-image" /></a>
-			<a id="mainlink" class="displaysp" href="page/page00.php"><source type="image/webp" srcset="images/drive.webp" /><img src="images/drive.png" alt="スクロールを促すマーク" class="apng-image" /></a>
+			<a id="mainlink" class="nondisplaysp" href="page/page00"><source type="image/webp" srcset="images/drive.webp" /><img src="images/drive.png" alt="スクロールを促すマーク" class="apng-image" /></a>
+			<a id="mainlink" class="displaysp" href="page/page00"><source type="image/webp" srcset="images/drive.webp" /><img src="images/drive.png" alt="スクロールを促すマーク" class="apng-image" /></a>
 			<div id="mainlogo"><img src="images/gr_garage.svg" alt="GRGarageのロゴ"><img src="images/toyota_collora_white.svg" alt="トヨタカローラ福岡株式会社のロゴ"></div>
 		</div><!-- #main -->
 	</div><!-- #mainwrapper -->
@@ -73,7 +73,7 @@
 		</div><!-- .modal-content -->
 	</div><!-- #.modal -->
 	<div id="topright" class="animation">
-		<a href="page/page00.php">
+		<a href="page/page00">
 			<p class="animation"><img src="images/prologue.svg" alt="PROLOGUE"><br><span>プロローグ／序章</span></p>
 			<div id="toprightbg"></div>
 		</a>
