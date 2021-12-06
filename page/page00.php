@@ -58,7 +58,7 @@
 	<div id="page00back">
 		<video id="topvideo" src="../images/car02.mp4" autoplay muted playsinline></video>
 	</div>
-	<div id="pageinnerscroll">
+	<div id="page00innerscroll">
 		<div id="pageright" class="animation">
 			<a href="page00">
 				<p class="animation"><img src="../images/prologue.svg" alt="PROLOGUE"><br><span>プロローグ／序章</span></p>

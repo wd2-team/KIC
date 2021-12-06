@@ -55,7 +55,7 @@
 		<source type="image/webp" srcset="images/drive.webp" />
 		<img src="../images/drive.png" alt="スクロールを促すマーク" class="apng-image" />
 	</div>
-	<div id="pageinnerscroll">
+	<div id="page01innerscroll">
 		<div id="pageright" class="animation">
 			<a href="page01">
 				<p class="animation"><img src="../images/cardelivery.svg" alt="CARDELIVERY"><br><span>カローラレビン納車</span></p>

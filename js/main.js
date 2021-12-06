@@ -80,8 +80,8 @@ $('.js-modal-close').on('click', function(){
 });
 
 // スクロールで表示
-var box = document.getElementById( 'pageinnerscroll' );
-box.onscroll = function(){
+var page00innerscroll = document.getElementById( 'page00innerscroll' );
+page00innerscroll.onscroll = function(){
     $(".page00innerscroll-p").each(function() {
         var scroll = $(window).scrollTop();
         var blockPosition = $(this).offset().top;
@@ -141,12 +141,12 @@ $(window).on('load', function(){
         $('#slidemenu').css('margin-right', '50px');
     },3800);
     setTimeout(function(){
-        $('#pageinnerscroll #pageright').fadeIn();
-        $('#pageinnerscroll #pageright').addClass('active');
+        $('#page00innerscroll #pageright').fadeIn();
+        $('#page00innerscroll #pageright').addClass('active');
     },4400);
     setTimeout(function(){
-        $('#pageinnerscroll #pageright p').fadeIn();
-        $('#pageinnerscroll #pageright p').addClass('active');
+        $('#page00innerscroll #pageright p').fadeIn();
+        $('#page00innerscroll #pageright p').addClass('active');
     },5400);
     setTimeout(function(){
         $('#pagescroll').fadeIn();

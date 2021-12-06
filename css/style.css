@@ -806,65 +806,6 @@ header {
 #pagescroll img {
   width: 43px;
 }
-#pageinnerscroll {
-  height: 100vh;
-  position: absolute;
-  overflow-y: scroll;
-  width: 100%;
-  top: 0;
-}
-#pageinnerscroll #pageright {
-  position: absolute;
-  top: calc(100vh - 260px);
-  right: 120px;
-  width: 250px;
-  height: 209px;
-  display: none;
-}
-
-#pageinnerscroll #pageright.animation {
-  transform: translateY(calc(30px));
-}
-#pageinnerscroll #pageright.active {
-  transform: translateY(0);
-}
-#pageinnerscroll #pageright a {
-  pointer-events: none;
-  width: 100%;
-  height: 100%;
-  display: block;
-}
-#pageinnerscroll #pageright a p {
-  font-size: 24px;
-  position: relative;
-  top: 50%;
-  display: none;
-}
-#pageinnerscroll #pageright a p.animation {
-  transform: translateY(calc(-50% + 30px));
-}
-#pageinnerscroll #pageright a p.active {
-  transform: translateY(-50%);
-}
-#pageinnerscroll #pageright a p img {
-  width: 160px;
-}
-#pageinnerscroll #pageright a p span {
-  font-size: 14px;
-  letter-spacing: 0.3em;
-}
-#pageinnerscroll #pageright a #pagerightbg {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-image: url('../images/00.svg');
-  background-size: contain;
-  background-position: center center;
-  background-repeat: no-repeat;
-  opacity: 0.5;
-}
 
 /* page00 */
 #page00 {
@@ -878,6 +819,64 @@ header {
 }
 #page00back video {
   width: 100%;
+}
+#page00innerscroll {
+  height: 100vh;
+  position: absolute;
+  overflow-y: scroll;
+  width: 100%;
+  top: 0;
+}
+#page00innerscroll #pageright {
+  position: absolute;
+  top: calc(100vh - 260px);
+  right: 120px;
+  width: 250px;
+  height: 209px;
+  display: none;
+}
+#page00innerscroll #pageright.animation {
+  transform: translateY(calc(30px));
+}
+#page00innerscroll #pageright.active {
+  transform: translateY(0);
+}
+#page00innerscroll #pageright a {
+  pointer-events: none;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+#page00innerscroll #pageright a p {
+  font-size: 24px;
+  position: relative;
+  top: 50%;
+  display: none;
+}
+#page00innerscroll #pageright a p.animation {
+  transform: translateY(calc(-50% + 30px));
+}
+#page00innerscroll #pageright a p.active {
+  transform: translateY(-50%);
+}
+#page00innerscroll #pageright a p img {
+  width: 160px;
+}
+#page00innerscroll #pageright a p span {
+  font-size: 14px;
+  letter-spacing: 0.3em;
+}
+#page00innerscroll #pageright a #pagerightbg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url('../images/00.svg');
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  opacity: 0.5;
 }
 #page00innerscroll-pall {
   padding-top: 100vh;
@@ -974,7 +973,7 @@ header {
 }
 
 /* page01 */
-#page01 #pageinnerscroll #pageright a #pagerightbg {
+#page01 #page00innerscroll #pageright a #pagerightbg {
   background-image: url('../images/01.svg');
 }
 #page01innerscroll-pall {
