@@ -973,8 +973,66 @@ header {
 }
 
 /* page01 */
-#page01 #page00innerscroll #pageright a #pagerightbg {
+#page01 {
+  overflow-y: hidden;
+}
+#page01innerscroll {
+  height: 100vh;
+  position: absolute;
+  overflow-y: scroll;
+  width: 100%;
+  top: 0;
+}
+#page01innerscroll #pageright {
+  position: absolute;
+  top: calc(100vh - 260px);
+  right: 120px;
+  width: 250px;
+  height: 209px;
+  display: none;
+}
+#page01innerscroll #pageright.animation {
+  transform: translateY(calc(30px));
+}
+#page01innerscroll #pageright.active {
+  transform: translateY(0);
+}
+#page01innerscroll #pageright a {
+  pointer-events: none;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+#page01innerscroll #pageright a p {
+  font-size: 24px;
+  position: relative;
+  top: 50%;
+  display: none;
+}
+#page01innerscroll #pageright a p.animation {
+  transform: translateY(calc(-50% + 30px));
+}
+#page01innerscroll #pageright a p.active {
+  transform: translateY(-50%);
+}
+#page01innerscroll #pageright a p img {
+  width: 160px;
+}
+#page01innerscroll #pageright a p span {
+  font-size: 14px;
+  letter-spacing: 0.3em;
+}
+#page01innerscroll #pageright a #pagerightbg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
   background-image: url('../images/01.svg');
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  opacity: 0.5;
 }
 #page01innerscroll-pall {
   padding-top: 100vh;
@@ -982,4 +1040,24 @@ header {
   width: 1050px;
   margin: 0 auto;
   text-align: left;
+}
+#page01innerscroll-p01,
+#page01innerscroll-p02,
+#page01innerscroll-p03,
+#page01innerscroll-p04,
+#page01innerscroll-p05 {
+  opacity: 0;
+}
+#page01innerscroll-p01 {
+  font-size: 68px;
+  line-height: 110px;
+  margin-bottom: 170px;
+}
+#page01innerscroll-p02,
+#page01innerscroll-p03,
+#page01innerscroll-p04,
+#page01innerscroll-p05 {
+  font-size: 30px;
+  line-height: 80px;
+  margin-bottom: 70px;
 }
