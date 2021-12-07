@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="content-language" content="ja">
-	<meta name="description" content="AE86 LEVIN RESTORE PROJECT｜久留米自動車工科大学校（旧：久留米工業技術専門学校）">
+	<meta name="description" content="昭和の名車AE86レビンを復活させる！久留米自動車工科大学校（KIC）の学生たちとトヨタカローラ福岡のプロエンジニアが技術と感性を駆使し、果敢に挑む産学協同プロジェクト。">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,user-scalable=no">
 	<script
   	src="https://code.jquery.com/jquery-2.2.4.js"
