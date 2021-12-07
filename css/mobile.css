@@ -461,6 +461,199 @@ button {
   opacity: 0.3;
 }
 
+/* menu */
+#g-nav.panelactive {
+  position:fixed;
+  z-index: 999;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+}
+.circle-bg {
+  position: fixed;
+  z-index: 3;
+  width: 100px;
+  height: 100vh;
+  background: linear-gradient(90deg, #FFDE53 43%, #FF8900 50%);
+  transform: scaleX(0);
+  right: -50px;
+  top: calc(50% - 50vh);
+  transition: all 1s;
+}
+.circle-bg.circleactive {
+  transform: scale(50);
+}
+/*ナビゲーション*/
+#g-nav {
+  position: absolute;
+}
+#g-nav #navlist {
+  opacity: 0;
+  width: 250px;
+  margin-left: 317px;
+  margin-top: 117px;
+  text-align: right;
+}
+#g-nav.panelactive #navlist {
+  opacity: 1;
+}
+#g-nav.panelactive #navlist li {
+  animation-name: gnaviAnime;
+  animation-duration: 1s;
+  animation-delay: .2s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  margin-bottom: 46px;
+}
+@keyframes gnaviAnime {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#g-nav #navlist li a {
+  color: #000000;
+  display: block;
+  font-size: 22px;
+}
+#g-nav #navlist li a span {
+  font-size: 16px;
+}
+.openbtn1{
+  position:fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 9999;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  background-image: url('../images/samplemenu.png');
+  background-size: contain;
+  display: none;
+}
+.openbtn1.active {
+  background-image: url('../images/samplemenuclose.png');
+}
+#navleftnumber {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  opacity: 0;
+}
+#navleftnumber.panelactive {
+  opacity: 1;
+}
+#navleftnumber img {
+  animation-name: gnaviAnime;
+  animation-duration: 1s;
+  animation-delay: .2s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  position: relative;
+  height: 480px;
+  display: none;
+}
+#navleftnumber img:first-child {
+  left: 0;
+  width: 52px;
+}
+#navleftnumber img:nth-child(2) {
+  left: 10px;
+  width: 16px;
+  /* display: inline-block; */
+}
+#navlogowrapper {
+  position: absolute;
+  bottom: 89px;
+  width: 100%;
+  height: 105px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #000000;
+  animation-name: gnaviAnime;
+  animation-duration: 1s;
+  animation-delay: .2s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  display: none;
+}
+#navlogo {
+  opacity: 0;
+}
+#navlogo.panelactive {
+  opacity: 1;
+}
+#navlogo img {
+  /* animation-name: gnaviAnime;
+  animation-duration: 1s;
+  animation-delay: .2s;
+  animation-fill-mode: forwards;
+  opacity: 0; */
+  margin-top: 36px;
+  /* display: none; */
+}
+#navlogo img:first-child {
+  height: 33px;
+  margin-right: 45px;
+}
+#navlogo img:nth-child(2) {
+  height: 16px;
+  margin-bottom: 7px;
+  margin-left: 45px;
+}
+#navleft {
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  opacity: 0;
+}
+#navleft.panelactive {
+  opacity: 1;
+}
+#navleft a {
+  animation-name: gnaviAnime;
+  animation-duration: 1s;
+  animation-delay: .2s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  display: none;
+}
+#navleft img {
+  margin-bottom: 20px;
+  margin-left: 45px;
+  width: 236px;
+}
+#navright {
+  margin-bottom: 27px;
+  margin-right: 27px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  opacity: 0;
+}
+#navright.panelactive {
+  opacity: 1;
+}
+#navright li {
+  display: inline-block;
+  width: 24px;
+  margin: 0 15px;
+  animation-name: gnaviAnime;
+  animation-duration: 1s;
+  animation-delay: .2s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  display: none;
+}
+#navright li a i {
+  font-size: 24px;
+  color: #000000;
+}
+
 /* index */
 #index {
   overflow-y: hidden;
