@@ -332,7 +332,7 @@ button {
   }
 }
 .gradation-line {
-  background: linear-gradient(90deg, #FFCE00 20%, #FF7600 45%);
+  background: linear-gradient(90deg, #FFCE00 20%, #FF7600 60%);
 }
 
 /* モーダル */
@@ -344,7 +344,7 @@ button {
   height: 100%;
   width: 100%;
   text-align: center;
-  background: linear-gradient(90deg, #FFCE00 20%, #FF7600 45%);
+  background: linear-gradient(90deg, #FFCE00 40%, #FF7600 50%);
   z-index: 100;
 }
 .modal-bg{
@@ -479,14 +479,14 @@ button {
   z-index: 999;
   top: 0;
   width: 100%;
-  height: 100vh;
+  height: 100%;
 }
 .circle-bg {
   position: fixed;
   z-index: 3;
   width: 100px;
   height: 100vh;
-  background: linear-gradient(90deg, #FFCE00 20%, #FF7600 45%);
+  background: linear-gradient(90deg, #FFCE00 40%, #FF7600 50%);
   transform: scaleX(0);
   right: -50px;
   top: calc(50% - 50vh);
@@ -1084,7 +1084,7 @@ header {
   right: -50px;
   width: 50px;
   height: 220px;
-  background: linear-gradient(180deg, #FFCE00 20%, #FF7600 45%);
+  background: linear-gradient(180deg, #FFCE00 20%, #FF7600 60%);
   transition: 1s;
   z-index: 1;
   display: none;
