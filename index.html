@@ -128,31 +128,13 @@
 <div id="filter"></div><!-- #filter -->
 <script type="text/javascript">
 	$(window).on('load', function(){
-		var ua = navigator.userAgent;
-	    if(
-	        ((ua.indexOf('iphone') > 0) && (ua.indexOf('ipad') == -1)) ||
-	        (ua.indexOf('ipod') > 0) ||
-	        ((ua.indexOf('android') > 0) && (ua.indexOf('mobi') > 0)) ||
-	        ((ua.indexOf('windows') > 0) && (ua.indexOf('phone') > 0)) ||
-	        ((ua.indexOf('firefox') > 0) && (ua.indexOf('mobi') > 0)) ||
-	        (ua.indexOf('nexus 4') > 0) ||
-	        (ua.indexOf('nexus 5') > 0) ||
-	        (ua.indexOf('nexus 6') > 0) ||
-	        (ua.indexOf('blackBerry') > 0)
-	    ){
+		// ユーザーエージェント
+	    if (navigator.userAgent.indexOf('iPhone') > 0 || navigator.userAgent.indexOf('Android') > 0 && navigator.userAgent.indexOf('Mobile') > 0) {
 	        $('#css_link').attr("href", "css/mobile.css");
-	    } else if(
-	        (ua.indexOf('ipad') > 0) ||
-	        ((ua.indexOf('android') > 0) && (ua.indexOf('tablet') > 0)) ||
-	        ((ua.indexOf('windows') > 0) && (ua.indexOf('touch') > 0)) ||
-	        ((ua.indexOf('firefox') > 0) && (ua.indexOf('tablet') > 0)) ||
-	        (ua.indexOf('nexus 7') > 0) ||
-	        (ua.indexOf('nexus 9') > 0) ||
-	        (ua.indexOf('nexus 10') > 0) ||
-	        (ua.indexOf('kindle') > 0) ||
-	        (ua.indexOf('silk') > 0)
-	    ){
+	    } else if (navigator.userAgent.indexOf('iPad') > 0 || navigator.userAgent.indexOf('Android') > 0) {
 	        $('#css_link').attr("href", "css/tablet.css");
+	    } else {
+	        $('#css_link').attr("href", "css/style.css");
 	    }
 	});
 </script>
