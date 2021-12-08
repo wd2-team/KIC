@@ -498,12 +498,15 @@ button {
 /*ナビゲーション*/
 #g-nav {
   position: absolute;
+  overflow: hidden;
+  width: 0;
+  height: 0;
 }
 #g-nav #navlist {
   opacity: 0;
   width: 198px;
   margin-left: calc(50% - 30px);
-  margin-top: 60vh;
+  margin-top: 42vh;
   text-align: right;
 }
 #g-nav.panelactive #navlist {

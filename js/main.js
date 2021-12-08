@@ -92,7 +92,7 @@ $(".openbtn1").click(function () {
     $("#navleft").toggleClass('panelactive');
     $('#navleft a').fadeToggle();
     $("#navright").toggleClass('panelactive');
-    $('#navright li').fadeToggle().css('display','inline-block');;
+    $('#navright li').fadeToggle().css('display','inline-block');
     $(".circle-bg").toggleClass('circleactive');
 });
 
@@ -100,9 +100,13 @@ $("#g-nav a").click(function () {
     $(".openbtn1").removeClass('active');
     $("#g-nav").removeClass('panelactive');
     $("#navleftnumber").removeClass('panelactive');
+    $('#navleftnumber img').fadeToggle();
     $("#navlogo").removeClass('panelactive');
+    $('#navlogowrapper').fadeToggle();
     $("#navleft").removeClass('panelactive');
+    $('#navleft a').fadeToggle();
     $("#navright").removeClass('panelactive');
+    $('#navright li').fadeToggle().css('display','inline-block');
     $(".circle-bg").removeClass('circleactive');
 });
 
