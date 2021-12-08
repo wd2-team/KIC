@@ -486,7 +486,7 @@ button {
   z-index: 3;
   width: 100px;
   height: 100vh;
-  background: linear-gradient(90deg, #FFDE53 43%, #FF8900 50%);
+  background: linear-gradient(90deg, #FFCE00 20%, #FF7600 45%);
   transform: scaleX(0);
   right: -50px;
   top: calc(50% - 50vh);
@@ -501,8 +501,8 @@ button {
 }
 #g-nav #navlist {
   opacity: 0;
-  width: 168px;
-  margin-left: 50%;
+  width: 198px;
+  margin-left: calc(50% - 30px);
   margin-top: 60vh;
   text-align: right;
 }
@@ -529,9 +529,13 @@ button {
   color: #000000;
   display: block;
   font-size: 15px;
+  font-weight: bold;
+  line-height: 17px;
+  letter-spacing: 0.03em;
 }
 #g-nav #navlist li a span {
   font-size: 11px;
+  font-weight: normal;
 }
 .openbtn1{
   position:fixed;
