@@ -89,7 +89,7 @@
 		<div class="clear"></div>
 		<div class="gradation-line"></div>
 	</footer>
-	<div id="mobileheader" class="displaysp">
+	<div id="mobiletopheader" class="displaysp">
 		<ul>
 			<li class="newlink"><a href="page/page00"><img src="images/navi_number_00.svg" alt="00ページへのリンク"></a></li>
 			<li class="futurelink"><a href="#"><img src="images/navi_number_01.svg" alt="01ページへのリンク"></a></li>
@@ -105,6 +105,28 @@
 			<li class="futurelink"><a href="#"><img src="images/navi_number_GO.svg" alt="GOページへのリンク"></a></li>
 		</ul>
 	</div><!-- #mobileheader -->
+	<div class="openbtn1"></div>
+	<nav id="g-nav">
+		<ul id="navlist">
+			<li><a href="#">RESTORE PROJECT<br><span>レストアプロジェクトについて</span></a></li>
+			<li><a href="#">CONTACT US<br><span>お問い合わせ</span></a></li>
+		</ul>
+		<div id="navleftnumber">
+			<img src="../images/ae86restoreproject_menu.svg">
+			<img src="../images/restore_kana_menu.svg">
+		</div>
+		<div id="navlogowrapper">
+			<div id="navlogo"><img src="images/gr_garage.svg" alt="GRGarageのロゴ"><img src="images/toyota_collora_white.svg" alt="トヨタカローラ福岡株式会社のロゴ"></div>
+		</div>
+		<div id="navleft"><a href="https://www.kic-car.ac.jp/"><img src="images/kurume_industrial_college_logo.svg" alt="久留米自動車工科大学校のロゴ"></a></div>
+		<ul id="navright">
+			<li><a href="https://www.instagram.com/kurume_industrial_college/"><img src="images/sns_instagram.svg" alt="instagramへのリンク"></a></li>
+			<li><a href="https://page.line.me/kic-car"><img src="images/sns_line.svg" alt="lineへのリンク"></a></li>
+			<li><a href="https://twitter.com/kic_car"><img src="images/sns_twitter.svg" alt="twitterへのリンク"></a></li>
+			<li><a href="https://www.youtube.com/channel/UC0Ge2DKsUJFaxYJQjj1S8lw/featured"><img src="images/sns_youtube.svg" alt="youtubeへのリンク"></a></li>
+		</ul>
+	</nav>
+	<div class="circle-bg"></div>
 </div><!-- #wrapper -->
 <div id="filter"></div><!-- #filter -->
 <script type="text/javascript" src="js/main.js"></script>

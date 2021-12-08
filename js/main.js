@@ -23,10 +23,11 @@ $(function(){
         setTimeout(function(){
             $('#topheader h1').fadeIn(1000);
             $('#topheader ul').fadeIn(1000);
-            $('#mobileheader ul').fadeIn(1000);
+            $('#mobiletopheader ul').fadeIn(1000);
             $('#mainlogo').fadeIn(1000);
             $('#footerleft').fadeIn(1000);
             $('#footerright').fadeIn(1000);
+            $('.openbtn1').fadeIn(1000);
         },6000);
         setTimeout(function(){
             $('#topleft').fadeIn();
@@ -77,6 +78,30 @@ $('.js-modal-close').on('click', function(){
     $('body,html').stop().animate({scrollTop:winScrollTop}, 100);
     $('.js-modal').fadeOut();
     return false;
+});
+
+$(".openbtn1").click(function () {
+    $(this).toggleClass('active');
+    $("#g-nav").toggleClass('panelactive');
+    $("#navleftnumber").toggleClass('panelactive');
+    $('#navleftnumber img').fadeToggle();
+    $("#navlogo").toggleClass('panelactive');
+    $('#navlogowrapper').fadeToggle();
+    $("#navleft").toggleClass('panelactive');
+    $('#navleft a').fadeToggle();
+    $("#navright").toggleClass('panelactive');
+    $('#navright li').fadeToggle().css('display','inline-block');;
+    $(".circle-bg").toggleClass('circleactive');
+});
+
+$("#g-nav a").click(function () {
+    $(".openbtn1").removeClass('active');
+    $("#g-nav").removeClass('panelactive');
+    $("#navleftnumber").removeClass('panelactive');
+    $("#navlogo").removeClass('panelactive');
+    $("#navleft").removeClass('panelactive');
+    $("#navright").removeClass('panelactive');
+    $(".circle-bg").removeClass('circleactive');
 });
 
 // ロード
