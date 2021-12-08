@@ -393,6 +393,7 @@ button {
 }
 
 /* mobileheader */
+#mobiletopheader ul,
 #mobileheader ul {
   letter-spacing: -.4em;
   position: absolute;
@@ -403,6 +404,7 @@ button {
   z-index: 1;
   /* height: calc(100vh - (9px + 58px + 82px * 2)); */
 }
+#mobiletopheader ul li,
 #mobileheader ul li {
   display: inline-block;
   letter-spacing: normal;
@@ -410,12 +412,15 @@ button {
   margin: 8px 16px;
 
 }
+#mobiletopheader ul li:first-child,
 #mobileheader ul li:first-child {
   margin-top: 0;
 }
+#mobiletopheader ul li:last-child,
 #mobileheader ul li:last-child {
   margin-left: 8px;
 }
+#mobiletopheader ul li.newlink:before,
 #mobileheader ul li.newlink:before {
   content: '';
   display: inline-block;
@@ -428,13 +433,16 @@ button {
   padding-bottom: 3px;
   margin-left: -2px;
 }
+#mobiletopheader ul li a,
 #mobileheader ul li a {
   position: relative;
   padding-bottom: 3px;
 }
+#mobiletopheader ul li.futurelink a,
 #mobileheader ul li.futurelink a {
   pointer-events: none;
 }
+#mobiletopheader ul li a::after,
 #mobileheader ul li a::after {
   position: absolute;
   bottom: -8px;
@@ -446,17 +454,21 @@ button {
   visibility: hidden;
   transition: .3s;
 }
+#mobiletopheader ul li:first-child a::after,
 #mobileheader ul li:first-child a::after {
   background: #FFDE53;
 }
+#mobiletopheader ul li a:hover::after,
 #mobileheader ul li a:hover::after {
   bottom: -4px;
   opacity: 1;
   visibility: visible;
 }
+#mobiletopheader ul li a img,
 #mobileheader ul li a img {
   height: 12px;
 }
+#mobiletopheader ul li.futurelink a img,
 #mobileheader ul li.futurelink a img {
   opacity: 0.3;
 }
@@ -489,9 +501,9 @@ button {
 }
 #g-nav #navlist {
   opacity: 0;
-  width: 250px;
-  margin-left: 317px;
-  margin-top: 117px;
+  width: 168px;
+  margin-left: 50%;
+  margin-top: 60vh;
   text-align: right;
 }
 #g-nav.panelactive #navlist {
@@ -503,7 +515,7 @@ button {
   animation-delay: .2s;
   animation-fill-mode: forwards;
   opacity: 0;
-  margin-bottom: 46px;
+  margin-bottom: 30px;
 }
 @keyframes gnaviAnime {
   0% {
@@ -516,10 +528,10 @@ button {
 #g-nav #navlist li a {
   color: #000000;
   display: block;
-  font-size: 22px;
+  font-size: 15px;
 }
 #g-nav #navlist li a span {
-  font-size: 16px;
+  font-size: 11px;
 }
 .openbtn1{
   position:fixed;
@@ -538,7 +550,7 @@ button {
 }
 #navleftnumber {
   position: absolute;
-  top: 50%;
+  top: calc(50% - (58px + 55px) / 2);
   transform: translateY(-50%);
   z-index: 1;
   opacity: 0;
@@ -558,18 +570,18 @@ button {
 }
 #navleftnumber img:first-child {
   left: 0;
-  width: 52px;
+  width: 50px;
 }
 #navleftnumber img:nth-child(2) {
   left: 10px;
-  width: 16px;
+  width: 12px;
   /* display: inline-block; */
 }
 #navlogowrapper {
   position: absolute;
-  bottom: 89px;
+  bottom: 58px;
   width: 100%;
-  height: 105px;
+  height: 55px;
   left: 50%;
   transform: translateX(-50%);
   background-color: #000000;
@@ -592,17 +604,17 @@ button {
   animation-delay: .2s;
   animation-fill-mode: forwards;
   opacity: 0; */
-  margin-top: 36px;
+  margin-top: 17px;
   /* display: none; */
 }
 #navlogo img:first-child {
-  height: 33px;
-  margin-right: 45px;
+  height: 16px;
+  margin-right: 10px;
 }
 #navlogo img:nth-child(2) {
-  height: 16px;
-  margin-bottom: 7px;
-  margin-left: 45px;
+  height: 8px;
+  margin-bottom: 4px;
+  margin-left: 10px;
 }
 #navleft {
   position: absolute;
@@ -622,13 +634,13 @@ button {
   display: none;
 }
 #navleft img {
-  margin-bottom: 20px;
-  margin-left: 45px;
-  width: 236px;
+  margin-bottom: 6px;
+  margin-left: 16px;
+  width: 159px;
 }
 #navright {
-  margin-bottom: 27px;
-  margin-right: 27px;
+  margin-bottom: 13px;
+  margin-right: 19px;
   position: absolute;
   bottom: 0;
   right: 0;
@@ -640,8 +652,8 @@ button {
 }
 #navright li {
   display: inline-block;
-  width: 24px;
-  margin: 0 15px;
+  width: 20px;
+  margin: 0 6px;
   animation-name: gnaviAnime;
   animation-duration: 1s;
   animation-delay: .2s;

@@ -23,7 +23,7 @@ $(function(){
         setTimeout(function(){
             $('#topheader h1').fadeIn(1000);
             $('#topheader ul').fadeIn(1000);
-            $('#mobileheader ul').fadeIn(1000);
+            $('#mobiletopheader ul').fadeIn(1000);
             $('#mainlogo').fadeIn(1000);
             $('#footerleft').fadeIn(1000);
             $('#footerright').fadeIn(1000);

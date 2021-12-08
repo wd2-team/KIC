@@ -89,7 +89,7 @@
 		<div class="clear"></div>
 		<div class="gradation-line"></div>
 	</footer>
-	<div id="mobileheader" class="displaysp">
+	<div id="mobiletopheader" class="displaysp">
 		<ul>
 			<li class="newlink"><a href="page/page00"><img src="images/navi_number_00.svg" alt="00ページへのリンク"></a></li>
 			<li class="futurelink"><a href="#"><img src="images/navi_number_01.svg" alt="01ページへのリンク"></a></li>
@@ -112,8 +112,8 @@
 			<li><a href="#">CONTACT US<br><span>お問い合わせ</span></a></li>
 		</ul>
 		<div id="navleftnumber">
-			<img src="../images/ae86restoreproject.svg">
-			<img src="../images/restore_kana.svg">
+			<img src="../images/ae86restoreproject_menu.svg">
+			<img src="../images/restore_kana_menu.svg">
 		</div>
 		<div id="navlogowrapper">
 			<div id="navlogo"><img src="images/gr_garage.svg" alt="GRGarageのロゴ"><img src="images/toyota_collora_white.svg" alt="トヨタカローラ福岡株式会社のロゴ"></div>
