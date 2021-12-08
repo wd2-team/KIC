@@ -108,8 +108,9 @@
 	<div class="openbtn1"></div>
 	<nav id="g-nav">
 		<ul id="navlist">
-			<li><a href="#">RESTORE PROJECT<br><span>レストアプロジェクトについて</span></a></li>
-			<li><a href="#">CONTACT US<br><span>お問い合わせ</span></a></li>
+			<li><a href="https://www.kic-car.ac.jp/school/">KIC OFFICIAL WEB SITE<br><span>KIC公式サイト</span></a></li>
+			<li><a href="https://www.kic-car.ac.jp/school/project-r/index">PROJECT R<br><span>プロジェクトR</span></a></li>
+			<li><a href="https://www.kic-car.ac.jp/school/request/index_contact/">CONTACT US<br><span>お問い合わせ</span></a></li>
 		</ul>
 		<div id="navleftnumber">
 			<img src="../images/ae86restoreproject_menu.svg">
