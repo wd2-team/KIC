@@ -27,7 +27,7 @@ $(function(){
             $('#mainlogo').fadeIn(1000);
             $('#footerleft').fadeIn(1000);
             $('#footerright').fadeIn(1000);
-            $('.openbtn1').fadeIn(1000);
+            $('#topopenbtn').fadeIn(1000);
         },6000);
         setTimeout(function(){
             $('#topleft').fadeIn();
@@ -71,18 +71,19 @@ $('.js-modal-open').on('click', function(){
     var modal = document.getElementById(target);
     winScrollTop = $(window).scrollTop();
     $(modal).fadeIn();
-    $('.openbtn1').fadeOut();
+    $('#topopenbtn').fadeOut();
     return false;
 });
 // モーダルウィンドウを閉じる
 $('.js-modal-close').on('click', function(){
     $('body,html').stop().animate({scrollTop:winScrollTop}, 100);
     $('.js-modal').fadeOut();
-    $('.openbtn1').fadeIn();
+    $('#topopenbtn').fadeIn();
     return false;
 });
 
-$(".openbtn1").click(function () {
+// menu
+$("#topopenbtn").click(function () {
     $(this).toggleClass('active');
     $("#g-nav").toggleClass('panelactive');
     $("#navleftnumber").toggleClass('panelactive');
@@ -95,9 +96,22 @@ $(".openbtn1").click(function () {
     $('#navright li').fadeToggle().css('display','inline-block');
     $(".circle-bg").toggleClass('circleactive');
 });
-
+$("#openbtn").click(function () {
+    $(this).toggleClass('active');
+    $("#g-nav").toggleClass('panelactive');
+    $("#navleftnumber").toggleClass('panelactive');
+    $('#navleftnumber img').fadeToggle();
+    $("#navlogo").toggleClass('panelactive');
+    $('#navlogowrapper').fadeToggle();
+    $("#navleft").toggleClass('panelactive');
+    $('#navleft a').fadeToggle();
+    $("#navright").toggleClass('panelactive');
+    $('#navright li').fadeToggle().css('display','inline-block');
+    $(".circle-bg").toggleClass('circleactive');
+});
 $("#g-nav a").click(function () {
-    $(".openbtn1").removeClass('active');
+    $("#topopenbtn").removeClass('active');
+    $("#openbtn").removeClass('active');
     $("#g-nav").removeClass('panelactive');
     $("#navleftnumber").removeClass('panelactive');
     $('#navleftnumber img').fadeToggle();
@@ -132,6 +146,7 @@ $(window).on('load', function(){
     setTimeout(function(){
         $('#pageheader').fadeIn(1000);
         $('#mobileheader ul').fadeIn(1000);
+        $('#openbtn').fadeIn(1000);
         $('#slidemenu').css('margin-right', '50px');
     },3800);
     setTimeout(function(){

@@ -93,4 +93,27 @@
 		<div id="blacksheer"></div>
 	</div>
 	<footer></footer>
+	<div id="openbtn"></div>
+	<nav id="g-nav">
+		<ul id="navlist">
+			<li><a href="https://www.kic-car.ac.jp/school/">KIC OFFICIAL WEB SITE<br><span>KIC公式サイト</span></a></li>
+			<li><a href="https://www.kic-car.ac.jp/school/project-r/index">PROJECT R<br><span>プロジェクトR</span></a></li>
+			<li><a href="https://www.kic-car.ac.jp/school/request/index_contact/">CONTACT US<br><span>お問い合わせ</span></a></li>
+		</ul>
+		<div id="navleftnumber">
+			<img src="../images/ae86restoreproject_menu.svg">
+			<img src="../images/restore_kana_menu.svg">
+		</div>
+		<div id="navlogowrapper">
+			<div id="navlogo"><img src="../images/gr_garage.svg" alt="GRGarageのロゴ"><img src="../images/toyota_collora_white.svg" alt="トヨタカローラ福岡株式会社のロゴ"></div>
+		</div>
+		<div id="navleft"><a href="https://www.kic-car.ac.jp/"><img src="../images/kurume_industrial_college_logo.svg" alt="久留米自動車工科大学校のロゴ"></a></div>
+		<ul id="navright">
+			<li><a href="https://www.instagram.com/kurume_industrial_college/"><img src="../images/sns_instagram.svg" alt="instagramへのリンク"></a></li>
+			<li><a href="https://page.line.me/kic-car"><img src="../images/sns_line.svg" alt="lineへのリンク"></a></li>
+			<li><a href="https://twitter.com/kic_car"><img src="../images/sns_twitter.svg" alt="twitterへのリンク"></a></li>
+			<li><a href="https://www.youtube.com/channel/UC0Ge2DKsUJFaxYJQjj1S8lw/featured"><img src="../images/sns_youtube.svg" alt="youtubeへのリンク"></a></li>
+		</ul>
+	</nav>
+	<div class="circle-bg"></div>
 	<?php include("../_inc/footer.php"); ?>

@@ -105,7 +105,7 @@
 			<li class="futurelink"><a href="#"><img src="images/navi_number_GO.svg" alt="GOページへのリンク"></a></li>
 		</ul>
 	</div><!-- #mobileheader -->
-	<div class="openbtn1"></div>
+	<div id="topopenbtn"></div>
 	<nav id="g-nav">
 		<ul id="navlist">
 			<li><a href="https://www.kic-car.ac.jp/school/">KIC OFFICIAL WEB SITE<br><span>KIC公式サイト</span></a></li>

@@ -449,7 +449,8 @@ button {
   font-weight: normal;
   letter-spacing: 0.05em;
 }
-.openbtn1{
+#topopenbtn,
+#openbtn {
   position:fixed;
   top: 44px;
   right: 46px;
@@ -462,7 +463,8 @@ button {
   background-repeat: no-repeat;
   display: none;
 }
-.openbtn1.active {
+#topopenbtn.active,
+#openbtn.active {
   background-image: url('../images/menu_close.svg');
 }
 #navleftnumber {
