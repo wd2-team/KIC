@@ -113,8 +113,8 @@
 			<li><a href="https://www.kic-car.ac.jp/school/request/index_contact/">CONTACT US<br><span>お問い合わせ</span></a></li>
 		</ul>
 		<div id="navleftnumber">
-			<img src="../images/ae86restoreproject_menu.svg">
-			<img src="../images/restore_kana_menu.svg">
+			<img src="images/ae86restoreproject_menu.svg">
+			<img src="images/restore_kana_menu.svg">
 		</div>
 		<div id="navlogowrapper">
 			<div id="navlogo"><img src="images/gr_garage.svg" alt="GRGarageのロゴ"><img src="images/toyota_collora_white.svg" alt="トヨタカローラ福岡株式会社のロゴ"></div>
