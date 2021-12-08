@@ -71,12 +71,14 @@ $('.js-modal-open').on('click', function(){
     var modal = document.getElementById(target);
     winScrollTop = $(window).scrollTop();
     $(modal).fadeIn();
+    $('.openbtn1').fadeOut();
     return false;
 });
 // モーダルウィンドウを閉じる
 $('.js-modal-close').on('click', function(){
     $('body,html').stop().animate({scrollTop:winScrollTop}, 100);
     $('.js-modal').fadeOut();
+    $('.openbtn1').fadeIn();
     return false;
 });
 
