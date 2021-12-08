@@ -126,6 +126,15 @@ $("#g-nav a").click(function () {
 
 // ロード
 $(window).on('load', function(){
+    // ユーザーエージェント
+    if (navigator.userAgent.indexOf('iPhone') > 0 || navigator.userAgent.indexOf('Android') > 0 && navigator.userAgent.indexOf('Mobile') > 0) {
+        $('#css_link').attr("href", "css/mobile.css");
+    } else if (navigator.userAgent.indexOf('iPad') > 0 || navigator.userAgent.indexOf('Android') > 0) {
+        $('#css_link').attr("href", "css/tablet.css");
+    } else {
+        $('#css_link').attr("href", "css/style.css");
+    }
+
     $('#page00').css('pointer-events', 'none');
     $('#page01').css('pointer-events', 'none');
     $('#pageheaderline').fadeIn();
