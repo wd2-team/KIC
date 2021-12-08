@@ -977,7 +977,7 @@ header {
   right: -50px;
   width: 50px;
   height: 220px;
-  background: linear-gradient(180deg, #FFCE00 20%, #FF7600 45%);
+  background: linear-gradient(180deg, #FFCE00 10%, #FF7600 70%);
   transition: 1s;
   z-index: 1;
 }
