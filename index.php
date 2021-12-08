@@ -17,7 +17,7 @@
     <?php else: ?>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <?php endif; ?>
-  	<!-- <link rel="icon" href="#"> -->
+  	<link rel="icon" href="images/kic-fav.png">
   	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/apng-canvas/2.1.1/apng-canvas.min.js"></script>
 	<title>AE86 LEVIN RESTORE PROJECT｜久留米自動車工科大学校（旧：久留米工業技術専門学校）</title>

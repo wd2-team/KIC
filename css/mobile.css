@@ -332,7 +332,7 @@ button {
   }
 }
 .gradation-line {
-  background: linear-gradient(90deg, #FFDE53, #FF8900);
+  background: linear-gradient(90deg, #FFCE00 20%, #FF7600 45%);
 }
 
 /* モーダル */
@@ -344,7 +344,7 @@ button {
   height: 100%;
   width: 100%;
   text-align: center;
-  background: linear-gradient(90deg, #FFDE53, #FF8900);
+  background: linear-gradient(90deg, #FFCE00 20%, #FF7600 45%);
   z-index: 100;
 }
 .modal-bg{
@@ -1083,7 +1083,7 @@ header {
   right: -50px;
   width: 50px;
   height: 220px;
-  background: linear-gradient(180deg, #FFDE53, #FF8900);
+  background: linear-gradient(180deg, #FFCE00 20%, #FF7600 45%);
   transition: 1s;
   z-index: 1;
   display: none;
