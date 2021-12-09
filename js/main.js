@@ -244,8 +244,10 @@ function setResult(){
   const angle = getAngle();
   if( !angle.isPortrait ) {
     $('#norotate').css('display', 'block');
+    $('#wrapper').css('display', 'none');
   } else {
     $('#norotate').css('display', 'none');
+    $('#wrapper').css('display', 'block');
   }
 }
 function getAngle(){
