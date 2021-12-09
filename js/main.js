@@ -109,20 +109,20 @@ $("#openbtn").click(function () {
     $('#navright li').fadeToggle().css('display','inline-block');
     $(".circle-bg").toggleClass('circleactive');
 });
-$("#g-nav a").click(function () {
-    $("#topopenbtn").removeClass('active');
-    $("#openbtn").removeClass('active');
-    $("#g-nav").removeClass('panelactive');
-    $("#navleftnumber").removeClass('panelactive');
-    $('#navleftnumber img').fadeToggle();
-    $("#navlogo").removeClass('panelactive');
-    $('#navlogowrapper').fadeToggle();
-    $("#navleft").removeClass('panelactive');
-    $('#navleft a').fadeToggle();
-    $("#navright").removeClass('panelactive');
-    $('#navright li').fadeToggle().css('display','inline-block');
-    $(".circle-bg").removeClass('circleactive');
-});
+// $("#g-nav a").click(function () {
+//     $("#topopenbtn").removeClass('active');
+//     $("#openbtn").removeClass('active');
+//     $("#g-nav").removeClass('panelactive');
+//     $("#navleftnumber").removeClass('panelactive');
+//     $('#navleftnumber img').fadeToggle();
+//     $("#navlogo").removeClass('panelactive');
+//     $('#navlogowrapper').fadeToggle();
+//     $("#navleft").removeClass('panelactive');
+//     $('#navleft a').fadeToggle();
+//     $("#navright").removeClass('panelactive');
+//     $('#navright li').fadeToggle().css('display','inline-block');
+//     $(".circle-bg").removeClass('circleactive');
+// });
 
 // ロード
 $(window).on('load', function(){

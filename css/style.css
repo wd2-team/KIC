@@ -721,7 +721,7 @@ button {
 }
 #index #mainwrapper #main a#mainlink {
   position: absolute;
-  bottom: 50px;
+  bottom: 45px;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   width: 43px;
@@ -732,7 +732,7 @@ button {
 }
 #index #mainwrapper #main #mainlogo {
   position: absolute;
-  bottom: 41px;
+  bottom: 31px;
   left: 50%;
   transform: translateX(-50%);
   display: none;
