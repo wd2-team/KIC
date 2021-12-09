@@ -225,40 +225,40 @@ if(window.navigator.userAgent.indexOf("Chrome") >= 0 && window.navigator.userAge
 }
 
 // スマホ横向き禁止
-// window.onload = ()=>{
-//   setResult();
-// }
-// var orientationtimer = 0;
-// window.onresize = function () {
-//   if (orientationtimer > 0) {
-//     clearTimeout(orientationtimer);
-//   }
-//   orientationtimer = setTimeout(function () {
-//     setResult();
-//   }, 200);
-// };
-// window.addEventListener("orientationchange", ()=>{
-//   setResult();
-// });
-// function setResult(){
-//   const angle = getAngle();
-//   if( angle.isPortrait ) {
-//     console.log('縦向き');
-//   }
-//   else{
-//     console.log('横向き');
-//     alert('画面を縦にしてください');
-//   }
-// }
-// function getAngle(){
-//   let angle = screen && screen.orientation && screen.orientation.angle;
-//   if ( angle === undefined ) {
-//     angle = window.orientation;
-//   }
-//   const isPortrait = (angle === 0);
-//   return({
-//     value: angle,
-//     isPortrait: isPortrait,
-//     isLandscape: ! isPortrait,
-//   });
-// }
+window.onload = ()=>{
+  setResult();
+}
+var orientationtimer = 0;
+window.onresize = function () {
+  if (orientationtimer > 0) {
+    clearTimeout(orientationtimer);
+  }
+  orientationtimer = setTimeout(function () {
+    setResult();
+  }, 200);
+};
+window.addEventListener("orientationchange", ()=>{
+  setResult();
+});
+function setResult(){
+  const angle = getAngle();
+  if( angle.isPortrait ) {
+    console.log('縦向き');
+  }
+  else{
+    console.log('横向き');
+    alert('画面を縦にしてください');
+  }
+}
+function getAngle(){
+  let angle = screen && screen.orientation && screen.orientation.angle;
+  if ( angle === undefined ) {
+    angle = window.orientation;
+  }
+  const isPortrait = (angle === 0);
+  return({
+    value: angle,
+    isPortrait: isPortrait,
+    isLandscape: ! isPortrait,
+  });
+}
