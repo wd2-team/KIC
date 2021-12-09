@@ -685,7 +685,7 @@ button {
   position:fixed;
   z-index: 999999;
   top: 0;
-  width: 100%;
+  width: 120%;
   height: 100%;
   display: none;
   background: linear-gradient(90deg, #FFCE00 -20%, #FF7600 90%);
@@ -693,7 +693,7 @@ button {
 #norotate img {
   width: 80px;
   top: 50%;
-  left: 50%;
+  left: 40%;
   transform: translate(-50%, -50%);
   position: absolute;
 }
