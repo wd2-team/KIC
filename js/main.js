@@ -242,12 +242,10 @@ window.addEventListener("orientationchange", ()=>{
 });
 function setResult(){
   const angle = getAngle();
-  if( angle.isPortrait ) {
-    console.log('縦向き');
-  }
-  else{
-    console.log('横向き');
-    alert('画面を縦にしてください');
+  if( !angle.isPortrait ) {
+    $('#norotate').css('display', 'block');
+  } else {
+    $('#norotate').css('display', 'none');
   }
 }
 function getAngle(){
