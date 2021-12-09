@@ -245,9 +245,11 @@ function setResult(){
   if( !angle.isPortrait ) {
     $('#norotate').css('display', 'block');
     $('#wrapper').css('display', 'none');
+    $('#wrapper').css('background', 'linear-gradient(90deg, #FFCE00 -20%, #FF7600 90%)');
   } else {
     $('#norotate').css('display', 'none');
     $('#wrapper').css('display', 'block');
+    $('#wrapper').css('background', '#000000');
   }
 }
 function getAngle(){
