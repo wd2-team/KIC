@@ -192,8 +192,8 @@ page00innerscroll.onscroll = function(){
     });
     var scroll = $(window).scrollTop();
     var windowHeight = $(window).height();
-    var page00p04Position = $('#page00innerscroll-p04').offset().top;
-    if (scroll > page00p04Position - windowHeight + 150) {
+    var page00p03Position = $('#page00innerscroll-p03').offset().top;
+    if (scroll > page00p03Position - windowHeight + 150) {
         $('#page00back').addClass('showvideo');
         let page00back = document.getElementById('page00back');
         if (document.getElementById("topvideo") == null) {
