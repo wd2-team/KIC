@@ -102,6 +102,9 @@ button {
 .brsp {
   display: none;
 }
+.nonbrsp {
+  display: inline-block;
+}
 .displaysp {
   display: none !important;
 }

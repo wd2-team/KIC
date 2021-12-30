@@ -110,6 +110,9 @@ button {
 .brsp {
   display: inline-block;
 }
+.nonbrsp {
+  display: none;
+}
 .displaysp {
   display: block;
 }
@@ -415,8 +418,8 @@ button {
   margin: 8px 16px;
 
 }
-#mobiletopheader ul li:first-child,
-#mobileheader ul li:first-child {
+#mobiletopheader ul li.newlink,
+#mobileheader ul li.newlink {
   margin-top: 0;
 }
 #mobiletopheader ul li:last-child,

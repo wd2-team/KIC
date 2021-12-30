@@ -178,6 +178,21 @@ $(window).on('load', function(){
 
 });
 
+// フェーダー
+var delaySpeed = 300;
+$(window).on("load scroll", function (){
+    $(".fade_trigger1 .fade_image_effect").each(function(i){
+        var element = $(".fade_trigger1").offset().top;
+        var scroll = $(window).scrollTop();
+        var windowHeight = $(window).height();
+        if (scroll > element - windowHeight + windowHeight / 5){
+            $(this).delay(i*(delaySpeed)).queue(function(){
+                $(this).addClass("active");
+            });
+        }
+    });
+});
+
 // スクロールで表示
 var page00innerscroll = document.getElementById( 'page00innerscroll' );
 page00innerscroll.onscroll = function(){

@@ -9,26 +9,22 @@
   	src="https://code.jquery.com/jquery-2.2.4.js"
   	integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
   	crossorigin="anonymous"></script>
-  	<?php include("config.php"); ?>
-  	<?php if( is_mobile()) : ?>
-    <link rel="stylesheet" type="text/css" href="css/mobile.css">
-    <?php elseif( is_tablet()) : ?>
-    <link rel="stylesheet" type="text/css" href="css/tablet.css">
-    <?php else: ?>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <?php endif; ?>
+  		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen and (min-width:1024px)">
+		<link rel="stylesheet" type="text/css" href="css/tablet.css" media="screen and (max-width:1023px) and (min-width:501px)">
+		<link rel="stylesheet" type="text/css" href="css/mobile.css" media="screen and (max-width:500px)">
+		<!-- <link id="css_link" href="css/style.css" rel="stylesheet" type="text/css"> -->
   	<link rel="icon" href="images/kic-fav.png">
   	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/apng-canvas/2.1.1/apng-canvas.min.js"></script>
 	<title>AE86 LEVIN RESTORE PROJECT｜久留米自動車工科大学校（旧：久留米工業技術専門学校）</title>
-	<!-- Google Tag Manager -->
-	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-		})(window,document,'script','dataLayer','GTM-KMV6FX4');
-	</script>
-	<!-- End Google Tag Manager -->
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+			'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+			})(window,document,'script','dataLayer','GTM-KMV6FX4');
+		</script>
+		<!-- End Google Tag Manager -->
 </head>
 <body id="page01">
 	<!-- Google Tag Manager (noscript) -->
@@ -56,7 +52,7 @@
 		<h1><a href="index"><img src="images/kic_logo.svg" alt="KICワンダフルのロゴ"></a></h1>
 		<ul>
 			<li><a href="page00"><img src="images/navi_number_00.svg" alt="00ページへのリンク"></a></li>
-			<li class="newlink"><a href="page01.html"><img src="images/navi_number_01.svg" alt="01ページへのリンク"></a></li>
+			<li class="newlink"><a href="page01"><img src="images/navi_number_01.svg" alt="01ページへのリンク"></a></li>
 			<li class="futurelink"><a href="#"><img src="images/navi_number_02.svg" alt="02ページへのリンク"></a></li>
 			<li class="futurelink"><a href="#"><img src="images/navi_number_03.svg" alt="03ページへのリンク"></a></li>
 			<li class="futurelink"><a href="#"><img src="images/navi_number_04.svg" alt="04ページへのリンク"></a></li>
@@ -72,7 +68,7 @@
 	<div id="mobileheader" class="displaysp">
 		<ul>
 			<li><a href="page00"><img src="images/navi_number_00.svg" alt="00ページへのリンク"></a></li>
-			<li class="newlink"><a href="page01.html"><img src="images/navi_number_01.svg" alt="01ページへのリンク"></a></li>
+			<li class="newlink"><a href="page01"><img src="images/navi_number_01.svg" alt="01ページへのリンク"></a></li>
 			<li class="futurelink"><a href="#"><img src="images/navi_number_02.svg" alt="02ページへのリンク"></a></li>
 			<li class="futurelink"><a href="#"><img src="images/navi_number_03.svg" alt="03ページへのリンク"></a></li>
 			<li class="futurelink"><a href="#"><img src="images/navi_number_04.svg" alt="04ページへのリンク"></a></li>
@@ -109,19 +105,45 @@
 				<div id="pagerightbg"></div>
 			</a>
 		</div>
-		<div id="page01innerscroll-pall">
-			<div id="page01innerscroll-p01" class="page01innerscroll-p animation">
-				学生たちの手で、<br>時代を超えた名車が<br class="brsp">美しく蘇る。
+		<div id="page01innerscroll-imgtop">
+			<img src="">
+			<img src="">
+		</div>
+		<label id="page01innerscroll-label01" class="button1">TOYOTA COROLLA<span>カローラ レビンとは</span></label>
+		<div id="page01innerscroll-p01all">
+			<div id="page01innerscroll-p01-01" class="page01innerscroll-p01 animation">カローラ レビンは、<br>トヨタ自動車がかつて生産販売していた<br class="brsp">1,600ccクラスの小型クーペ。<br>カローラセダンをベースにされており、<br class="brsp">スプリンタートレノとシャーシーはもちろん、<br>内外装部品のほとんどを共用する姉妹車である。</div>
+			<div id="page01innerscroll-p01-02" class="page01innerscroll-p01 animation">1990年代後半に一躍ブームとなった人気アニメでも登場。<br>その物語の主人公が乗っていたクルマが<br class="brsp">通称「ハチロク」と呼ばれている。</div>
+			<div id="page01innerscroll-p01-03" class="page01innerscroll-p01 animation">正式には、1983年にトヨタが発売した<br>4代目「カローラレビン／スプリンタートレノ<br class="brsp">（ AE86型 ）」のことを指し<br>世界規模で有名な日本車の<br class="brsp">ひとつともいえる人気車両です。</div>
+		</div>
+		<img src="">
+		<div id="page01innerscroll-center">
+			<img src="">
+			<p>名車レビンが K I C の前に姿を現す</p>
+			<div class="fade_image fade_trigger1">
+				<div class="fade_image_effect">
+					<img src="">
+				</div>
+				<div class="fade_image_effect">
+					<img src="">
+				</div>
+				<div class="fade_image_effect">
+					<img src="">
+				</div>
+				<div class="fade_image_effect">
+					<img src="">
+				</div>
 			</div>
-			<div id="page01innerscroll-p02" class="page01innerscroll-p animation">
-				KICが、これまで挑んできた<br class="brsp">レストアプロジェクトの名車達。<br>「TOYOTA TRUENO AE86」<br>「MAZDA RX-7 FD」<br>「NISSAN SILVIA S13」<br>あなたは、<br class="brsp">この３台のクルマを知っていますか？<br>そう、かつて人気アニメに登場し<br>多くのファンから今も愛されている名車達。</div>
-			<div id="page01innerscroll-p03" class="page01innerscroll-p animation">
-				そして、もう一台…。<br>「TOYOTA COROLLA LEVIN AE86」<br>新たなるレストアプロジェクトの物語が<br class="brsp">今走り出します。</div>
-			<div id="page01innerscroll-p04" class="page01innerscroll-p animation">
-				KIC 一級自動車工学科、<br class="brsp">車体整備工学科、<br>数々のクルマと向き合ってきた<br class="brsp">トヨタカローラ福岡が<br>” 技術 ”と” 感性 ”を駆使し、<br class="brsp">クルマを整備する<br>楽しさを伝える産学共同プロジェクト。</div>
-			<div id="page01innerscroll-p05" class="page01innerscroll-p animation">
-				動かないエンジンと、<br class="brsp">錆でボロボロのボディを<br>学生とプロエンジニアの手により<br class="brsp">美しくパワフルに蘇らせる<br>「ワンダフル」で「ドラマチック」な<br class="brsp">物語が始動する。
+			<label id="page01innerscroll-label02" class="button1">TOYOTA COROLLA<span>カローラ レビンとは</span></label>
+			<div id="page01innerscroll-p02all">
+				<div id="page01innerscroll-p02-01" class="page01innerscroll-p02 animation">長い眠りから…AE86レビンを蘇らせるプロジェクト始動。<br>トヨタカローラ福岡と久留米自動車工科大学校が、<br class="brsp">共同で行うレストアプロジェクト。</div>
+				<div id="page01innerscroll-p02-02" class="page01innerscroll-p02 animation">これから自動車整備士を目指す若い方に、<br>自動車整備士の重要性とレストアの面白さを伝えるために<br>２０２１年５月１４日 トヨタカローラ福岡より、<br class="brsp">AE８６型「カローラレビン」が贈呈されました。<br>納車式典にて、カローラ金子護社長より<br class="brsp">「縁ある人を笑顔にすることを大事にしている。<br>今回のプロジェクトが一人でも多くの人を笑顔にする<br class="brsp">ことにつながれば」と熱いメッセージをいただきました。</div>
+				<div id="page01innerscroll-p02-03" class="page01innerscroll-p02 animation">２０２２年３月の完成を目標に、授業にてレストアを<br class="brsp">進めていき、<br class="nonbrsp">そして４月以降には、<br class="brsp">GRガレージ福岡空港と提携し、<br class="brsp">レースへの参戦も目指していきます。</div>
 			</div>
+		</div>
+		<div id="page01innerscroll-imgbottom">
+			<img src="">
+			<img src="">
+			<p>時代を超えた名車を<br>産学共同プロジェクトにて<br>美しく、そしてパワフルに蘇らせる。</p>
 		</div>
 		<div id="pageunderlogo">
 			<img src="images/kic_logo.svg" alt="KICワンダフルのロゴ">
@@ -137,10 +159,33 @@
 		<div id="blacksheer"></div>
 	</div>
 	<footer></footer>
+	<div id="openbtn"></div>
+	<nav id="g-nav">
+		<ul id="navlist">
+			<li><a href="https://www.kic-car.ac.jp/school/">KIC OFFICIAL WEB SITE<br><span>KIC公式サイト</span></a></li>
+			<li><a href="https://www.kic-car.ac.jp/school/project-r/index">PROJECT R<br><span>プロジェクトR</span></a></li>
+			<li><a href="https://www.kic-car.ac.jp/school/request/index_contact/">CONTACT US<br><span>お問い合わせ</span></a></li>
+		</ul>
+		<div id="navleftnumber">
+			<img src="images/ae86restoreproject_menu.svg">
+			<img src="images/restore_kana_menu.svg">
+		</div>
+		<div id="navlogowrapper">
+			<div id="navlogo"><img src="images/gr_garage.svg" alt="GRGarageのロゴ"><img src="images/toyota_collora_white.svg" alt="トヨタカローラ福岡株式会社のロゴ"></div>
+		</div>
+		<div id="navleft"><a href="https://www.kic-car.ac.jp/"><img src="images/kurume_industrial_college_logo.svg" alt="久留米自動車工科大学校のロゴ"></a></div>
+		<ul id="navright">
+			<li><a href="https://www.instagram.com/kurume_industrial_college/"><img src="images/sns_instagram.svg" alt="instagramへのリンク"></a></li>
+			<li><a href="https://page.line.me/kic-car"><img src="images/sns_line.svg" alt="lineへのリンク"></a></li>
+			<li><a href="https://twitter.com/kic_car"><img src="images/sns_twitter.svg" alt="twitterへのリンク"></a></li>
+			<li><a href="https://www.youtube.com/channel/UC0Ge2DKsUJFaxYJQjj1S8lw/featured"><img src="images/sns_youtube.svg" alt="youtubeへのリンク"></a></li>
+		</ul>
+	</nav>
+	<div class="circle-bg"></div>
 	<div id="mobileheader" class="displaysp">
 		<ul>
-			<li class="newlink"><a href="page00"><img src="images/navi_number_00.svg" alt="00ページへのリンク"></a></li>
-			<li class="futurelink"><a href="#"><img src="images/navi_number_01.svg" alt="01ページへのリンク"></a></li>
+			<li><a href="page00"><img src="images/navi_number_00.svg" alt="00ページへのリンク"></a></li>
+			<li class="newlink"><a href="page01"><img src="images/navi_number_01.svg" alt="01ページへのリンク"></a></li>
 			<li class="futurelink"><a href="#"><img src="images/navi_number_02.svg" alt="02ページへのリンク"></a></li>
 			<li class="futurelink"><a href="#"><img src="images/navi_number_03.svg" alt="03ページへのリンク"></a></li>
 			<li class="futurelink"><a href="#"><img src="images/navi_number_04.svg" alt="04ページへのリンク"></a></li>
