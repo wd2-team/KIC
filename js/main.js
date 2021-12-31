@@ -257,9 +257,8 @@ try {
         if (scroll > page01label02Position - windowHeight + 150) {
             $('#page01innerscroll-label02').addClass('boxactive');
         }
-        var page01underlogoPosition = $('#pageunderlogo').offset().top;
-        if (scroll > page01underlogoPosition - windowHeight + 150) {
-            $('#pageunderlogo img').fadeIn(1500);
+        var page01imgbottompPosition = $('#page01innerscroll-imgbottomp').offset().top;
+        if (scroll > page01imgbottompPosition - windowHeight + 150) {
             $('#pageleftnumber img:nth-child(3)').css('opacity', '0');
         } else {
             $('#pageleftnumber img:nth-child(3)').css('opacity', '0.3');
