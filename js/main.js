@@ -178,21 +178,6 @@ $(window).on('load', function(){
 
 });
 
-// フェーダー
-var delaySpeed = 300;
-$(window).on("load scroll", function (){
-    $(".fade_trigger1 .fade_image_effect").each(function(i){
-        var element = $(".fade_trigger1").offset().top;
-        var scroll = $(window).scrollTop();
-        var windowHeight = $(window).height();
-        if (scroll > element - windowHeight + windowHeight / 5){
-            $(this).delay(i*(delaySpeed)).queue(function(){
-                $(this).addClass("active");
-            });
-        }
-    });
-});
-
 // スクロールで表示
 try {
     var page00innerscroll = document.getElementById( 'page00innerscroll' );
@@ -259,6 +244,15 @@ try {
         if (scroll > page01label01Position - windowHeight + 150) {
             $('#page01innerscroll-label01').addClass('boxactive');
         }
+        var fadedelaySpeed = 300;
+        $(".fade_trigger1 .fade_image_effect").each(function(i){
+            var element = $(".fade_trigger1").offset().top;
+            if (scroll > element - windowHeight + windowHeight / 5){
+                $(this).delay(i*(fadedelaySpeed)).queue(function(){
+                    $(this).addClass("active");
+                });
+            }
+        });
         var page01underlogoPosition = $('#pageunderlogo').offset().top;
         if (scroll > page01underlogoPosition - windowHeight + 150) {
             $('#pageunderlogo img').fadeIn(1500);

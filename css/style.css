@@ -1387,3 +1387,16 @@ header {
 #page01innerscroll-p01-03{
   opacity: 0;
 }
+#page01innerscroll-p01all img {
+  position: absolute;
+  right: 0;
+  top: 103px;
+  width: 380px;
+}
+#page01innerscroll-center>img {
+  width: 1000px;
+}
+#page01innerscroll-center p {
+  font-size: 49px;
+  color: #FFB100;
+}
