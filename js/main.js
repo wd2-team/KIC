@@ -194,41 +194,86 @@ $(window).on("load scroll", function (){
 });
 
 // スクロールで表示
-var page00innerscroll = document.getElementById( 'page00innerscroll' );
-page00innerscroll.onscroll = function(){
-    $(".page00innerscroll-p").each(function() {
+try {
+    var page00innerscroll = document.getElementById( 'page00innerscroll' );
+    page00innerscroll.onscroll = function(){
+        $(".page00innerscroll-p").each(function() {
+            var scroll = $(window).scrollTop();
+            var blockPosition = $(this).offset().top;
+            var windowHeight = $(window).height();
+            if (scroll > blockPosition - windowHeight + 150) {
+                $(this).css('opacity', '1');
+                $(this).addClass("active");
+            }
+        });
         var scroll = $(window).scrollTop();
-        var blockPosition = $(this).offset().top;
         var windowHeight = $(window).height();
-        if (scroll > blockPosition - windowHeight + 150) {
-            $(this).css('opacity', '1');
-            $(this).addClass("active");
+        var page00p02Position = $('#page00innerscroll-p02').offset().top;
+        if (scroll > page00p02Position - windowHeight + 150) {
+            $('#page00back').addClass('showvideo');
+            let page00back = document.getElementById('page00back');
+            if (document.getElementById("topvideo") == null) {
+                page00back.insertAdjacentHTML('beforeend', '<video id="topvideo" src="images/car02.mp4" autoplay muted playsinline></video>');
+            }
         }
-    });
-    var scroll = $(window).scrollTop();
-    var windowHeight = $(window).height();
-    var page00p02Position = $('#page00innerscroll-p02').offset().top;
-    if (scroll > page00p02Position - windowHeight + 150) {
-        $('#page00back').addClass('showvideo');
-        let page00back = document.getElementById('page00back');
-        if (document.getElementById("topvideo") == null) {
-            page00back.insertAdjacentHTML('beforeend', '<video id="topvideo" src="images/car02.mp4" autoplay muted playsinline></video>');
+        var page00underlogoPosition = $('#pageunderlogo').offset().top;
+        if (scroll > page00underlogoPosition - windowHeight + 150) {
+            $('#pageunderlogo img').fadeIn(1500);
+            $('#pageleftnumber img:nth-child(3)').css('opacity', '0');
+        } else {
+            $('#pageleftnumber img:nth-child(3)').css('opacity', '0.3');
         }
-    }
-    var page00underlogoPosition = $('#pageunderlogo').offset().top;
-    if (scroll > page00underlogoPosition - windowHeight + 150) {
-        $('#pageunderlogo img').fadeIn(1500);
-        $('#pageleftnumber img:nth-child(3)').css('opacity', '0');
-    } else {
-        $('#pageleftnumber img:nth-child(3)').css('opacity', '0.3');
-    }
-    var page00bluePosition = $('#pageblue').offset().top;
-    if(scroll > page00bluePosition - 150) {
-        $('#pagescroll').fadeOut();
-    } else {
-        $('#pagescroll').fadeIn();
-    }
-};
+        var page00bluePosition = $('#pageblue').offset().top;
+        if(scroll > page00bluePosition - 150) {
+            $('#pagescroll').fadeOut();
+        } else {
+            $('#pagescroll').fadeIn();
+        }
+    };
+} catch {}
+
+try {
+    var page01innerscroll = document.getElementById( 'page01innerscroll' );
+    page01innerscroll.onscroll = function(){
+        $(".page01innerscroll-p01").each(function() {
+            var scroll = $(window).scrollTop();
+            var blockPosition = $(this).offset().top;
+            var windowHeight = $(window).height();
+            if (scroll > blockPosition - windowHeight + 150) {
+                $(this).css('opacity', '1');
+                $(this).addClass("active");
+            }
+        });
+        $(".page01innerscroll-p02").each(function() {
+            var scroll = $(window).scrollTop();
+            var blockPosition = $(this).offset().top;
+            var windowHeight = $(window).height();
+            if (scroll > blockPosition - windowHeight + 150) {
+                $(this).css('opacity', '1');
+                $(this).addClass("active");
+            }
+        });
+        var scroll = $(window).scrollTop();
+        var windowHeight = $(window).height();
+        var page01label01Position = $('#page01innerscroll-label01').offset().top;
+        if (scroll > page01label01Position - windowHeight + 150) {
+            $('#page01innerscroll-label01').addClass('boxactive');
+        }
+        var page01underlogoPosition = $('#pageunderlogo').offset().top;
+        if (scroll > page01underlogoPosition - windowHeight + 150) {
+            $('#pageunderlogo img').fadeIn(1500);
+            $('#pageleftnumber img:nth-child(3)').css('opacity', '0');
+        } else {
+            $('#pageleftnumber img:nth-child(3)').css('opacity', '0.3');
+        }
+        var page01bluePosition = $('#pageblue').offset().top;
+        if(scroll > page01bluePosition - 150) {
+            $('#pagescroll').fadeOut();
+        } else {
+            $('#pagescroll').fadeIn();
+        }
+    };
+} catch {}
 
 // 画像読み込み
 if(window.navigator.userAgent.indexOf("Chrome") >= 0 && window.navigator.userAgent.indexOf("Edge") == -1){
