@@ -249,10 +249,14 @@ try {
             var element = $(".fade_trigger1").offset().top;
             if (scroll > element - windowHeight + windowHeight / 5){
                 $(this).delay(i*(fadedelaySpeed)).queue(function(){
-                    $(this).addClass("active");
+                    $(this).addClass("fadeactive");
                 });
             }
         });
+        var page01label02Position = $('#page01innerscroll-label02').offset().top;
+        if (scroll > page01label02Position - windowHeight + 150) {
+            $('#page01innerscroll-label02').addClass('boxactive');
+        }
         var page01underlogoPosition = $('#pageunderlogo').offset().top;
         if (scroll > page01underlogoPosition - windowHeight + 150) {
             $('#pageunderlogo img').fadeIn(1500);
