@@ -693,12 +693,6 @@ button {
   }
 }
 
-/* SVG */
-/* path.st0 {
-  fill:none;
-  stroke: #ffffff;
-} */
-
 /* index */
 #index {
   overflow-y: hidden;
@@ -1370,6 +1364,7 @@ header {
   position: absolute;
   left: 0;
   top: 30px;
+  display: inline;
 }
 #page01innerscroll-imgtop>img {
   position: absolute;
@@ -1385,6 +1380,9 @@ header {
   position: relative;
 }
 #page01innerscroll-label01 span {
+  display: none;
+}
+#page01innerscroll-label01 span:nth-child(3) {
   font-size: 15px;
 }
 #page01innerscroll-p01all {

@@ -242,15 +242,24 @@ try {
         var windowHeight = $(window).height();
         var page01imgtopleftPosition = $('#page01innerscroll-imgtopleft').offset().top;
         if (scroll > page01imgtopleftPosition - windowHeight + 150) {
-            $('#page01innerscroll-imgtopleft img:nth-child(2)').fadeIn(1500);
+            $('#page01innerscroll-imgtopleft img:nth-child(2)').attr('src', 'images/levin_logo_animated.svg');
             setTimeout(function(){
-                $('#page01innerscroll-imgtopleft img:nth-child(1)').fadeIn(1500);
-                $('#page01innerscroll-imgtopleft img:nth-child(3)').fadeIn(1500);
-            },1500);
+                $('#page01innerscroll-imgtopleft img:nth-child(1)').fadeIn(1000);
+                $('#page01innerscroll-imgtopleft img:nth-child(3)').fadeIn(1000);
+            },2500);
+            setTimeout(function(){
+                $('#page01innerscroll-imgtopcarline').attr('src', 'images/carline.svg');
+            },3500);
         }
         var page01label01Position = $('#page01innerscroll-label01').offset().top;
         if (scroll > page01label01Position - windowHeight + 150) {
             $('#page01innerscroll-label01').addClass('boxactive');
+            setTimeout(function(){
+                $('#page01innerscroll-label01 span:nth-child(3)').fadeIn(1500);
+            },500);
+            setTimeout(function(){
+                $('#page01innerscroll-label01 span:nth-child(1)').fadeIn(1500);
+            },2000);
         }
         var fadedelaySpeed = 300;
         $(".fade_trigger1 .fade_image_effect").each(function(i){
@@ -327,22 +336,3 @@ function getAngle(){
     isLandscape: ! isPortrait,
   });
 }
-
-// SVG
-const anime = () =>
-    {
-        new Vivus('svg-animation', 
-            {
-                duration: 350 ,
-                start: 'autostart',
-                type:'delayed' 
-                //oneByOne  線が一筆ずつ出て来るアニメーション
-                //type: 'sync' //線が一斉に出てくるアニメーション
-                //type: 'delayed' //線が順に出るアニメーション
-            },
-        function(obj)
-            {
-                obj.el.classList.add('finished');
-            });
-    }
-anime();
