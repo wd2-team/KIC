@@ -620,7 +620,6 @@ button {
 .button1::before,
 .button1::after {
   position: absolute;
-  z-index: 2;
   content: '';
   width: 0;
   height: 0;
@@ -693,6 +692,12 @@ button {
     transform: translate3d(100%,0,0);
   }
 }
+
+/* SVG */
+/* path.st0 {
+  fill:none;
+  stroke: #ffffff;
+} */
 
 /* index */
 #index {
@@ -966,7 +971,7 @@ header {
   position: relative;
   height: 9px;
   display: none;
-  z-index: 1;
+  z-index: 10;
 }
 #pageheaderline .gradation-line {
   height: 9px;
@@ -975,7 +980,7 @@ header {
   position: relative;
   height: 165px;
   display: none;
-  z-index: 1;
+  z-index: 10;
 }
 #pageheader h1 {
   position: absolute;
@@ -1088,7 +1093,7 @@ header {
   height: 220px;
   background: linear-gradient(180deg, #FFCE00 10%, #FF7600 70%);
   transition: 1s;
-  z-index: 1;
+  z-index: 10;
 }
 #slidemenu ul li {
   margin: 5px auto;
@@ -1112,7 +1117,7 @@ header {
   right: 40px;
   width: 43px;
   height: 100px;
-  z-index: 1;
+  z-index: 10;
 }
 #pagescroll img {
   width: 43px;
@@ -1293,6 +1298,7 @@ header {
   overflow-y: scroll;
   width: 100%;
   top: 0;
+  z-index: 5;
 }
 #page01innerscroll #pageright {
   position: absolute;
@@ -1355,6 +1361,15 @@ header {
 }
 #page01innerscroll-imgtopleft {
   width: 260px;
+  position: relative;
+}
+#page01innerscroll-imgtopleft>img {
+  display: none;
+}
+#page01innerscroll-imgtopleft>img:nth-child(2) {
+  position: absolute;
+  left: 0;
+  top: 30px;
 }
 #page01innerscroll-imgtop>img {
   position: absolute;
