@@ -260,7 +260,35 @@ try {
             setTimeout(function(){
                 $('#page01innerscroll-label01 span:nth-child(1)').fadeIn(1500);
             },2000);
+            setTimeout(function(){
+                $('#page01innerscroll-p01line').attr('src', 'images/levin_logo_animated.svg');
+            },3500);
         }
+        // var page01p0103Position = $('#page01innerscroll-p01-03').offset().top;
+        // if (scroll > page01p0103Position - windowHeight + 150) {
+        //     // setTimeout(function(){
+        //         $('#page01innerscroll-p01line').attr('src', 'images/levin_logo_animated.svg');
+        //         // $('#page01innerscroll-p01line').fadeIn();
+        //     // },1500);
+        // }
+
+        // var page01p01linePosition = $('#page01innerscroll-p01line').offset().top;
+        // if (scroll > page01p01linePosition - windowHeight + 150) {
+        //     // setTimeout(function(){
+        //         $('#page01innerscroll-p01line').attr('src', 'images/levin_logo_animated.svg');
+        //         // $('#page01innerscroll-p01line').fadeIn();
+        //     // },1500);
+        // }
+
+        // var page01p01allPosition = $('#page01innerscroll-p01all').offset().top;
+        // if (scroll > page01p01allPosition - windowHeight + 150) {
+        //     // setTimeout(function(){
+        //         $('#page01innerscroll-p01line').attr('src', 'images/levin_logo_animated.svg');
+        //         // $('#page01innerscroll-p01line').fadeIn();
+        //     // },1500);
+        // }
+
+
         var fadedelaySpeed = 300;
         $(".fade_trigger1 .fade_image_effect").each(function(i){
             var element = $(".fade_trigger1").offset().top;

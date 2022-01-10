@@ -1387,11 +1387,12 @@ header {
 }
 #page01innerscroll-p01all {
   text-align: left;
-  margin-left: 333px;
+  padding-left: 333px;
   margin-top: -57px;
   font-size: 13px;
   line-height: 30px;
   position: relative;
+  width: 100%;
 }
 .page01innerscroll-p01 {
   margin-bottom: 30px;
@@ -1401,7 +1402,7 @@ header {
 #page01innerscroll-p01-03{
   opacity: 0;
 }
-#page01innerscroll-p01all img {
+#page01innerscroll-p01all img#page01innerscroll-p01line {
   position: absolute;
   right: 0;
   top: 103px;
@@ -1412,13 +1413,18 @@ header {
   height: 1950px;
 }
 #page01innerscroll-center img#page01innerscroll-centercar {
-  width: 1000px;
+  width: 800px;
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 #page01innerscroll-center p {
   font-size: 49px;
   line-height: 49px;
   color: #FFB100;
   margin-bottom: 291px;
+  padding-top: 600px;
 }
 #page01innerscroll-center img#page01innerscroll-centerline01 {
   position: absolute;
