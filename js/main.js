@@ -260,34 +260,22 @@ try {
             setTimeout(function(){
                 $('#page01innerscroll-label01 span:nth-child(1)').fadeIn(1500);
             },2000);
-            setTimeout(function(){
-                $('#page01innerscroll-p01line').attr('src', 'images/levin_logo_animated.svg');
-            },3500);
         }
-        // var page01p0103Position = $('#page01innerscroll-p01-03').offset().top;
-        // if (scroll > page01p0103Position - windowHeight + 150) {
-        //     // setTimeout(function(){
-        //         $('#page01innerscroll-p01line').attr('src', 'images/levin_logo_animated.svg');
-        //         // $('#page01innerscroll-p01line').fadeIn();
-        //     // },1500);
-        // }
-
-        // var page01p01linePosition = $('#page01innerscroll-p01line').offset().top;
-        // if (scroll > page01p01linePosition - windowHeight + 150) {
-        //     // setTimeout(function(){
-        //         $('#page01innerscroll-p01line').attr('src', 'images/levin_logo_animated.svg');
-        //         // $('#page01innerscroll-p01line').fadeIn();
-        //     // },1500);
-        // }
-
-        // var page01p01allPosition = $('#page01innerscroll-p01all').offset().top;
-        // if (scroll > page01p01allPosition - windowHeight + 150) {
-        //     // setTimeout(function(){
-        //         $('#page01innerscroll-p01line').attr('src', 'images/levin_logo_animated.svg');
-        //         // $('#page01innerscroll-p01line').fadeIn();
-        //     // },1500);
-        // }
-
+        var page01p0103Position = $('#page01innerscroll-p01-03').offset().top;
+        if (scroll > page01p0103Position - windowHeight + 150) {
+            setTimeout(function(){
+                $('#page01innerscroll-p01line').fadeIn(3000);
+            },1500);
+        }
+        var page01centerPosition = $('#page01innerscroll-center').offset().top;
+        if (scroll > page01centerPosition - windowHeight + 150 + 200) {
+            $('#page01innerscroll-centercar').fadeIn(1500);
+        }
+        var page01centerpPosition = $('#page01innerscroll-centerp').offset().top;
+        if (scroll > page01centerpPosition - windowHeight + 150 + 600) {
+            $('#page01innerscroll-centerp').css('opacity', '1');
+            $('#page01innerscroll-centerp').addClass("active");
+        }
 
         var fadedelaySpeed = 300;
         $(".fade_trigger1 .fade_image_effect").each(function(i){
