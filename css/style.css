@@ -1286,6 +1286,15 @@ header {
 #page01 {
   overflow-y: hidden;
 }
+#page01back {
+  position: absolute;
+  top: 53%;
+  transform: translateY(-50%);
+  display: none;
+}
+#page01back video {
+  width: 100%;
+}
 #page01innerscroll {
   height: 100vh;
   position: absolute;
@@ -1434,8 +1443,9 @@ header {
 #page01innerscroll-center img#page01innerscroll-centerline01 {
   position: absolute;
   right: 0;
-  top: 528px;
+  top: 670px;
   width: 380px;
+  display: none;
 }
 #page01innerscroll-center .fade_image.fade_trigger1 {
   position: relative;
@@ -1443,6 +1453,8 @@ header {
 }
 #page01innerscroll-center .fade_image_effect {
   width: 214px;
+  overflow: auto;
+  overflow-x: hidden;
 }
 #page01innerscroll-center .fade_image_effect:first-child {
   position: absolute;
@@ -1450,11 +1462,16 @@ header {
   right: 642px;
   width: 352px;
 }
+#page01innerscroll-center .fade_image_effect span {
+  font-size: 10px;
+  display: inline-block;
+}
 #page01innerscroll-center img#page01innerscroll-centerline02 {
   position: absolute;
   left: 0;
   top: 1150px;
   width: 380px;
+  display: none;
 }
 #page01innerscroll-center #page01innerscroll-label02 {
   width: 398px;
@@ -1465,6 +1482,9 @@ header {
   position: absolute;
   right: 188px;
   margin-top: 105px;
+}
+#page01innerscroll-center #page01innerscroll-label02 span {
+  display: none;
 }
 #page01innerscroll-center #page01innerscroll-p02all {
   width: 491px;
@@ -1487,12 +1507,14 @@ header {
   position: absolute;
   left: -476px;
   width: 1156px;
+  display: none;
 }
 #page01innerscroll-imgbottom img#page01innerscroll-imgbottomline {
   position: absolute;
   right: 0;
   top: 200px;
   width: 380px;
+  display: none;
 }
 #page01innerscroll-imgbottom #page01innerscroll-imgbottomp {
   font-size: 53px;
