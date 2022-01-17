@@ -1404,6 +1404,12 @@ header {
   line-height: 38px;
   margin-bottom: 50px;
 }
+#page00 #pageunder a p span {
+  letter-spacing: 1em;
+}
+#page00 #pageunder a #pageunderbg {
+  background-image: url('../images/01.svg');
+}
 
 /* page01 */
 #page01 {
@@ -1592,7 +1598,7 @@ header {
   z-index: 1;
 }
 #page01innerscroll-center .fade_image_effect {
-  width: 214px;
+  width: 308px;
   /* overflow: auto;
   overflow-x: hidden; */
   text-align: right;
@@ -1660,4 +1666,7 @@ header {
   line-height: 82px;
   color: #FFB100;
   margin-top: 600px;
+}
+#page01 #pageunder a #pageunderbg {
+  background-image: url('../images/02.svg');
 }

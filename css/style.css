@@ -1165,7 +1165,6 @@ header {
   position: absolute;
   top: 0;
   left: 0;
-  background: url('../images/01.svg');
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1280,6 +1279,12 @@ header {
   font-size: 30px;
   line-height: 80px;
   margin-bottom: 70px;
+}
+#page00 #pageunder a p span {
+  letter-spacing: 1em;
+}
+#page00 #pageunder a #pageunderbg {
+  background-image: url('../images/01.svg');
 }
 
 /* page01 */
@@ -1529,4 +1534,7 @@ header {
   line-height: 82px;
   color: #FFB100;
   margin-top: 600px;
+}
+#page01 #pageunder a #pageunderbg {
+  background-image: url('../images/02.svg');
 }
