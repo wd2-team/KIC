@@ -489,7 +489,7 @@ button {
 }
 .circle-bg {
   position: fixed;
-  z-index: 3;
+  z-index: 10;
   width: 100px;
   height: 100vh;
   background: linear-gradient(90deg, #FFCE00 40%, #FF7600 50%);
