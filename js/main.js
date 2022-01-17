@@ -250,14 +250,16 @@ try {
         }
         var page01imgtopleftPosition = $('#page01innerscroll-imgtopleft').offset().top;
         if (scroll > page01imgtopleftPosition - windowHeight + 150) {
-            $('#page01innerscroll-imgtopleft img:nth-child(2)').attr('src', 'images/levin_logo_animated.svg');
             setTimeout(function(){
-                $('#page01innerscroll-imgtopleft img:nth-child(1)').fadeIn(1000);
-                $('#page01innerscroll-imgtopleft img:nth-child(3)').fadeIn(1000);
-            },2500);
+                $('#page01innerscroll-imgtopleft img:nth-child(1)').css('opacity', '1');
+                $('#page01innerscroll-imgtopleft img:nth-child(1)').addClass("active");
+                $('#page01innerscroll-imgtopleft img:nth-child(3)').css('opacity', '1');
+                $('#page01innerscroll-imgtopleft img:nth-child(3)').addClass("active");
+            },500);
             setTimeout(function(){
+                $('#page01innerscroll-imgtopleft img:nth-child(2)').attr('src', 'images/levin_logo_animated.svg');
                 $('#page01innerscroll-imgtopcarline').attr('src', 'images/carline.svg');
-            },3500);
+            },1000);
         }
         var page01label01Position = $('#page01innerscroll-label01').offset().top;
         if (scroll > page01label01Position - windowHeight + 150) {
@@ -324,7 +326,7 @@ try {
                 $('#page01innerscroll-label02 span:nth-child(1)').fadeIn(1500);
             },500);
         }
-        
+
         var page01imgbottomPosition = $('#page01innerscroll-imgbottom').offset().top;
         if (scroll > page01imgbottomPosition - windowHeight + 150) {
             $('#page01innerscroll-imgbottomcar').fadeIn(1500);

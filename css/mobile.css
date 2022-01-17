@@ -1505,6 +1505,11 @@ header {
   top: 30px;
   display: inline;
 }
+#page01innerscroll-imgtopleft>img:nth-child(3) {
+  position: absolute;
+  left: 0;
+  top: 110px;
+}
 #page01innerscroll-imgtop>img {
   position: absolute;
   top: calc(100vh + 92px);

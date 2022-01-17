@@ -1366,14 +1366,20 @@ header {
   width: 260px;
   position: relative;
 }
-#page01innerscroll-imgtopleft>img {
-  display: none;
+#page01innerscroll-imgtopleft>img:nth-child(1) {
+  opacity: 0;
 }
 #page01innerscroll-imgtopleft>img:nth-child(2) {
   position: absolute;
   left: 0;
   top: 30px;
   display: inline;
+}
+#page01innerscroll-imgtopleft>img:nth-child(3) {
+  position: absolute;
+  left: 0;
+  top: 110px;
+  opacity: 0;
 }
 #page01innerscroll-imgtop>img {
   position: absolute;
@@ -1477,8 +1483,8 @@ header {
   width: 398px;
   height: 57px;
   display: block;
-  font-size: 10px;
-  padding-top: 6px;
+  font-size: 14px;
+  line-height: 57px;
   position: absolute;
   right: 188px;
   margin-top: 105px;
