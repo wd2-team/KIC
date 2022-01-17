@@ -1453,8 +1453,8 @@ header {
 }
 #page01innerscroll-center .fade_image_effect {
   width: 214px;
-  overflow: auto;
-  overflow-x: hidden;
+  /* overflow: auto;
+  overflow-x: hidden; */
 }
 #page01innerscroll-center .fade_image_effect:first-child {
   position: absolute;
