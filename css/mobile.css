@@ -692,7 +692,7 @@ button {
   text-align: center;
   text-decoration: none;
   outline: none;
-  transition: all .6s;
+  transition: all 1s;
 }
 .button1::before,
 .button1::after {
@@ -1526,7 +1526,7 @@ header {
   position: relative;
 }
 #page01innerscroll-label01 span {
-  display: none;
+  display: inline-block;
 }
 #page01innerscroll-label01 span:nth-child(3) {
   font-size: 15px;
@@ -1592,6 +1592,7 @@ header {
 #page01innerscroll-center .fade_image.fade_trigger1 {
   position: relative;
   text-align: left;
+  z-index: 1;
 }
 #page01innerscroll-center .fade_image_effect {
   width: 214px;
