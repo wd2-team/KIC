@@ -1568,6 +1568,7 @@ header {
 #page01innerscroll-center {
   position: relative;
   height: 1950px;
+  overflow: hidden;
 }
 #page01innerscroll-center img#page01innerscroll-centercar {
   width: 306px;
@@ -1643,6 +1644,10 @@ header {
   margin-bottom: 30px;
 }
 
+#page01innerscroll-imgscroll {
+  position: absolute;
+  top: 1440px;
+}
 #page01innerscroll-imgscroll .section-slider {
   overflow: hidden;
   padding: 30px 0 45px 30px;
