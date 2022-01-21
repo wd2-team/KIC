@@ -1606,6 +1606,7 @@ header {
 #page01innerscroll-center .fade_image_effect span {
   font-size: 10px;
   display: inline-block;
+  padding-right: 2px;
 }
 #page01innerscroll-center img#page01innerscroll-centerline02 {
   position: absolute;
@@ -1641,6 +1642,33 @@ header {
 #page01innerscroll-center .page01innerscroll-p02 {
   margin-bottom: 30px;
 }
+
+#page01innerscroll-imgscroll .section-slider {
+  overflow: hidden;
+  padding: 30px 0 45px 30px;
+}
+#page01innerscroll-imgscroll .section-slider-inner {
+  margin: 0 auto;
+  width: 95%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+ }
+#page01innerscroll-imgscroll .section-slider-inner-box {
+  position: relative;
+}
+#page01innerscroll-imgscroll .section-slider-inner-box li {
+  text-align: center;
+  margin: 0 15px 0 12px;
+}
+#page01innerscroll-imgscroll .section-slider-inner-box img {
+  display: block;
+  width:100%;
+}
+#page01innerscroll-imgscroll .section-slider .slick-list {
+  overflow: visible;
+  padding-right: 20%;
+}
+
 
 
 #page01innerscroll-imgbottom {
