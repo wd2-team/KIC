@@ -247,6 +247,9 @@ try {
             if (document.getElementById("topvideo") == null) {
                 page01back.insertAdjacentHTML('beforeend', '<video id="topvideo" src="images/car02.mp4" autoplay muted playsinline></video>');
             }
+            $('#page01back video').fadeIn();
+        } else {
+            $('#page01back video').fadeOut();
         }
         var page01imgtopleftPosition = $('#page01innerscroll-imgtopleft').offset().top;
         if (scroll > page01imgtopleftPosition - windowHeight + 150) {
@@ -335,7 +338,6 @@ try {
             prevArrow: $('.slick-prev'),
             nextArrow: $('.slick-next')
         });
-
         var page01imgscrollsliderinnerPosition = $('#page01innerscroll-imgscroll .section-slider-inner').offset().top;
         if (scroll > page01imgscrollsliderinnerPosition - windowHeight + 150) {
             $('#page01innerscroll-imgscroll .section-slider-inner-box img').fadeIn(1500);
@@ -344,7 +346,6 @@ try {
                 $('#page01innerscroll-imgscroll .section-slider-inner-box span').addClass("active");
             },1500);
         }
-
         var page01imgbottomPosition = $('#page01innerscroll-imgbottom').offset().top;
         if (scroll > page01imgbottomPosition - windowHeight + 150) {
             $('#page01innerscroll-imgbottomcar').fadeIn(1500);
