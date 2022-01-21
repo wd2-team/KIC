@@ -1534,9 +1534,6 @@ header {
 #page01innerscroll-label01 span:nth-child(3) {
   font-size: 15px;
 }
-
-
-
 #page01innerscroll-p01all {
   text-align: left;
   padding-left: 25px;
@@ -1562,13 +1559,9 @@ header {
   top: 103px;
   width: 380px;
 }
-
-
-
 #page01innerscroll-center {
   position: relative;
-  height: 1950px;
-  overflow: hidden;
+  height: 1650px;
 }
 #page01innerscroll-center img#page01innerscroll-centercar {
   width: 306px;
@@ -1643,10 +1636,8 @@ header {
 #page01innerscroll-center .page01innerscroll-p02 {
   margin-bottom: 30px;
 }
-
 #page01innerscroll-imgscroll {
-  position: absolute;
-  top: 1440px;
+  margin-top: 700px;
 }
 #page01innerscroll-imgscroll .section-slider {
   overflow: hidden;
@@ -1654,37 +1645,37 @@ header {
 }
 #page01innerscroll-imgscroll .section-slider-inner {
   margin: 0 auto;
-  width: 95%;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  width: 100%;
  }
 #page01innerscroll-imgscroll .section-slider-inner-box {
   position: relative;
 }
 #page01innerscroll-imgscroll .section-slider-inner-box li {
   text-align: center;
-  margin: 0 15px 0 12px;
+}
+#page01innerscroll-imgscroll .section-slider-inner-box li:first-child {
+  margin-left: 33px;
 }
 #page01innerscroll-imgscroll .section-slider-inner-box img {
-  display: block;
-  width:100%;
+  display: none;
+  width: 100%;
 }
-#page01innerscroll-imgscroll .section-slider .slick-list {
-  overflow: visible;
-  padding-right: 20%;
+#page01innerscroll-imgscroll .section-slider-inner-box span {
+  font-size: 10px;
+  display: inline-block;
+  padding-right: 2px;
+  color: #ffffff;
+  text-align: right;
 }
-
-
-
 #page01innerscroll-imgbottom {
   overflow: hidden;
   position: relative;
-  height: 900px;
+  height: 500px;
 }
 #page01innerscroll-imgbottom img#page01innerscroll-imgbottomcar {
   position: absolute;
-  left: -476px;
-  width: 1156px;
+  right: 50px;
+  width: 652px;
   display: none;
 }
 #page01innerscroll-imgbottom img#page01innerscroll-imgbottomline {
@@ -1695,10 +1686,10 @@ header {
   display: none;
 }
 #page01innerscroll-imgbottom #page01innerscroll-imgbottomp {
-  font-size: 53px;
-  line-height: 82px;
+  font-size: 28px;
+  line-height: 50px;
   color: #FFB100;
-  margin-top: 600px;
+  margin-top: 340px;
 }
 #page01 #pageunder a #pageunderbg {
   background-image: url('../images/02.svg');
