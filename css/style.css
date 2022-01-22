@@ -1430,7 +1430,6 @@ header {
   right: 0;
   top: 103px;
   width: 380px;
-  display: none;
 }
 #page01innerscroll-center {
   position: relative;
@@ -1449,15 +1448,14 @@ header {
   line-height: 49px;
   color: #FFB100;
   margin-bottom: 291px;
-  padding-top: 600px;
+  padding-top: 500px;
   opacity: 0;
 }
 #page01innerscroll-center img#page01innerscroll-centerline01 {
   position: absolute;
   right: 0;
-  top: 670px;
+  top: 570px;
   width: 380px;
-  display: none;
 }
 #page01innerscroll-center .fade_image.fade_trigger1 {
   position: relative;
@@ -1483,9 +1481,8 @@ header {
 #page01innerscroll-center img#page01innerscroll-centerline02 {
   position: absolute;
   left: 0;
-  top: 1150px;
+  top: 1050px;
   width: 380px;
-  display: none;
 }
 #page01innerscroll-center #page01innerscroll-label02 {
   width: 398px;
@@ -1528,7 +1525,6 @@ header {
   right: 0;
   top: 200px;
   width: 380px;
-  display: none;
 }
 #page01innerscroll-imgbottom #page01innerscroll-imgbottomp {
   font-size: 53px;

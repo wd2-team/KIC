@@ -436,7 +436,7 @@ button {
   vertical-align: middle;
   width: 25px;
   height: 7px;
-  padding-bottom: 3px;
+  padding-bottom: 2px;
   margin-left: -2px;
 }
 #mobiletopheader ul li a,
@@ -1496,7 +1496,7 @@ header {
   padding-left: 25px;
   overflow: hidden;
   position: relative;
-  height: calc(100vh + 92px + 200px);
+  height: calc(100vh + 92px + 200px + 5px);
 }
 #page01innerscroll-imgtopleft {
   width: 188px;
