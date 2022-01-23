@@ -1397,7 +1397,8 @@ header {
   display: block;
   margin-left: 77px;
   font-size: 10px;
-  padding-top: 6px;
+  padding-top: 11px;
+  line-height: 16px;
   position: relative;
 }
 #page01innerscroll-label01 span {
@@ -1410,7 +1411,7 @@ header {
   text-align: left;
   padding-left: 333px;
   margin-top: -57px;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 30px;
   position: relative;
   /* overflow: hidden; */
@@ -1503,7 +1504,7 @@ header {
   margin-top: 196px;
   right: 95px;
   text-align: left;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 30px;
 }
 #page01innerscroll-center .page01innerscroll-p02 {
