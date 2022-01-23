@@ -219,6 +219,7 @@ try {
 
 try {
     var page01innerscroll = document.getElementById( 'page01innerscroll' );
+    var now = new Date().getTime();
     page01innerscroll.onscroll = function(){
         $(".page01innerscroll-p01").each(function() {
             var scroll = $(window).scrollTop();
@@ -262,8 +263,8 @@ try {
                 $('#page01innerscroll-imgtopleft img:nth-child(3)').addClass("active");
             },1000);
             setTimeout(function(){
-                $('#page01innerscroll-imgtopleft img:nth-child(2)').attr('src', 'images/levin_logo_animated.svg');
-                $('#page01innerscroll-imgtopcarline').attr('src', 'images/carline.svg');
+                $('#page01innerscroll-imgtopleft img:nth-child(2)').show().attr('src', 'images/levin_logo_animated.svg'+'?'+''+now);
+                $('#page01innerscroll-imgtopcarline').show().attr('src', 'images/carline.svg'+'?'+''+now);
             },1500);
         }
         var page01label01Position = $('#page01innerscroll-label01').offset().top;
@@ -357,7 +358,7 @@ try {
         }
         var page01imgbottomPosition = $('#page01innerscroll-imgbottom').offset().top;
         if (scroll > page01imgbottomPosition - windowHeight + 170) {
-            $('#page01innerscroll-imgbottomcar').fadeIn(1500);
+            $('#page01innerscroll-imgbottomcar').show().attr('src', 'images/carline2.svg'+'?'+''+now);
             setTimeout(function(){
                 $('#page01innerscroll-imgbottomline').css('opacity', '1');
                 $('#page01innerscroll-imgbottomline').addClass("active");
