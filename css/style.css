@@ -136,6 +136,7 @@ button {
 /* #wrapper */
 #wrapper {
   position: relative;
+  overflow: hidden;
 }
 
 /* filter用 */
@@ -415,6 +416,7 @@ button {
 }
 #g-nav #navlist {
   opacity: 0;
+  pointer-events: none;
   width: 300px;
   margin-left: 317px;
   margin-top: 117px;
@@ -422,6 +424,7 @@ button {
 }
 #g-nav.panelactive #navlist {
   opacity: 1;
+  pointer-events: all;
 }
 #g-nav.panelactive #navlist li {
   animation-name: gnaviAnime;
@@ -985,6 +988,11 @@ header {
 #pageheader h1 img {
   width: 240px;
 }
+@media screen and (min-width:1250px) {
+  #pageheader h1 img {
+    width: 180px;
+  }
+}
 #pageheader ul {
   letter-spacing: -.4em;
   position: absolute;
@@ -1028,7 +1036,7 @@ header {
   visibility: hidden;
   transition: .3s;
 }
-#pageheader ul li:first-child a::after {
+#pageheader ul li a::after {
   background: #FFDE53;
 }
 #pageheader ul li a:hover::after {
@@ -1139,9 +1147,9 @@ header {
   left: 250px;
   width: 276px;
   height: 209px;
+  z-index: 999;
 }
 #pageunder a {
-  pointer-events: none;
   width: 100%;
   height: 100%;
   display: block;
@@ -1181,6 +1189,7 @@ header {
   position: fixed;
   top: 0;
   pointer-events: none;
+  z-index: 1;
 }
 
 /* page00 */
@@ -1297,6 +1306,7 @@ header {
 #page01back {
   position: absolute;
   top: 53%;
+  right: -10%;
   transform: translateY(-50%);
   display: none;
 }
@@ -1392,6 +1402,7 @@ header {
 #page01innerscroll-imgtop>img {
   position: absolute;
   top: calc(100vh + 150px);
+  right: -50px;
   width: 1200px;
 }
 #page01innerscroll-label01 {
@@ -1534,6 +1545,9 @@ header {
   line-height: 82px;
   color: #FFB100;
   margin-top: 600px;
+}
+#page01 #pageunder a {
+  pointer-events: none;
 }
 #page01 #pageunder a #pageunderbg {
   background-image: url('../images/02.svg');

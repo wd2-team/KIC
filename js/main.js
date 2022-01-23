@@ -341,8 +341,8 @@ try {
             slidesToShow: 2,
             slidesToScroll: 1,
             infinite: false,
-            prevArrow: '<img src="images/navi_number_GO.svg" class="slide-arrow prev-arrow animation">',
-            nextArrow: '<img src="images/navi_number_GO.svg" class="slide-arrow next-arrow animation">'
+            prevArrow: '<img src="images/arrow_left.svg" class="slide-arrow prev-arrow animation">',
+            nextArrow: '<img src="images/arrow_right.svg" class="slide-arrow next-arrow animation">'
         });
         var page01imgscrollsliderinnerPosition = $('#page01innerscroll-imgscroll .section-slider-inner').offset().top;
         if (scroll > page01imgscrollsliderinnerPosition - windowHeight + 170) {
