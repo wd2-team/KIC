@@ -1402,7 +1402,7 @@ header {
 #page01innerscroll-imgtop>img {
   position: absolute;
   top: calc(100vh + 150px);
-  right: -50px;
+  right: -270px;
   width: 1200px;
 }
 #page01innerscroll-label01 {
