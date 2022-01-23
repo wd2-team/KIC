@@ -1016,7 +1016,7 @@ button {
   position: absolute;
   top: 0;
   left: 0;
-  background: url('../images/00.svg');
+  background: url('../images/01.svg');
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1610,11 +1610,11 @@ header {
   display: none;
 }
 #page01innerscroll-center #page01innerscroll-label02 {
-  width: 308px;
-  height: 44px;
+  width: 298px;
+  height: 39px;
   display: block;
   font-size: 12px;
-  line-height: 44px;
+  line-height: 39px;
   position: absolute;
   margin-top: 57px;
   left: 50%;
@@ -1656,6 +1656,9 @@ header {
 #page01innerscroll-imgscroll .section-slider-inner-box li:first-child {
   margin-left: 33px;
 }
+#page01innerscroll-imgscroll .section-slider-inner-box a:focus {
+  outline: none;
+}
 #page01innerscroll-imgscroll .section-slider-inner-box img {
   display: none;
   width: 100%;
@@ -1667,6 +1670,21 @@ header {
   color: #ffffff;
   text-align: right;
 }
+
+#page01innerscroll-imgscroll .section-slider-inner-box img.slide-arrow {
+  position: absolute;
+  bottom: -30px;
+  width: 30px;
+}
+#page01innerscroll-imgscroll .section-slider-inner-box img.prev-arrow {
+  right: calc(50% + 20px);
+}
+#page01innerscroll-imgscroll .section-slider-inner-box img.next-arrow {
+  left: calc(50% + 20px);
+}
+
+
+
 #page01innerscroll-imgbottom {
   overflow: hidden;
   position: relative;

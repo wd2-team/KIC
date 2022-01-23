@@ -340,12 +340,16 @@ try {
             slidesToShow: 2,
             slidesToScroll: 1,
             infinite: false,
-            prevArrow: $('.slick-prev'),
-            nextArrow: $('.slick-next')
+            prevArrow: '<img src="images/navi_number_GO.svg" class="slide-arrow prev-arrow animation">',
+            nextArrow: '<img src="images/navi_number_GO.svg" class="slide-arrow next-arrow animation">'
         });
         var page01imgscrollsliderinnerPosition = $('#page01innerscroll-imgscroll .section-slider-inner').offset().top;
         if (scroll > page01imgscrollsliderinnerPosition - windowHeight + 170) {
             $('#page01innerscroll-imgscroll .section-slider-inner-box img').fadeIn(1500);
+            setTimeout(function(){
+                $('#page01innerscroll-imgscroll .section-slider-inner-box img.slide-arrow').css('opacity', '1');
+                $('#page01innerscroll-imgscroll .section-slider-inner-box img.slide-arrow').addClass("active");
+            },500);
             setTimeout(function(){
                 $('#page01innerscroll-imgscroll .section-slider-inner-box span').css('opacity', '1');
                 $('#page01innerscroll-imgscroll .section-slider-inner-box span').addClass("active");
