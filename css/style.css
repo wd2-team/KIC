@@ -64,7 +64,7 @@ body {
 	line-height: 20px;
   text-align: center;
   letter-spacing: 0.03em;
-  min-width: 1440px;
+  /* min-width: 1440px; */
 }
 a {
 	text-decoration: none;
@@ -696,6 +696,7 @@ button {
 /* index */
 #index {
   overflow-y: hidden;
+  min-width: 1440px;
 }
 #index header {
   position: relative;
@@ -1185,6 +1186,7 @@ header {
 /* page00 */
 #page00 {
   overflow-y: hidden;
+  min-width: 1440px;
 }
 #page00back {
   position: absolute;
