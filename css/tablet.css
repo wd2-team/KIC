@@ -1296,7 +1296,7 @@ header {
 /* page01 */
 #page01 {
   overflow-y: hidden;
-  min-width: 1024px;
+  min-width: 1080px;
 }
 #page01back {
   position: absolute;

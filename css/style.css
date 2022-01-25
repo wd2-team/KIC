@@ -1301,7 +1301,7 @@ header {
 /* page01 */
 #page01 {
   overflow-y: hidden;
-  min-width: 1024px;
+  min-width: 1080px;
 }
 #page01back {
   position: absolute;
@@ -1378,10 +1378,10 @@ header {
   padding-left: 160px;
   overflow: hidden;
   position: relative;
-  height: calc(100vh + 480px + 210px);
+  height: calc(100vh + 480px + 210px + (100vw - 1080px) / (840 / 300));
 }
 #page01innerscroll-imgtopleft {
-  width: 260px;
+  width: calc((100vw - 1080px) / (840 / 190) + 260px);
   position: relative;
 }
 #page01innerscroll-imgtopleft>img:nth-child(1) {
@@ -1390,20 +1390,20 @@ header {
 #page01innerscroll-imgtopleft>img:nth-child(2) {
   position: absolute;
   left: 0;
-  top: 30px;
+  top: calc((100vw - 1080px) / (840 / 20) + 30px);
   display: inline;
 }
 #page01innerscroll-imgtopleft>img:nth-child(3) {
   position: absolute;
   left: 0;
-  top: 110px;
+  top: calc((100vw - 1080px) / (840 / 65) + 110px);
   opacity: 0;
 }
 #page01innerscroll-imgtop>img {
   position: absolute;
-  top: calc(100vh + 150px);
-  right: -270px;
-  width: 1200px;
+  top: calc(100vh + 150px + (100vw - 1080px) / (840 / 60));
+  right: calc(-270px - (100vw - 1080px) / (840 / 155));
+  width: calc((100vw - 1080px) / (840 / 885) + 1200px);
 }
 #page01innerscroll-label01 {
   width: 216px;
