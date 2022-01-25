@@ -1448,7 +1448,7 @@ header {
 }
 #page01innerscroll-center {
   position: relative;
-  height: calc((100vw - 1080px) / (840 / 400) + 1800px);
+  height: calc((100vw - 1080px) / (840 / 730) + 1800px);
 }
 #page01innerscroll-center img#page01innerscroll-centercar {
   width: calc((100vw - 1080px) / (840 / 400) + 800px);
@@ -1513,16 +1513,16 @@ header {
   display: none;
 }
 #page01innerscroll-center #page01innerscroll-p02all {
-  width: calc((100vw - 1080px) / (840 / 267) + 491px);
+  width: calc((100vw - 1080px) / (840 / 337) + 491px);
   position: absolute;
   margin-top: calc((100vw - 1080px) / (840 / 90) + 196px);
-  right: calc((100vw - 1080px) / (840 / 135) + 95px);
+  right: calc((100vw - 1080px) / (840 / 65) + 95px);
   text-align: left;
-  font-size: 14px;
-  line-height: 30px;
+  font-size: calc((100vw - 1080px) / (840 / 3) + 14px);
+  line-height: calc((100vw - 1080px) / (840 / 7) + 30px);
 }
 #page01innerscroll-center .page01innerscroll-p02 {
-  margin-bottom: 30px;
+  margin-bottom: calc((100vw - 1080px) / (840 / 50) + 30px);
 }
 #page01innerscroll-imgbottom {
   overflow: hidden;
