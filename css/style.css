@@ -1470,7 +1470,8 @@ header {
   position: absolute;
   right: 0;
   top: calc((100vw - 1080px) / (840 / 150) + 570px);
-  width: 380px;
+  min-width: 380px;
+  width: calc((100vw - 1920px) / (640 / 200) + 380px);
 }
 #page01innerscroll-center .fade_image.fade_trigger1 {
   position: relative;
@@ -1497,7 +1498,8 @@ header {
   position: absolute;
   left: 0;
   top: calc((100vw - 1080px) / (840 / 420) + 1050px);
-  width: 380px;
+  /* min-width: 380px; */
+  width: calc((100vw - 1920px) / (640 / 200) + 380px);
 }
 #page01innerscroll-center #page01innerscroll-label02 {
   width: calc((100vw - 1080px) / (840 / 294) + 398px);
