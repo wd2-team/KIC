@@ -988,11 +988,6 @@ header {
 #pageheader h1 img {
   width: 240px;
 }
-@media screen and (min-width:1250px) {
-  #pageheader h1 img {
-    width: 180px;
-  }
-}
 #pageheader ul {
   letter-spacing: -.4em;
   position: absolute;
@@ -1396,7 +1391,7 @@ header {
 #page01innerscroll-imgtopleft>img:nth-child(3) {
   position: absolute;
   left: 0;
-  top: calc((100vw - 1080px) / (840 / 65) + 110px);
+  top: calc((100vw - 1080px) / (840 / 74) + 110px);
   opacity: 0;
 }
 #page01innerscroll-imgtop>img {
@@ -1411,7 +1406,7 @@ header {
   display: block;
   margin-left: calc((100vw - 1080px) / (840 / 93) + 77px);
   font-size: calc((100vw - 1080px) / (840 / 8) + 10px);
-  padding-top: calc((100vw - 1080px) / (840 / 9) + 11px);
+  padding-top: calc((100vw - 1080px) / (840 / 13) + 11px);
   line-height: calc((100vw - 1080px) / (840 / 6) + 19px);
   position: relative;
 }
@@ -1469,7 +1464,8 @@ header {
 #page01innerscroll-center img#page01innerscroll-centerline01 {
   position: absolute;
   right: 0;
-  top: calc((100vw - 1080px) / (840 / 150) + 570px);
+  /* top: calc((100vw - 1080px) / (840 / 150) + 570px); */
+  top: calc((100vw - 1080px) / (840 / 130) + 500px + (100vw - 1080px) / (840 / 33) + 49px + 21px);
   min-width: 380px;
   width: calc((100vw - 1920px) / (640 / 200) + 380px);
 }
@@ -1517,7 +1513,7 @@ header {
 #page01innerscroll-center #page01innerscroll-p02all {
   width: calc((100vw - 1080px) / (840 / 337) + 491px);
   position: absolute;
-  margin-top: calc((100vw - 1080px) / (840 / 90) + 196px);
+  margin-top: calc((100vw - 1080px) / (840 / 120) + 196px);
   right: calc((100vw - 1080px) / (840 / 65) + 95px);
   text-align: left;
   font-size: calc((100vw - 1080px) / (840 / 3) + 14px);
