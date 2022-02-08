@@ -327,12 +327,6 @@ try {
         var page01label02Position = $('#page01innerscroll-label02').offset().top;
         if (scroll > page01label02Position - windowHeight + 170) {
             $('#page01innerscroll-label02').addClass('boxactive');
-            // setTimeout(function(){
-            //     $('#page01innerscroll-label02 span:nth-child(3)').fadeIn(1500);
-            // },500);
-            // setTimeout(function(){
-            //     $('#page01innerscroll-label02 span:nth-child(1)').fadeIn(1500);
-            // },2000);
             setTimeout(function(){
                 $('#page01innerscroll-label02 span:nth-child(1)').fadeIn(1500);
             },500);
@@ -378,6 +372,50 @@ try {
         } else {
             $('#pagescroll').fadeIn();
         }
+    };
+} catch {}
+
+try {
+    var page02innerscroll = document.getElementById( 'page02innerscroll' );
+    var now = new Date().getTime();
+    page02innerscroll.onscroll = function(){
+        $(".page02innerscroll-p01").each(function() {
+            var scroll = $(window).scrollTop();
+            var blockPosition = $(this).offset().top;
+            var windowHeight = $(window).height();
+            if (scroll > blockPosition - windowHeight + 170) {
+                $(this).css('opacity', '1');
+                $(this).addClass("active");
+            }
+        });
+        $(".page02innerscroll-p02").each(function() {
+            var scroll = $(window).scrollTop();
+            var blockPosition = $(this).offset().top;
+            var windowHeight = $(window).height();
+            if (scroll > blockPosition - windowHeight + 170) {
+                $(this).css('opacity', '1');
+                $(this).addClass("active");
+            }
+        });
+        var scroll = $(window).scrollTop();
+        var windowHeight = $(window).height();
+        var page02imgbottompPosition = $('#page02innerscroll-imgbottomp').offset().top;
+        if (scroll > page02imgbottompPosition - windowHeight + 170) {
+            $('#page02back').addClass('showvideo');
+            let page02back = document.getElementById('page02back');
+            if (document.getElementById("topvideo") == null) {
+                page02back.insertAdjacentHTML('beforeend', '<video id="topvideo" src="images/car02.mp4" autoplay muted playsinline></video>');
+            }
+            $('#page02back video').fadeIn();
+        } else {
+            $('#page02back video').fadeOut();
+        }
+        
+
+
+
+
+        
     };
 } catch {}
 
