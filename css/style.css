@@ -1619,7 +1619,7 @@ header {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: url('../images/01.svg');
+  background-image: url('../images/02.svg');
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1633,6 +1633,8 @@ header {
 }
 #page02innerscroll-imgtop #page02innerscroll-imgtopmain {
   width: 800px;
+  filter: grayscale(1);
+  transition: 3s;
 }
 #page02innerscroll-title {
   height: 450px;
@@ -1648,8 +1650,7 @@ header {
   position: absolute;
   right: 0;
   top: calc(100vh + 600px);
-  min-width: 380px;
-  width: calc((100vw - 1920px) / (640 / 200) + 380px);
+  width: 282px;
 }
 #page02innerscroll-label01 {
   width: calc((100vw - 1080px) / (840 / 159) + 216px);
@@ -1691,9 +1692,8 @@ header {
 }
 #page02innerscroll-center img#page02innerscroll-centerline01 {
   position: absolute;
-  right: 0;
-  /* top: calc((100vw - 1080px) / (840 / 150) + 570px); */
-  top: calc((100vw - 1080px) / (840 / 130) + 500px + (100vw - 1080px) / (840 / 33) + 49px + 21px);
+  top: 0;
+  left: 0;
   min-width: 380px;
   width: calc((100vw - 1920px) / (640 / 200) + 380px);
 }
@@ -1701,6 +1701,7 @@ header {
   position: relative;
   text-align: right;
   z-index: 1;
+  height: 300px;
 }
 #page02innerscroll-center .fade_image_effect {
   width: calc((100vw - 1080px) / (840 / 144) + 214px);
