@@ -475,16 +475,31 @@ try {
             $('#page02innerscroll-imgbottomline01').css('opacity', '1');
             $('#page02innerscroll-imgbottomline01').addClass("active");
             setTimeout(function(){
-                $('#page02innerscroll-label02').addClass('boxactive');
+                $('#page02innerscroll-imgbottomimg').fadeIn(1500);
             },500);
+            setTimeout(function(){
+                $('#page02innerscroll-label02').addClass('boxactive');
+            },1000);
             setTimeout(function(){
                 $('#page02innerscroll-label02 span:nth-child(3)').css('opacity', '1');
                 $('#page02innerscroll-label02 span:nth-child(3)').addClass("active");
-            },1000);
+            },1500);
             setTimeout(function(){
                 $('#page02innerscroll-label02 span:nth-child(1)').css('opacity', '1');
                 $('#page02innerscroll-label02 span:nth-child(1)').addClass("active");
-            },1500);
+            },2000);
+        }
+        var page02imgbottompPosition = $('#page02innerscroll-imgbottomp').offset().top;
+        if (scroll > page02imgbottompPosition - windowHeight - 170) {
+            $('#page02innerscroll-imgbottomline02').css('opacity', '1');
+            $('#page02innerscroll-imgbottomline02').addClass("active");
+        }
+        if (scroll > page02imgbottompPosition - windowHeight + 170) {
+            $('#page02innerscroll-imgbottomp').css('opacity', '1');
+            $('#page02innerscroll-imgbottomp').addClass("active");
+            $('#pageleftnumber img:nth-child(3)').css('opacity', '0');
+        } else {
+            $('#pageleftnumber img:nth-child(3)').css('opacity', '0.3');
         }
 
         

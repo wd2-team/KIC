@@ -1722,7 +1722,7 @@ header {
 #page02innerscroll-imgbottom {
   overflow: hidden;
   position: relative;
-  height: calc((100vw - 1080px) / (840 / 600) + 900px);
+  height: 1100px;
 }
 #page02innerscroll-imgbottom img#page02innerscroll-imgbottomline01 {
   position: absolute;
@@ -1735,9 +1735,12 @@ header {
   position: absolute;
   top: 233px;
   left: 135px;
+  display: none;
+  z-index: 1;
 }
 #page02innerscroll-imgbottom #page02innerscroll-imgbottomimg img {
   width: 100%;
+  display: block;
 }
 #page02innerscroll-imgbottom #page02innerscroll-label02 {
   right: 368px;
@@ -1770,15 +1773,15 @@ header {
 }
 #page02innerscroll-imgbottom img#page02innerscroll-imgbottomline02 {
   position: absolute;
-  right: 0;
-  top: calc((100vw - 1080px) / (840 / 190) + 200px);
+  left: 0;
+  top: 500px;
   width: calc((100vw - 1080px) / (840 / 180) + 380px);
 }
 #page02innerscroll-imgbottom #page02innerscroll-imgbottomp {
   font-size: calc((100vw - 1080px) / (840 / 33) + 53px);
   line-height: calc((100vw - 1080px) / (840 / 33) + 82px);
   color: #FFB100;
-  margin-top: calc((100vw - 1080px) / (840 / 400) + 600px);
+  margin-top: 800px;
 }
 #page02 #pageunder a {
   pointer-events: none;
