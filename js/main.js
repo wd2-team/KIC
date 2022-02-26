@@ -508,6 +508,9 @@ try {
                 $('#page02innerscroll-label02 span:nth-child(1)').addClass("active");
             },2000);
         }
+        if (scroll > page02imgbottomPosition - windowHeight + 570) {
+            $('#page02innerscroll-imgbottomimgsp').fadeIn(1500);
+        }
         var page02imgbottompPosition = $('#page02innerscroll-imgbottomp').offset().top;
         if (scroll > page02imgbottompPosition - windowHeight - 170) {
             $('#page02innerscroll-imgbottomline02').css('opacity', '1');

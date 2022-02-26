@@ -1820,7 +1820,7 @@ header {
   display: block;
   left: 52px;
   font-size: 10px;
-  padding-top: 11px;
+  padding-top: 6px;
   line-height: 17px;
   position: absolute;
 }
@@ -1939,26 +1939,13 @@ header {
   top: -100px;
   width: calc((100vw - 1080px) / (840 / 180) + 380px);
 }
-#page02innerscroll-imgbottom #page02innerscroll-imgbottomimg {
-  position: absolute;
-  top: 365px;
-  left: 52px;
-  display: none;
-  z-index: 1;
-  letter-spacing: -.4em;
-}
-#page02innerscroll-imgbottom #page02innerscroll-imgbottomimg img {
-  width: 136px;
-  display: inline-block;
-  letter-spacing: normal;
-}
 #page02innerscroll-imgbottom #page02innerscroll-label02 {
   width: 131px;
   height: 49px;
   display: block;
   left: 52px;
   font-size: 10px;
-  padding-top: 11px;
+  padding-top: 6px;
   line-height: 17px;
   position: absolute;
 }
@@ -1980,6 +1967,19 @@ header {
 }
 #page02innerscroll-imgbottom .page02innerscroll-p02 {
   margin-bottom: 30px;
+}
+#page02innerscroll-imgbottom #page02innerscroll-imgbottomimgsp {
+  position: absolute;
+  top: 365px;
+  left: 52px;
+  display: none;
+  z-index: 1;
+  letter-spacing: -.4em;
+}
+#page02innerscroll-imgbottom #page02innerscroll-imgbottomimgsp img {
+  width: 136px;
+  display: inline-block;
+  letter-spacing: normal;
 }
 #page02innerscroll-imgbottom img#page02innerscroll-imgbottomline02 {
   position: absolute;
