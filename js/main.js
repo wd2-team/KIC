@@ -460,6 +460,25 @@ try {
                 });
             }
         });
+        $('#page02innerscroll-imgscroll .js-slick').not('.slick-initialized').slick({
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            infinite: false,
+            prevArrow: '<img src="images/arrow_left.svg" class="slide-arrow prev-arrow animation">',
+            nextArrow: '<img src="images/arrow_right.svg" class="slide-arrow next-arrow animation">'
+        });
+        var page02imgscrollsliderinnerPosition = $('#page02innerscroll-imgscroll .section-slider-inner').offset().top;
+        if (scroll > page02imgscrollsliderinnerPosition - windowHeight + 170) {
+            $('#page02innerscroll-imgscroll .section-slider-inner-box img').fadeIn(1500);
+            setTimeout(function(){
+                $('#page02innerscroll-imgscroll .section-slider-inner-box img.slide-arrow').css('opacity', '1');
+                $('#page02innerscroll-imgscroll .section-slider-inner-box img.slide-arrow').addClass("active");
+            },500);
+            setTimeout(function(){
+                $('#page02innerscroll-imgscroll .section-slider-inner-box span').css('opacity', '1');
+                $('#page02innerscroll-imgscroll .section-slider-inner-box span').addClass("active");
+            },1500);
+        }
         var page02centerPosition = $('#page02innerscroll-center').offset().top;
         if (scroll > page02centerPosition - windowHeight + 170) {
             setTimeout(function(){
