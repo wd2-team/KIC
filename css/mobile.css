@@ -2145,6 +2145,7 @@ header {
   background-image: url('../images/delivery_01.jpg');
   background-position: center center;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 #page03innerscroll-imgbottom #page03innerscroll-imgbottomp {
   font-size: 25px;
