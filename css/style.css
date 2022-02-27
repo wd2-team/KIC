@@ -1941,7 +1941,7 @@ header {
   position: relative;
   display: none;
   z-index: 1;
-  background-image: url('../images/delivery_01.jpg');
+  background-image: url('../images/03/sub03.jpg');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2075,7 +2075,7 @@ header {
 #page04innerscroll-title #page04innerscroll-titleback {
   width: 100vw;
   height: 240px;
-  background-image: url('../images/delivery_04.jpg');
+  background-image: url('../images/04/gakusei03.jpg');
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
