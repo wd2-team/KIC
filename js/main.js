@@ -624,6 +624,23 @@ try {
                 $(this).addClass("active");
             }
         });
+        $(".page04innerscroll-imgbottomimg").each(function() {
+            var scroll = $(window).scrollTop();
+            var blockPosition = $(this).offset().top;
+            var windowHeight = $(window).height();
+            if (scroll > blockPosition - windowHeight + 170) {
+                $(this).css('opacity', '1');
+            }
+        });
+        $(".page04innerscroll-imgbottomline").each(function() {
+            var scroll = $(window).scrollTop();
+            var blockPosition = $(this).offset().top;
+            var windowHeight = $(window).height();
+            if (scroll > blockPosition - windowHeight + 170) {
+                $(this).css('opacity', '1');
+                $(this).addClass("active");
+            }
+        });
         var scroll = $(window).scrollTop();
         var windowHeight = $(window).height();
         var page04imgbottompPosition = $('#page04innerscroll-imgbottomp').offset().top;
