@@ -1953,7 +1953,7 @@ header {
   margin-top: 314px;
 }
 #page03 #pageunder a #pageunderbg {
-  background-image: url('../images/03.svg');
+  background-image: url('../images/04.svg');
 }
 
 /* page04 */
@@ -2135,7 +2135,7 @@ header {
   letter-spacing: normal;
 }
 #page04innerscroll-center #page04innerscroll-fade .fade_image_effect img {
-  min-height: 100%;
+  height: 100%;
   width: auto;
 }
 #page04innerscroll-center #page04innerscroll-fade:hover .fade_image_effect:not(:hover) img {
