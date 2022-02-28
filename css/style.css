@@ -1628,10 +1628,10 @@ header {
   padding-top: calc(100vh + 50px);
   overflow: hidden;
   position: relative;
-  height: calc(100vh + 50px + 420px);
+  height: calc(100vh + 50px + 420px + (100vw - 1080px) / (840 / 270));
 }
 #page02innerscroll-imgtop #page02innerscroll-imgtopmain {
-  width: 746px;
+  width: calc((100vw - 1080px) / (840 / 580) + 746px);
   /* filter: grayscale(1); */
   transition: 3s;
   left: 50%;
@@ -1639,7 +1639,7 @@ header {
   position: absolute;
 }
 #page02innerscroll-imgtop #page02innerscroll-imgtopmaincover {
-  width: 746px;
+  width: calc((100vw - 1080px) / (840 / 580) + 746px);
   /* top: -425px; */
   position: absolute;
   mix-blend-mode: color-burn;
@@ -1651,40 +1651,40 @@ header {
   height: 450px;
 }
 #page02innerscroll-title p#page02innerscroll-titlep {
-  font-size: 50px;
-  line-height: 110px;
+  font-size: calc((100vw - 1080px) / (840 / 37) + 50px);
+  line-height: calc((100vw - 1080px) / (840 / 81) + 110px);
   color: #FFB100;
   opacity: 0;
-  margin: 148px auto 148px auto;
+  margin: calc((100vw - 1080px) / (840 / 110) + 148px) auto;
 }
 #page02innerscroll-title #page02innerscroll-titleline {
   position: absolute;
   right: 0;
-  top: calc(100vh + 580px);
-  width: 282px;
+  top: calc(100vh + 580px + (100vw - 1080px) / (840 / 290));
+  width: calc((100vw - 1080px) / (840 / 268) + 282px);
 }
 #page02innerscroll-label01 {
-  width: 168px;
-  height: 68px;
+  width: calc((100vw - 1080px) / (840 / 163) + 168px);
+  height: calc((100vw - 1080px) / (840 / 54) + 68px);
   display: block;
-  margin-left: 92px;
-  font-size: 10px;
-  padding-top: 14px;
-  line-height: 19px;
+  margin-left: calc((100vw - 1080px) / (840 / 72) + 92px);
+  font-size: calc((100vw - 1080px) / (840 / 8) + 10px);
+  padding-top: calc((100vw - 1080px) / (840 / 13) + 14px);
+  line-height: calc((100vw - 1080px) / (840 / 13) + 19px);
   position: relative;
 }
 #page02innerscroll-label01 span {
   display: inline-block;
 }
 #page02innerscroll-label01 span:nth-child(3) {
-  font-size: 15px;
+  font-size: calc((100vw - 1080px) / (840 / 13) + 15px);
 }
 #page02innerscroll-p01all {
   text-align: left;
-  padding-left: 333px;
-  margin-top: -78px;
-  font-size: 13px;
-  line-height: 30px;
+  padding-left: calc((100vw - 1080px) / (840 / 260) + 333px);
+  margin-top: calc((1080px - 100vw) / (840 / 60) - 78px);
+  font-size: calc((100vw - 1080px) / (840 / 7) + 13px);
+  line-height: calc((100vw - 1080px) / (840 / 17) + 30px);
   position: relative;
   /* overflow: hidden; */
   /* height: calc((100vw - 1080px) / (840 / 320) + 330px); */
@@ -1700,23 +1700,24 @@ header {
 #page02innerscroll-center {
   position: relative;
   /* height: 1121px; */
-  margin-top: 114px;
+  min-height: 1121px;
+  margin-top: calc((100vw - 1080px) / (840 / 400) + 114px);
 }
 #page02innerscroll-center img#page02innerscroll-centerline01 {
   position: absolute;
-  top: 150px;
-  left: 0;
+  top: calc((100vw - 1080px) / (840 / 100) + 150px);
+  left: calc((100vw - 1080px) / (840 / 180));
   min-width: 380px;
-  width: calc((100vw - 1920px) / (640 / 200) + 380px);
+  width: calc((100vw - 1080px) / (840 / 200) + 380px);
 }
 #page02innerscroll-center .fade_image.fade_trigger1 {
   position: relative;
   text-align: right;
   z-index: 1;
-  height: 165px;
+  height: calc((100vw - 1080px) / (840 / 130) + 165px);
 }
 #page02innerscroll-center .fade_image_effect {
-  width: 247px;
+  width: calc((100vw - 1080px) / (840 / 193) + 247px);
   height: 100%;
   /* overflow: auto;
   overflow-x: hidden; */
@@ -1727,34 +1728,30 @@ header {
   filter: grayscale(1);
   transition: 3s;
 }
-#page02innerscroll-center #page02innerscroll-centerline01 {
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 380px;
-}
 #page02innerscroll-center #page02innerscroll-centerimg {
   width: 100%;
   position: relative;
   display: none;
-  margin-top: 235px;
+  margin-top: calc((100vw - 1080px) / (840 / 182) + 235px);
 }
 #page02innerscroll-imgbottom {
   overflow: hidden;
   position: relative;
-  height: 1150px;
+  /* height: 1150px; */
+  min-height: 1150px;
 }
 #page02innerscroll-imgbottom img#page02innerscroll-imgbottomline01 {
   position: absolute;
-  left: 452px;
+  left: calc((100vw - 1080px) / (840 / 360) + 452px);
   top: -100px;
-  width: 380px;
+  min-width: 380px;
+  width: calc((100vw - 1080px) / (840 / 200) + 380px);
 }
 #page02innerscroll-imgbottom #page02innerscroll-imgbottomimg {
-  width: 317px;
+  width: calc((100vw - 1080px) / (840 / 253) + 317px);
   position: absolute;
-  top: 233px;
-  left: 135px;
+  top: calc((100vw - 1080px) / (840 / 182) + 233px);
+  left: calc((100vw - 1080px) / (840 / 105) + 135px);
   display: none;
   z-index: 1;
 }
@@ -1767,30 +1764,30 @@ header {
   transition: 3s;
 }
 #page02innerscroll-imgbottom #page02innerscroll-label02 {
-  right: 368px;
-  margin-top: 291px;
-  width: 185px;
-  height: 68px;
+  right: calc((100vw - 1080px) / (840 / 262) + 368px);
+  margin-top: calc((100vw - 1080px) / (840 / 229) + 291px);
+  width: calc((100vw - 1080px) / (840 / 145) + 185px);
+  height: calc((100vw - 1080px) / (840 / 54) + 68px);
   display: block;
-  font-size: 10px;
-  padding-top: 14px;
-  line-height: 19px;
+  font-size: calc((100vw - 1080px) / (840 / 8) + 10px);
+  padding-top: calc((100vw - 1080px) / (840 / 13) + 14px);
+  line-height: calc((100vw - 1080px) / (840 / 13) + 19px);
   position: absolute;
 }
 #page02innerscroll-imgbottom #page02innerscroll-label02 span {
   display: inline-block;
 }
 #page02innerscroll-imgbottom #page02innerscroll-label02 span:nth-child(3) {
-  font-size: 15px;
+  font-size: calc((100vw - 1080px) / (840 / 13) + 15px);
 }
 #page02innerscroll-imgbottom #page02innerscroll-p02all {
-  width: 340px;
+  width: calc((100vw - 1080px) / (840 / 200) + 340px);
   position: absolute;
-  margin-top: 426px;
-  right: 215px;
+  margin-top: calc((100vw - 1080px) / (840 / 334) + 426px);
+  right: calc((100vw - 1080px) / (840 / 205) + 215px);
   text-align: left;
-  font-size: 13px;
-  line-height: 30px;
+  font-size: calc((100vw - 1080px) / (840 / 7) + 13px);
+  line-height: calc((100vw - 1080px) / (840 / 17) + 30px);
 }
 #page02innerscroll-imgbottom .page02innerscroll-p02 {
   margin-bottom: 30px;
@@ -1798,14 +1795,15 @@ header {
 #page02innerscroll-imgbottom img#page02innerscroll-imgbottomline02 {
   position: absolute;
   left: 0;
-  top: 500px;
-  width: 380px;
+  top: calc((100vw - 1080px) / (840 / 500) + 500px);
+  min-width: 380px;
+  width: calc((100vw - 1080px) / (840 / 200) + 380px);
 }
 #page02innerscroll-imgbottom #page02innerscroll-imgbottomp {
-  font-size: 60px;
-  line-height: 78px;
+  font-size: calc((100vw - 1080px) / (840 / 44) + 60px);
+  line-height: calc((100vw - 1080px) / (840 / 57) + 78px);
   color: #FFB100;
-  margin-top: 863px;
+  margin-top: calc((100vw - 1080px) / (840 / 671) + 863px);
 }
 #page02 #pageunder a #pageunderbg {
   background-image: url('../images/03.svg');

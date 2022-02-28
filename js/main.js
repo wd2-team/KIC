@@ -516,7 +516,9 @@ try {
             },1000);
         }
         if (scroll > page02centerPosition - windowHeight + 470) {
-            $('#page02innerscroll-centerimg').fadeIn(1500);
+            setTimeout(function(){
+                $('#page02innerscroll-centerimg').fadeIn(1500);
+            },1000);
         }
         var page02imgbottomPosition = $('#page02innerscroll-imgbottom').offset().top;
         if (scroll > page02imgbottomPosition - windowHeight + 170) {
