@@ -1886,12 +1886,24 @@ header {
   padding-top: calc(100vh + 50px);
   overflow: hidden;
   position: relative;
-  height: calc(100vh + 50px + 375px);
+  height: calc(100vh + 50px + 420px);
 }
 #page03innerscroll-imgtop #page03innerscroll-imgtopmain {
   width: 746px;
-  filter: grayscale(1);
+  /* filter: grayscale(1); */
   transition: 3s;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+}
+#page03innerscroll-imgtop #page03innerscroll-imgtopmaincover {
+  width: 746px;
+  /* top: -425px; */
+  position: absolute;
+  mix-blend-mode: color-burn;
+  transition: 3s;
+  left: 50%;
+  transform: translateX(-50%);
 }
 #page03innerscroll-title {
   height: 325px;
@@ -1925,6 +1937,10 @@ header {
   height: 100%;
   /* overflow: auto;
   overflow-x: hidden; */
+}
+#page03innerscroll-center .fade_image_effect img {
+  filter: grayscale(1);
+  transition: 3s;
 }
 #page03innerscroll-center #page03innerscroll-centerline02 {
   position: absolute;
