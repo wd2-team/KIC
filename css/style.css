@@ -1699,7 +1699,7 @@ header {
 }
 #page02innerscroll-center {
   position: relative;
-  height: 1121px;
+  /* height: 1121px; */
   margin-top: 114px;
 }
 #page02innerscroll-center img#page02innerscroll-centerline01 {
