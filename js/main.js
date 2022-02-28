@@ -612,6 +612,10 @@ try {
                 },1500);
             }
         });
+        var page03fadespPosition = $('#page03innerscroll-fadesp').offset().top;
+        if (scroll > page03fadespPosition - windowHeight + 170) {
+            $('#page03innerscroll-fadesp img').css('filter', 'grayscale(0)');
+        }
         if (scroll > page03centerPosition - windowHeight + 370) {
             $('#page03innerscroll-centerline02').css('opacity', '1');
             $('#page03innerscroll-centerline02').addClass("active");
