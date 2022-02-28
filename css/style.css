@@ -988,7 +988,7 @@ header {
   left: 56px;
 }
 #pageheader h1 img {
-  width: 240px;
+  width: calc(180px + (100vw - 1080px) * (150 / 840));
 }
 #pageheader ul {
   letter-spacing: -.4em;
@@ -1628,10 +1628,10 @@ header {
   padding-top: calc(100vh + 50px);
   overflow: hidden;
   position: relative;
-  height: calc(100vh + 50px + 600px);
+  /* height: calc(100vh + 50px + 600px); */
 }
 #page02innerscroll-imgtop #page02innerscroll-imgtopmain {
-  width: 800px;
+  width: 746px;
   filter: grayscale(1);
   transition: 3s;
 }
@@ -1639,43 +1639,43 @@ header {
   height: 450px;
 }
 #page02innerscroll-title p#page02innerscroll-titlep {
-  font-size: calc((100vw - 1080px) / (840 / 33) + 49px);
-  line-height: calc((100vw - 1080px) / (840 / 33) + 49px);
+  font-size: 50px;
+  line-height: 110px;
   color: #FFB100;
   opacity: 0;
-  margin: 100px auto;
+  margin: 115px auto 148px auto;
 }
 #page02innerscroll-title #page02innerscroll-titleline {
   position: absolute;
   right: 0;
-  top: calc(100vh + 600px);
+  top: calc(100vh + 580px);
   width: 282px;
 }
 #page02innerscroll-label01 {
-  width: calc((100vw - 1080px) / (840 / 159) + 216px);
-  height: calc((100vw - 1080px) / (840 / 41) + 57px);
+  width: 168px;
+  height: 68px;
   display: block;
-  margin-left: calc((100vw - 1080px) / (840 / 93) + 77px);
-  font-size: calc((100vw - 1080px) / (840 / 8) + 10px);
-  padding-top: calc((100vw - 1080px) / (840 / 13) + 11px);
-  line-height: calc((100vw - 1080px) / (840 / 6) + 19px);
+  margin-left: 92px;
+  font-size: 10px;
+  padding-top: 14px;
+  line-height: 19px;
   position: relative;
 }
 #page02innerscroll-label01 span {
   display: inline-block;
 }
 #page02innerscroll-label01 span:nth-child(3) {
-  font-size: calc((100vw - 1080px) / (840 / 9) + 15px);
+  font-size: 15px;
 }
 #page02innerscroll-p01all {
   text-align: left;
-  padding-left: calc((100vw - 1080px) / (840 / 281) + 333px);
-  margin-top: calc(-57px - (100vw - 1080px) / (840 / 43));
-  font-size: calc((100vw - 1080px) / (840 / 6) + 14px);
-  line-height: calc((100vw - 1080px) / (840 / 10) + 30px);
+  padding-left: 333px;
+  margin-top: -78px;
+  font-size: 13px;
+  line-height: 30px;
   position: relative;
   /* overflow: hidden; */
-  height: calc((100vw - 1080px) / (840 / 320) + 330px);
+  /* height: calc((100vw - 1080px) / (840 / 320) + 330px); */
 }
 .page02innerscroll-p01 {
   margin-bottom: calc((100vw - 1080px) / (840 / 50) + 30px);
@@ -1687,7 +1687,8 @@ header {
 }
 #page02innerscroll-center {
   position: relative;
-  height: calc((100vw - 1080px) / (840 / 730) + 1020px);
+  /* height: calc((100vw - 1080px) / (840 / 730) + 1020px); */
+  margin-top: 114px;
 }
 #page02innerscroll-center img#page02innerscroll-centerline01 {
   position: absolute;
@@ -1700,12 +1701,17 @@ header {
   position: relative;
   text-align: right;
   z-index: 1;
-  height: 300px;
+  height: 165px;
 }
 #page02innerscroll-center .fade_image_effect {
-  width: calc((100vw - 1080px) / (840 / 144) + 247px);
+  width: 247px;
+  height: 100%;
   /* overflow: auto;
   overflow-x: hidden; */
+}
+#page02innerscroll-center .fade_image_effect img {
+  width: auto;
+  height: 100%;
 }
 #page02innerscroll-center #page02innerscroll-centerline01 {
   position: absolute;
@@ -1717,17 +1723,18 @@ header {
   width: 100%;
   position: relative;
   display: none;
+  margin-top: 235px;
 }
 #page02innerscroll-imgbottom {
   overflow: hidden;
   position: relative;
-  height: 1100px;
+  height: 1150px;
 }
 #page02innerscroll-imgbottom img#page02innerscroll-imgbottomline01 {
   position: absolute;
   left: 452px;
   top: -100px;
-  width: calc((100vw - 1080px) / (840 / 180) + 380px);
+  width: 380px;
 }
 #page02innerscroll-imgbottom #page02innerscroll-imgbottomimg {
   width: 317px;
@@ -1743,44 +1750,44 @@ header {
 }
 #page02innerscroll-imgbottom #page02innerscroll-label02 {
   right: 368px;
-  margin-top: calc((100vw - 1080px) / (840 / 50) + 255px);
-  width: calc((100vw - 1080px) / (840 / 159) + 216px);
-  height: calc((100vw - 1080px) / (840 / 41) + 57px);
+  margin-top: 291px;
+  width: 185px;
+  height: 68px;
   display: block;
-  font-size: calc((100vw - 1080px) / (840 / 8) + 10px);
-  padding-top: calc((100vw - 1080px) / (840 / 13) + 11px);
-  line-height: calc((100vw - 1080px) / (840 / 6) + 19px);
+  font-size: 10px;
+  padding-top: 14px;
+  line-height: 19px;
   position: absolute;
 }
 #page02innerscroll-imgbottom #page02innerscroll-label02 span {
   display: inline-block;
 }
 #page02innerscroll-imgbottom #page02innerscroll-label02 span:nth-child(3) {
-  font-size: calc((100vw - 1080px) / (840 / 9) + 15px);
+  font-size: 15px;
 }
 #page02innerscroll-imgbottom #page02innerscroll-p02all {
-  width: calc((100vw - 1080px) / (840 / 337) + 491px);
+  width: 340px;
   position: absolute;
-  margin-top: calc((100vw - 1080px) / (840 / 120) + 346px);
-  right: calc((100vw - 1080px) / (840 / 65) + 95px);
+  margin-top: 426px;
+  right: 215px;
   text-align: left;
-  font-size: calc((100vw - 1080px) / (840 / 3) + 14px);
-  line-height: calc((100vw - 1080px) / (840 / 7) + 30px);
+  font-size: 13px;
+  line-height: 30px;
 }
 #page02innerscroll-imgbottom .page02innerscroll-p02 {
-  margin-bottom: calc((100vw - 1080px) / (840 / 50) + 30px);
+  margin-bottom: 30px;
 }
 #page02innerscroll-imgbottom img#page02innerscroll-imgbottomline02 {
   position: absolute;
   left: 0;
   top: 500px;
-  width: calc((100vw - 1080px) / (840 / 180) + 380px);
+  width: 380px;
 }
 #page02innerscroll-imgbottom #page02innerscroll-imgbottomp {
-  font-size: calc((100vw - 1080px) / (840 / 33) + 53px);
-  line-height: calc((100vw - 1080px) / (840 / 33) + 82px);
+  font-size: 60px;
+  line-height: 78px;
   color: #FFB100;
-  margin-top: 800px;
+  margin-top: 863px;
 }
 #page02 #pageunder a #pageunderbg {
   background-image: url('../images/03.svg');
