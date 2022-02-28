@@ -583,8 +583,8 @@ try {
         var page03imgtopPosition = $('#page03innerscroll-imgtop').offset().top;
         if (scroll > page03imgtopPosition + 170) {
             setTimeout(function(){
-                $('#page03innerscroll-imgtop #page03innerscroll-imgtopmain').css('filter', 'grayscale(0)');
-            },1500);
+                $('#page03innerscroll-imgtop #page03innerscroll-imgtopmaincover').css('opacity', '0');
+            },1000);
         }
         var page03titlePosition = $('#page03innerscroll-title').offset().top;
         if (scroll > page03titlePosition - windowHeight + 170) {
@@ -599,12 +599,15 @@ try {
             },1000);
         }
         var fadedelaySpeed = 300;
-        $("#page03 .fade_trigger1 .fade_image_effect").each(function(i){
-            var element = $("#page03 .fade_trigger1").offset().top;
+        $("#page03 #page03innerscroll-fade.fade_trigger1 .fade_image_effect").each(function(i){
+            var element = $("#page03 #page03innerscroll-fade.fade_trigger1").offset().top;
             if (scroll > element - windowHeight + windowHeight / 5){
                 $(this).delay(i*(fadedelaySpeed)).queue(function(){
                     $(this).addClass("fadeactive");
                 });
+                setTimeout(function(){
+                    $('#page03innerscroll-fade .fade_image_effect.fadeactive img').css('filter', 'grayscale(0)');
+                },1500);
             }
         });
         if (scroll > page03centerPosition - windowHeight + 370) {
