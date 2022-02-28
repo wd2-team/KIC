@@ -1803,7 +1803,7 @@ header {
   height: calc(100vh + 189 * (100vw / 375));
 }
 #page02innerscroll-imgtop #page02innerscroll-imgtopmain {
-  width: 80%;
+  width: 100%;
   filter: grayscale(1);
   transition: 3s;
 }
@@ -2086,7 +2086,7 @@ header {
   height: calc(100vh + 193 * (100vw / 375));
 }
 #page03innerscroll-imgtop #page03innerscroll-imgtopmain {
-  width: 80%;
+  width: 100%;
   filter: grayscale(1);
   transition: 3s;
 }
@@ -2249,7 +2249,7 @@ header {
   height: calc(100vh +189 * (100vw / 375));
 }
 #page04innerscroll-imgtop #page04innerscroll-imgtopmain {
-  width: 80%;
+  width: 100%;
   filter: grayscale(1);
   transition: 3s;
 }
