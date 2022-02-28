@@ -1691,7 +1691,7 @@ header {
 }
 .page02innerscroll-p01 {
   margin-bottom: calc((100vw - 1080px) / (840 / 50) + 30px);
-  display: inline-block;
+  display: block;
 }
 #page02innerscroll-p01-01,
 #page02innerscroll-p01-02 {
@@ -1757,6 +1757,9 @@ header {
   left: 135px;
   display: none;
   z-index: 1;
+}
+#page02innerscroll-imgbottom #page02innerscroll-imgbottomimg .fade_image_effect:nth-child(2) {
+  top: -10px;
 }
 #page02innerscroll-imgbottom #page02innerscroll-imgbottomimg img {
   width: 100%;
@@ -1864,7 +1867,7 @@ header {
   transform: translateY(-50%);
 }
 #page03innerscroll #pageright a p img {
-  width: 160px;
+  width: 185px;
 }
 #page03innerscroll #pageright a p span {
   font-size: 14px;
@@ -1913,7 +1916,7 @@ header {
   line-height: 70px;
   color: #FFB100;
   opacity: 0;
-  margin: 120px auto 180px auto;
+  margin: 180px auto;
 }
 #page03innerscroll-center {
   position: relative;
