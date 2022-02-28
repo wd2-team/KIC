@@ -1983,6 +1983,8 @@ header {
   width: 136px;
   display: inline-block;
   letter-spacing: normal;
+  filter: grayscale(1);
+  transition: 3s;
 }
 #page02innerscroll-imgbottom img#page02innerscroll-imgbottomline02 {
   position: absolute;

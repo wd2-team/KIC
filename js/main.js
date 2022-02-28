@@ -429,7 +429,7 @@ try {
             setTimeout(function(){
                 // $('#page02innerscroll-imgtop #page02innerscroll-imgtopmain').css('filter', 'grayscale(0)');
                 $('#page02innerscroll-imgtop #page02innerscroll-imgtopmaincover').css('opacity', '0');
-            },1500);
+            },1000);
         }
         var page02titlePosition = $('#page02innerscroll-title').offset().top;
         if (scroll > page02titlePosition - windowHeight + 170) {
@@ -453,12 +453,39 @@ try {
             },1000);
         }
         var fadedelaySpeed = 300;
-        $("#page02 .fade_trigger1 .fade_image_effect").each(function(i){
-            var element = $("#page02 .fade_trigger1").offset().top;
+        $("#page02 #page02innerscroll-fade.fade_trigger1 .fade_image_effect").each(function(i){
+            var element = $("#page02 #page02innerscroll-fade.fade_trigger1").offset().top;
             if (scroll > element - windowHeight + windowHeight / 5){
                 $(this).delay(i*(fadedelaySpeed)).queue(function(){
                     $(this).addClass("fadeactive");
                 });
+                setTimeout(function(){
+                    $('#page02innerscroll-center .fade_image_effect.fadeactive img').css('filter', 'grayscale(0)');
+                },1500);
+            }
+        });
+        var fadedelaySpeed = 300;
+        $("#page02 #page02innerscroll-imgbottomimg.fade_trigger1 .fade_image_effect").each(function(i){
+            var element = $("#page02 #page02innerscroll-imgbottom").offset().top;
+            if (scroll > element - windowHeight + windowHeight / 5 + 70){
+                $(this).delay(i*(fadedelaySpeed)).queue(function(){
+                    $(this).addClass("fadeactive");
+                });
+                setTimeout(function(){
+                    $('#page02innerscroll-imgbottomimg .fade_image_effect.fadeactive img').css('filter', 'grayscale(0)');
+                },1500);
+            }
+        });
+        var fadedelaySpeed = 300;
+        $("#page02 #page02innerscroll-imgbottomimgsp.fade_trigger1 .fade_image_effect").each(function(i){
+            var element = $("#page02 #page02innerscroll-imgbottom").offset().top;
+            if (scroll > element - windowHeight + windowHeight / 5 + 440){
+                $(this).delay(i*(fadedelaySpeed)).queue(function(){
+                    $(this).addClass("fadeactive");
+                });
+                setTimeout(function(){
+                    $('#page02innerscroll-imgbottomimgsp .fade_image_effect.fadeactive img').css('filter', 'grayscale(0)');
+                },1500);
             }
         });
         $('#page02innerscroll-imgscroll .js-slick').not('.slick-initialized').slick({

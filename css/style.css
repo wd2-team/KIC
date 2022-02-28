@@ -1628,19 +1628,24 @@ header {
   padding-top: calc(100vh + 50px);
   overflow: hidden;
   position: relative;
-  /* height: calc(100vh + 50px + 600px); */
+  height: calc(100vh + 50px + 420px);
 }
 #page02innerscroll-imgtop #page02innerscroll-imgtopmain {
   width: 746px;
   /* filter: grayscale(1); */
   transition: 3s;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
 }
 #page02innerscroll-imgtop #page02innerscroll-imgtopmaincover {
   width: 746px;
-  top: -425px;
-  position: relative;
+  /* top: -425px; */
+  position: absolute;
   mix-blend-mode: color-burn;
   transition: 3s;
+  left: 50%;
+  transform: translateX(-50%);
 }
 #page02innerscroll-title {
   height: 450px;
@@ -1694,7 +1699,7 @@ header {
 }
 #page02innerscroll-center {
   position: relative;
-  /* height: calc((100vw - 1080px) / (840 / 730) + 1020px); */
+  height: 1121px;
   margin-top: 114px;
 }
 #page02innerscroll-center img#page02innerscroll-centerline01 {
@@ -1719,6 +1724,8 @@ header {
 #page02innerscroll-center .fade_image_effect img {
   width: auto;
   height: 100%;
+  filter: grayscale(1);
+  transition: 3s;
 }
 #page02innerscroll-center #page02innerscroll-centerline01 {
   position: absolute;
@@ -1753,7 +1760,8 @@ header {
 }
 #page02innerscroll-imgbottom #page02innerscroll-imgbottomimg img {
   width: 100%;
-  display: block;
+  filter: grayscale(1);
+  transition: 3s;
 }
 #page02innerscroll-imgbottom #page02innerscroll-label02 {
   right: 368px;
