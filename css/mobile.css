@@ -2096,12 +2096,23 @@ header {
   padding-top: 100vh;
   overflow: hidden;
   position: relative;
-  height: calc(100vh + 193 * (100vw / 375));
+  height: calc(100vh + 189 * (100vw / 375));
 }
 #page03innerscroll-imgtop #page03innerscroll-imgtopmain {
   width: 100%;
-  filter: grayscale(1);
+  /* filter: grayscale(1); */
   transition: 3s;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+}
+#page03innerscroll-imgtop #page03innerscroll-imgtopmaincover {
+  width: 100%;
+  position: absolute;
+  mix-blend-mode: color-burn;
+  transition: 3s;
+  left: 50%;
+  transform: translateX(-50%);
 }
 #page03innerscroll-title {
   height: 130px;
@@ -2117,16 +2128,23 @@ header {
   position: relative;
   height: 350px;
 }
-#page03innerscroll-center .fade_image.fade_trigger1 {
+#page03innerscroll-center #page03innerscroll-fadesp {
   position: relative;
   text-align: center;
   z-index: 1;
   height: 100px;
+  letter-spacing: -.4em;
 }
-#page03innerscroll-center .fade_image_effect {
+#page03innerscroll-center #page03innerscroll-fadesp img {
   width: calc(100vw / 3);
   /* overflow: auto;
   overflow-x: hidden; */
+  filter: grayscale(1);
+  transition: 3s;
+  display: inline-block;
+  letter-spacing: normal;
+  object-fit: cover;
+  height: 100%;
 }
 #page03innerscroll-p01all {
   text-align: center;
