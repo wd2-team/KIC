@@ -2115,7 +2115,7 @@ header {
   transform: translateX(-50%);
 }
 #page03innerscroll-title {
-  height: 130px;
+  height: 160px;
 }
 #page03innerscroll-title p#page03innerscroll-titlep {
   font-size: 21px;
@@ -2126,7 +2126,7 @@ header {
 }
 #page03innerscroll-center {
   position: relative;
-  height: 350px;
+  height: 430px;
 }
 #page03innerscroll-center #page03innerscroll-fadesp {
   position: relative;
@@ -2149,8 +2149,8 @@ header {
 #page03innerscroll-p01all {
   text-align: center;
   margin-top: 71px;
-  font-size: 10px;
-  line-height: 22px;
+  font-size: 13px;
+  line-height: 24px;
   position: relative;
   /* overflow: hidden; */
   height: 175px;
@@ -2182,7 +2182,7 @@ header {
   font-size: 25px;
   line-height: 33px;
   color: #FFB100;
-  margin-top: 102px;
+  margin-top: 107px;
 }
 #page03 #pageunder a #pageunderbg {
   background-image: url('../images/04.svg');

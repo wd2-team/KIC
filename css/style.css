@@ -1871,7 +1871,7 @@ header {
 }
 #page03innerscroll #pageright a p span {
   font-size: 14px;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.9em;
 }
 #page03innerscroll #pageright a #pagerightbg {
   width: 100%;
@@ -1955,8 +1955,8 @@ header {
 #page03innerscroll-p01all {
   text-align: center;
   margin-top: 178px;
-  font-size: calc((100vw - 1080px) / (840 / 6) + 14px);
-  line-height: calc((100vw - 1080px) / (840 / 10) + 30px);
+  font-size: 14px;
+  line-height: 35px;
   position: relative;
   /* overflow: hidden; */
   height: calc((100vw - 1080px) / (840 / 320) + 300px);
@@ -1971,7 +1971,7 @@ header {
 #page03innerscroll-imgbottom {
   overflow: hidden;
   position: relative;
-  /* height: 1300px; */
+  height: 1300px;
 }
 #page03innerscroll-imgbottom #page03innerscroll-imgbottomimg {
   width: 100%;
