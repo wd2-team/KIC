@@ -427,7 +427,8 @@ try {
         var page02imgtopPosition = $('#page02innerscroll-imgtop').offset().top;
         if (scroll > page02imgtopPosition + 170) {
             setTimeout(function(){
-                $('#page02innerscroll-imgtop #page02innerscroll-imgtopmain').css('filter', 'grayscale(0)');
+                // $('#page02innerscroll-imgtop #page02innerscroll-imgtopmain').css('filter', 'grayscale(0)');
+                $('#page02innerscroll-imgtop #page02innerscroll-imgtopmaincover').css('opacity', '0');
             },1500);
         }
         var page02titlePosition = $('#page02innerscroll-title').offset().top;

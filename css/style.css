@@ -1632,7 +1632,14 @@ header {
 }
 #page02innerscroll-imgtop #page02innerscroll-imgtopmain {
   width: 746px;
-  filter: grayscale(1);
+  /* filter: grayscale(1); */
+  transition: 3s;
+}
+#page02innerscroll-imgtop #page02innerscroll-imgtopmaincover {
+  width: 746px;
+  top: -425px;
+  position: relative;
+  mix-blend-mode: color-burn;
   transition: 3s;
 }
 #page02innerscroll-title {
