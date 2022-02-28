@@ -988,7 +988,7 @@ header {
   left: 56px;
 }
 #pageheader h1 img {
-  width: calc(180px + (100vw - 1080px) * (150 / 840));
+  width: calc(160px + (100vw - 1080px) * (170 / 840));
 }
 #pageheader ul {
   letter-spacing: -.4em;
