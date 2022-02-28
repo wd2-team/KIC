@@ -1606,7 +1606,7 @@ header {
   transform: translateY(-50%);
 }
 #page02innerscroll #pageright a p img {
-  width: 160px;
+  width: 185px;
 }
 #page02innerscroll #pageright a p span {
   font-size: 14px;
@@ -1655,7 +1655,7 @@ header {
   line-height: 110px;
   color: #FFB100;
   opacity: 0;
-  margin: 115px auto 148px auto;
+  margin: 148px auto 148px auto;
 }
 #page02innerscroll-title #page02innerscroll-titleline {
   position: absolute;
@@ -1976,7 +1976,7 @@ header {
   position: relative;
   display: none;
   z-index: 1;
-  background-image: url('../images/03/sub03.jpg');
+  background-image: url('../images/03/sub03.webp');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
