@@ -1804,8 +1804,19 @@ header {
 }
 #page02innerscroll-imgtop #page02innerscroll-imgtopmain {
   width: 100%;
-  filter: grayscale(1);
+  /* filter: grayscale(1); */
   transition: 3s;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+}
+#page02innerscroll-imgtop #page02innerscroll-imgtopmaincover {
+  width: 100%;
+  position: absolute;
+  mix-blend-mode: color-burn;
+  transition: 3s;
+  left: 50%;
+  transform: translateX(-50%);
 }
 #page02innerscroll-title {
   height: 350px;
@@ -1898,7 +1909,8 @@ header {
   outline: none;
 }
 #page02innerscroll-imgscroll .section-slider-inner-box img {
-  display: none;
+  filter: grayscale(1);
+  transition: 3s;
   width: 100%;
 }
 #page02innerscroll-imgscroll .section-slider-inner-box span {
@@ -1975,7 +1987,6 @@ header {
   position: absolute;
   top: 365px;
   left: 52px;
-  display: none;
   z-index: 1;
   letter-spacing: -.4em;
 }
