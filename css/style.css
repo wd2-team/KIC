@@ -1867,7 +1867,7 @@ header {
   transform: translateY(-50%);
 }
 #page03innerscroll #pageright a p img {
-  width: 185px;
+  width: 250px;
 }
 #page03innerscroll #pageright a p span {
   font-size: 14px;
@@ -1971,7 +1971,7 @@ header {
 #page03innerscroll-imgbottom {
   overflow: hidden;
   position: relative;
-  height: 1300px;
+  /* height: 1300px; */
 }
 #page03innerscroll-imgbottom #page03innerscroll-imgbottomimg {
   width: 100%;
