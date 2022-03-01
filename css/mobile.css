@@ -1747,7 +1747,7 @@ header {
 #page02innerscroll #pageright {
   position: relative;
   top: calc(100% - 82px - 47px);
-  width: 230px;
+  width: 210px;
   height: 47px;
   display: none;
   margin: 0 auto;
@@ -1777,7 +1777,7 @@ header {
   transform: translateY(-50%);
 }
 #page02innerscroll #pageright a p img {
-  width: 230px;
+  width: 210px;
 }
 #page02innerscroll #pageright a p span {
   font-size: 11px;
@@ -1986,7 +1986,7 @@ header {
 }
 #page02innerscroll-imgbottom #page02innerscroll-imgbottomimgsp {
   position: absolute;
-  top: 475px;
+  top: 380px;
   left: 25px;
   z-index: 1;
   letter-spacing: -.4em;
@@ -2127,7 +2127,7 @@ header {
 }
 #page03innerscroll-center {
   position: relative;
-  height: 430px;
+  height: 490px;
 }
 #page03innerscroll-center #page03innerscroll-fadesp {
   position: relative;
@@ -2149,7 +2149,7 @@ header {
 }
 #page03innerscroll-p01all {
   text-align: center;
-  margin-top: 71px;
+  margin-top: 101px;
   font-size: 13px;
   line-height: 24px;
   position: relative;
@@ -2176,7 +2176,7 @@ header {
   z-index: 1;
   background-image: url('../images/03/sub03.webp');
   background-position: center center;
-  background-size: cover;
+  background-size: 115%;
   background-repeat: no-repeat;
 }
 #page03innerscroll-imgbottom #page03innerscroll-imgbottomp {
