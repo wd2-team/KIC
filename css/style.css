@@ -2385,12 +2385,12 @@ header {
   position: relative;
 }
 #page05innerscroll-title p#page05innerscroll-titlep {
-  font-size: 50px;
-  line-height: 110px;
+  font-size: 80px;
+  line-height: 90px;
   color: #FFB100;
   opacity: 0;
   margin-top: 148px;
-  margin-bottom: 148px;
+  margin-bottom: 170px;
   margin-left: 164px;
   text-align: left;
 }
@@ -2633,7 +2633,7 @@ header {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: url('../images/05.svg');
+  background-image: url('../images/06.svg');
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
@@ -2667,12 +2667,12 @@ header {
   position: relative;
 }
 #page06innerscroll-title p#page06innerscroll-titlep {
-  font-size: 50px;
-  line-height: 110px;
+  font-size: 80px;
+  line-height: 90px;
   color: #FFB100;
   opacity: 0;
   margin-top: 148px;
-  margin-bottom: 148px;
+  margin-bottom: 170px;
   margin-left: 164px;
   text-align: left;
 }
@@ -2844,7 +2844,7 @@ header {
   margin-top: calc((100vw - 1080px) / (840 / 400) + 600px);
 }
 #page06 #pageunder a #pageunderbg {
-  background-image: url('../images/06.svg');
+  background-image: url('../images/07.svg');
 }
 
 /* page07 */
@@ -2915,7 +2915,7 @@ header {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: url('../images/05.svg');
+  background-image: url('../images/07.svg');
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
@@ -2949,12 +2949,12 @@ header {
   position: relative;
 }
 #page07innerscroll-title p#page07innerscroll-titlep {
-  font-size: 50px;
-  line-height: 110px;
+  font-size: 80px;
+  line-height: 90px;
   color: #FFB100;
   opacity: 0;
   margin-top: 148px;
-  margin-bottom: 148px;
+  margin-bottom: 170px;
   margin-left: 164px;
   text-align: left;
 }
@@ -3126,5 +3126,5 @@ header {
   margin-top: calc((100vw - 1080px) / (840 / 400) + 600px);
 }
 #page07 #pageunder a #pageunderbg {
-  background-image: url('../images/06.svg');
+  background-image: url('../images/08.svg');
 }
