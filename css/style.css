@@ -2417,109 +2417,142 @@ header {
 #page05innerscroll-p01-01 {
   opacity: 0;
 }
-
-
 #page05innerscroll-center {
   position: relative;
-  height: calc((100vw - 1080px) / (840 / 730) + 1800px);
+  height: 377px;
 }
 #page05innerscroll-center #page05innerscroll-centerimg {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
   position: relative;
   display: none;
-}
-#page05innerscroll-center img#page05innerscroll-centercar {
-  width: calc((100vw - 1080px) / (840 / 400) + 800px);
-  position: absolute;
-  top: 200px;
-  left: 50%;
-  transform: translateX(-50%);
-  display: none;
-}
-#page05innerscroll-center p#page05innerscroll-centerp {
-  font-size: calc((100vw - 1080px) / (840 / 33) + 49px);
-  line-height: calc((100vw - 1080px) / (840 / 33) + 49px);
-  color: #FFB100;
-  margin-bottom: calc((100vw - 1080px) / (840 / 120) + 291px);
-  padding-top: calc((100vw - 1080px) / (840 / 130) + 500px);
-  opacity: 0;
-}
-#page05innerscroll-center img#page05innerscroll-centerline01 {
-  position: absolute;
-  right: 0;
-  /* top: calc((100vw - 1080px) / (840 / 150) + 570px); */
-  top: calc((100vw - 1080px) / (840 / 130) + 500px + (100vw - 1080px) / (840 / 33) + 49px + 21px);
-  min-width: 380px;
-  width: calc((100vw - 1920px) / (640 / 200) + 380px);
-}
-#page05innerscroll-center .fade_image.fade_trigger1 {
-  position: relative;
-  text-align: right;
-  z-index: 1;
-}
-#page05innerscroll-center .fade_image_effect {
-  width: calc((100vw - 1080px) / (840 / 144) + 214px);
-  /* overflow: auto;
-  overflow-x: hidden; */
-}
-#page05innerscroll-center .fade_image_effect:first-child {
-  position: absolute;
-  top: calc((100vw - 1080px) / (840 / 96) + 143px);
-  right: calc((100vw - 1080px) / (840 / 431) + 642px);
-  width: calc((100vw - 1080px) / (840 / 138) + 352px);
-}
-#page05innerscroll-center .fade_image_effect span {
-  font-size: 10px;
-  display: inline-block;
-  padding-right: 2px;
-}
-#page05innerscroll-center img#page05innerscroll-centerline02 {
-  position: absolute;
-  left: 0;
-  top: calc((100vw - 1080px) / (840 / 420) + 1050px);
-  /* min-width: 380px; */
-  width: calc((100vw - 1920px) / (640 / 200) + 380px);
-}
-#page05innerscroll-center #page05innerscroll-label02 {
-  width: calc((100vw - 1080px) / (840 / 294) + 398px);
-  height: calc((100vw - 1080px) / (840 / 42) + 57px);
-  display: block;
-  font-size: calc((100vw - 1080px) / (840 / 9) + 14px);
-  line-height: calc((100vw - 1080px) / (840 / 42) + 57px);
-  position: absolute;
-  right: calc((100vw - 1080px) / (840 / 108) + 188px);
-  margin-top: calc((100vw - 1080px) / (840 / 50) + 105px);
-}
-#page05innerscroll-center #page05innerscroll-label02 span {
-  display: none;
-}
-#page05innerscroll-center #page05innerscroll-p02all {
-  width: calc((100vw - 1080px) / (840 / 337) + 491px);
-  position: absolute;
-  margin-top: calc((100vw - 1080px) / (840 / 120) + 196px);
-  right: calc((100vw - 1080px) / (840 / 65) + 95px);
-  text-align: left;
-  font-size: calc((100vw - 1080px) / (840 / 3) + 14px);
-  line-height: calc((100vw - 1080px) / (840 / 7) + 30px);
-}
-#page05innerscroll-center .page05innerscroll-p02 {
-  margin-bottom: calc((100vw - 1080px) / (840 / 50) + 30px);
 }
 #page05innerscroll-imgbottom {
   overflow: hidden;
   position: relative;
-  height: calc((100vw - 1080px) / (840 / 600) + 900px);
+  height: 2000px;
 }
-#page05innerscroll-imgbottom img#page05innerscroll-imgbottomcar {
+#page05innerscroll-imgbottom img#page05innerscroll-imgbottomline01 {
   position: absolute;
-  left: calc(-476px - (100vw - 1080px) / (840 / 410));
-  width: calc((100vw - 1080px) / (840 / 885) + 1200px);
+  left: 0;
+  top: 630px;
+  width: 380px;
 }
-#page05innerscroll-imgbottom img#page05innerscroll-imgbottomline {
+#page05innerscroll-imgbottom img#page05innerscroll-imgbottomline02 {
   position: absolute;
   right: 0;
-  top: calc((100vw - 1080px) / (840 / 190) + 200px);
-  width: calc((100vw - 1080px) / (840 / 180) + 380px);
+  top: 521px;
+  width: 380px;
+}
+#page05innerscroll-imgbottom #page05innerscroll-imgbottomfadeall {
+  position: relative;
+  height: 1000px;
+}
+#page05innerscroll-imgbottom #page05innerscroll-fade01.fade_image.fade_trigger1 {
+  position: absolute;
+  text-align: right;
+  z-index: 1;
+  height: 217px;
+  width: 402px;
+  top: 196px;
+}
+#page05innerscroll-imgbottom #page05innerscroll-fade01 .fade_image_effect {
+  width: 100%;
+  height: 100%;
+}
+#page05innerscroll-imgbottom #page05innerscroll-fade01 .fade_image_effect:nth-child(2) {
+  top: -6px;
+}
+#page05innerscroll-imgbottom #page05innerscroll-fade01 .fade_image_effect img {
+  filter: grayscale(1);
+  transition: 3s;
+}
+#page05innerscroll-imgbottom #page05innerscroll-label01 {
+  right: 181px;
+  top: 195px;
+  width: 230px;
+  height: 68px;
+  display: block;
+  font-size: 10px;
+  padding-top: 14px;
+  line-height: 19px;
+  position: absolute;
+}
+#page05innerscroll-imgbottom #page05innerscroll-label01 span {
+  display: inline-block;
+}
+#page05innerscroll-imgbottom #page05innerscroll-label01 span:nth-child(3) {
+  font-size: 15px;
+}
+#page05innerscroll-p02all {
+  width: 310px;
+  text-align: left;
+  right: 100px;
+  top: 295px;
+  font-size: 14px;
+  line-height: 30px;
+  position: absolute;
+}
+.page05innerscroll-p02 {
+  margin-bottom: 30px;
+  display: inline-block;
+}
+#page05innerscroll-p02-01 {
+  opacity: 0;
+}
+#page05innerscroll-imgbottom #page05innerscroll-label02 {
+  left: 181px;
+  top: 895px;
+  width: 230px;
+  height: 68px;
+  display: block;
+  font-size: 10px;
+  padding-top: 14px;
+  line-height: 19px;
+  position: absolute;
+}
+#page05innerscroll-imgbottom #page05innerscroll-label02 span {
+  display: inline-block;
+}
+#page05innerscroll-imgbottom #page05innerscroll-label02 span:nth-child(3) {
+  font-size: 15px;
+}
+#page05innerscroll-p03all {
+  width: 310px;
+  text-align: left;
+  left: 181px;
+  top: 995px;
+  font-size: 14px;
+  line-height: 30px;
+  position: absolute;
+}
+.page05innerscroll-p03 {
+  margin-bottom: 30px;
+  display: inline-block;
+}
+#page05innerscroll-p03-01 {
+  opacity: 0;
+}
+#page05innerscroll-imgbottom #page05innerscroll-fade02.fade_image.fade_trigger1 {
+  position: absolute;
+  right: 128px;
+  text-align: right;
+  z-index: 1;
+  height: 217px;
+  width: 402px;
+  top: 891px;
+}
+#page05innerscroll-imgbottom #page05innerscroll-fade02 .fade_image_effect {
+  width: 100%;
+  height: 100%;
+}
+#page05innerscroll-imgbottom #page05innerscroll-fade02 .fade_image_effect:nth-child(2) {
+  top: -6px;
+}
+#page05innerscroll-imgbottom #page05innerscroll-fade02 .fade_image_effect img {
+  filter: grayscale(1);
+  transition: 3s;
 }
 #page05innerscroll-imgbottom #page05innerscroll-imgbottomp {
   font-size: calc((100vw - 1080px) / (840 / 33) + 53px);
