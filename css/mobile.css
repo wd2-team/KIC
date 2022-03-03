@@ -2597,7 +2597,7 @@ header {
 #page05innerscroll-imgbottom {
   overflow: hidden;
   position: relative;
-  height: 2000px;
+  height: 1600px;
 }
 #page05innerscroll-imgbottom #page05innerscroll-imgbottomfadeall {
   position: relative;
@@ -2625,7 +2625,7 @@ header {
   width: 310px;
   text-align: left;
   left: 45px;
-  top: 315px;
+  top: 175px;
   font-size: 13px;
   line-height: 28px;
   position: absolute;
@@ -2639,9 +2639,9 @@ header {
 }
 #page05innerscroll-imgbottom #page05innerscroll-imgbottomimgsp01 {
   position: absolute;
-  top: 380px;
+  top: 347px;
   width: 182px;
-  left: 25px;
+  left: 141px;
   z-index: 1;
   letter-spacing: -.4em;
 }
@@ -2654,8 +2654,8 @@ header {
 }
 #page05innerscroll-imgbottom #page05innerscroll-label02 {
   left: 45px;
-  top: 895px;
-  width: 230px;
+  top: 729px;
+  width: 142px;
   height: 57px;
   display: block;
   font-size: 10px;
@@ -2673,7 +2673,7 @@ header {
   width: 310px;
   text-align: left;
   left: 45px;
-  top: 1015px;
+  top: 845px;
   font-size: 13px;
   line-height: 28px;
   position: absolute;
@@ -2687,9 +2687,9 @@ header {
 }
 #page05innerscroll-imgbottom #page05innerscroll-imgbottomimgsp02 {
   position: absolute;
-  top: 380px;
+  top: 1020px;
   width: 182px;
-  left: 25px;
+  left: 47px;
   z-index: 1;
   letter-spacing: -.4em;
 }
@@ -2704,7 +2704,7 @@ header {
   font-size: 33px;
   line-height: 43px;
   color: #FFB100;
-  margin-top: 470px;
+  margin-top: 430px;
 }
 #page05 #pageunder a #pageunderbg {
   background-image: url('../images/06.svg');
