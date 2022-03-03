@@ -883,6 +883,14 @@ try {
                 },1500);
             }
         });
+        var page05imgbottomimgsp01Position = $('#page05innerscroll-imgbottomimgsp01').offset().top;
+        if (scroll > page05imgbottomimgsp01Position - windowHeight + 170) {
+            $('#page05innerscroll-imgbottomimgsp01 img').css('filter', 'grayscale(0)');
+        }
+        var page05imgbottomimgsp02Position = $('#page05innerscroll-imgbottomimgsp02').offset().top;
+        if (scroll > page05imgbottomimgsp02Position - windowHeight + 170) {
+            $('#page05innerscroll-imgbottomimgsp02 img').css('filter', 'grayscale(0)');
+        }
         var page05imgbottompPosition = $('#page05innerscroll-imgbottomp').offset().top;
         if (scroll > page05imgbottompPosition - windowHeight + 170) {
             $('#page05innerscroll-imgbottomp').css('opacity', '1');
