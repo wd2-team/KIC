@@ -3132,6 +3132,9 @@ header {
   color: #FFB100;
   margin-top: calc((100vw - 1080px) / (840 / 400) + 600px);
 }
+#page07 #pageunder a {
+  pointer-events: none;
+}
 #page07 #pageunder a #pageunderbg {
   background-image: url('../images/08.svg');
 }
