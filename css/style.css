@@ -2043,27 +2043,34 @@ header {
 }
 #page04innerscroll #pageright a p {
   font-size: 24px;
+  line-height: 10px;
   position: relative;
   top: 50%;
   display: none;
 }
+#page04innerscroll #pageright a p:nth-child(2) {
+  height: 40px
+}
 #page04innerscroll #pageright a p.animation {
-  transform: translateY(calc(-100% + 30px));
+  transform: translateY(calc(-150% + 30px));
 }
 #page04innerscroll #pageright a p.animation:nth-child(2) {
-  transform: translateY(calc(-240% + 30px));
+  transform: translateY(calc(-95% + 30px));
 }
 #page04innerscroll #pageright a p.active {
-  transform: translateY(-100%);
+  transform: translateY(-150%);
 }
 #page04innerscroll #pageright a p.active:nth-child(2) {
-  transform: translateY(calc(-240%));
+  transform: translateY(calc(-95%));
 }
 #page04innerscroll #pageright a p img {
-  width: 160px;
+  width: 200px;
+}
+#page04innerscroll #pageright a p:nth-child(2) img {
+  width: 11px;
 }
 #page04innerscroll #pageright a p span {
-  font-size: 14px;
+  font-size: 11px;
   letter-spacing: 0.3em;
 }
 #page04innerscroll #pageright a #pagerightbg {
@@ -2339,7 +2346,7 @@ header {
   transform: translateY(-50%);
 }
 #page05innerscroll #pageright a p img {
-  width: 160px;
+  width: 200px;
 }
 #page05innerscroll #pageright a p span {
   font-size: 14px;
@@ -2621,7 +2628,7 @@ header {
   transform: translateY(-50%);
 }
 #page06innerscroll #pageright a p img {
-  width: 160px;
+  width: 240px;
 }
 #page06innerscroll #pageright a p span {
   font-size: 14px;
@@ -2769,9 +2776,9 @@ header {
   font-size: 15px;
 }
 #page06innerscroll-p02all {
-  width: 310px;
+  width: 317px;
   text-align: left;
-  right: 100px;
+  right: 93px;
   top: 315px;
   font-size: 14px;
   line-height: 30px;
@@ -2802,7 +2809,7 @@ header {
   font-size: 15px;
 }
 #page06innerscroll-p03all {
-  width: 310px;
+  width: 332px;
   text-align: left;
   left: 117px;
   top: 1015px;
@@ -2903,7 +2910,7 @@ header {
   transform: translateY(-50%);
 }
 #page07innerscroll #pageright a p img {
-  width: 160px;
+  width: 220px;
 }
 #page07innerscroll #pageright a p span {
   font-size: 14px;
