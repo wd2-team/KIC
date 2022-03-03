@@ -1027,6 +1027,14 @@ try {
                 },1500);
             }
         });
+        var page06imgbottomimgsp01Position = $('#page06innerscroll-imgbottomimgsp01').offset().top;
+        if (scroll > page06imgbottomimgsp01Position - windowHeight + 170) {
+            $('#page06innerscroll-imgbottomimgsp01 img').css('filter', 'grayscale(0)');
+        }
+        var page06imgbottomimgsp02Position = $('#page06innerscroll-imgbottomimgsp02').offset().top;
+        if (scroll > page06imgbottomimgsp02Position - windowHeight + 170) {
+            $('#page06innerscroll-imgbottomimgsp02 img').css('filter', 'grayscale(0)');
+        }
         var page06imgbottompPosition = $('#page06innerscroll-imgbottomp').offset().top;
         if (scroll > page06imgbottompPosition - windowHeight + 170) {
             $('#page06innerscroll-imgbottomp').css('opacity', '1');
@@ -1163,6 +1171,14 @@ try {
                 },1500);
             }
         });
+        var page07imgbottomimgsp01Position = $('#page07innerscroll-imgbottomimgsp01').offset().top;
+        if (scroll > page07imgbottomimgsp01Position - windowHeight + 170) {
+            $('#page07innerscroll-imgbottomimgsp01 img').css('filter', 'grayscale(0)');
+        }
+        var page07imgbottomimgsp02Position = $('#page07innerscroll-imgbottomimgsp02').offset().top;
+        if (scroll > page07imgbottomimgsp02Position - windowHeight + 170) {
+            $('#page07innerscroll-imgbottomimgsp02 img').css('filter', 'grayscale(0)');
+        }
         var page07imgbottompPosition = $('#page07innerscroll-imgbottomp').offset().top;
         if (scroll > page07imgbottompPosition - windowHeight + 170) {
             $('#page07innerscroll-imgbottomp').css('opacity', '1');
