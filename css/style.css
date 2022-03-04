@@ -1994,6 +1994,20 @@ header {
   color: #FFB100;
   margin-top: 314px;
 }
+#page03 #pageunder a p {
+  transform: translateY(-120%);
+}
+#page03 #pageunder a p:nth-child(2) {
+  transform: translateY(calc(-135%));
+  height: 40px
+}
+#page03 #pageunder a p:nth-child(2) img {
+  width: 11px;
+}
+#page03 #pageunder a p span {
+  font-size: 11px;
+  letter-spacing: 0.3em;
+}
 #page03 #pageunder a #pageunderbg {
   background-image: url('../images/04.svg');
 }

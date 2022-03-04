@@ -2185,6 +2185,23 @@ header {
   color: #FFB100;
   margin-top: 107px;
 }
+#page03 #pageunder {
+  width: 170px;
+}
+#page03 #pageunder a p {
+  transform: translateY(-120%);
+}
+#page03 #pageunder a p:nth-child(2) {
+  transform: translateY(calc(-285%));
+  height: 20px
+}
+#page03 #pageunder a p:nth-child(2) img {
+  width: 11px;
+}
+#page03 #pageunder a p span {
+  font-size: 11px;
+  letter-spacing: 0.3em;
+}
 #page03 #pageunder a #pageunderbg {
   background-image: url('../images/04.svg');
 }
@@ -2219,7 +2236,7 @@ header {
 #page04innerscroll #pageright {
   position: relative;
   top: calc(100% - 82px - 47px);
-  width: 150px;
+  width: 170px;
   height: 47px;
   display: none;
   margin: 0 auto;
@@ -2242,20 +2259,26 @@ header {
   top: 50%;
   display: none;
 }
+#page04innerscroll #pageright a p:nth-child(2) {
+  height: 30px
+}
 #page04innerscroll #pageright a p.animation {
   transform: translateY(calc(-100% + 30px));
 }
 #page04innerscroll #pageright a p.animation:nth-child(2) {
-  transform: translateY(calc(-240% + 30px));
+  transform: translateY(calc(-145% + 30px));
 }
 #page04innerscroll #pageright a p.active {
   transform: translateY(-100%);
 }
 #page04innerscroll #pageright a p.active:nth-child(2) {
-  transform: translateY(calc(-240%));
+  transform: translateY(calc(-145%));
 }
 #page04innerscroll #pageright a p img {
   width: 150px;
+}
+#page04innerscroll #pageright a p:nth-child(2) img {
+  width: 11px;
 }
 #page04innerscroll #pageright a p span {
   font-size: 11px;
@@ -2445,8 +2468,8 @@ header {
 #page04innerscroll-imgbottom #page04innerscroll-imgbottomp rt {
   font-size: 10px;
 }
-#page04 #pageunder a {
-  pointer-events: none;
+#page04 #pageunder {
+  width: 170px;
 }
 #page04 #pageunder a #pageunderbg {
   background-image: url('../images/05.svg');
