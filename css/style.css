@@ -3019,6 +3019,9 @@ header {
   color: #FFB100;
   margin-top: 550px;
 }
+#page06 #pageunder a p img {
+  margin-left: -20px;
+}
 #page06 #pageunder a #pageunderbg {
   background-image: url('../images/07.svg');
 }
@@ -3080,10 +3083,12 @@ header {
 }
 #page07innerscroll #pageright a p img {
   width: 220px;
+  margin-left: -10px;
 }
 #page07innerscroll #pageright a p span {
   font-size: 14px;
   letter-spacing: 1.5em;
+  margin-left: 10px;
 }
 #page07innerscroll #pageright a #pagerightbg {
   width: 100%;
