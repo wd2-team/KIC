@@ -2135,18 +2135,27 @@ header {
 #page04innerscroll-title #page04innerscroll-titleback {
   width: 100vw;
   height: 240px;
-  background-image: url('../images/04/gakusei_kuro.jpg');
-  background-size: contain;
-  background-position: center center;
-  background-repeat: no-repeat;
-  opacity: 0;
   transition: 1.5s;
   position: relative;
+}
+#page04innerscroll-title #page04innerscroll-titlebackfade {
+  width: 100%;
+  height: 100%;
+}
+#page04innerscroll-title #page04innerscroll-titlebackfade .fade_image_effect {
+  width: calc(100% / 3);
+  height: 100%;
+}
+#page04innerscroll-title #page04innerscroll-titlebackfade .fade_image_effect img {
+  filter: grayscale(1);
+  transition: 3s;
 }
 #page04innerscroll-title #page04innerscroll-titleback p {
   font-size: 45px;
   line-height: 240px;
   color: #FFB100;
+  margin-top: -240px;
+  filter: drop-shadow(2px 4px 6px #000000);
 }
 #page04innerscroll-label01 {
   width: 186px;

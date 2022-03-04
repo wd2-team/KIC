@@ -710,7 +710,6 @@ try {
         }
         var page04titlebackPosition = $('#page04innerscroll-titleback').offset().top;
         if (scroll > page04titlebackPosition - windowHeight + 170) {
-            $('#page04innerscroll-titleback').css('opacity', '1');
             setTimeout(function(){
                 $('#page04innerscroll-titleback p').css('opacity', '1');
                 $('#page04innerscroll-titleback p').addClass("active");
@@ -720,6 +719,15 @@ try {
                 $('#page04innerscroll-titleline02').addClass("active");
             },1500);
         }
+        var fadedelaySpeed = 300;
+        $("#page04 #page04innerscroll-title #page04innerscroll-titlebackfade.fade_trigger1 .fade_image_effect").each(function(i){
+            var element = $("#page04 #page04innerscroll-title #page04innerscroll-titlebackfade").offset().top;
+            if (scroll > element - windowHeight + windowHeight / 5 + 70){
+                $(this).delay(i*(fadedelaySpeed)).queue(function(){
+                    $(this).addClass("fadeactive");
+                });
+            }
+        });
         var page04label01Position = $('#page04innerscroll-label01').offset().top;
         if (scroll > page04label01Position - windowHeight + 170) {
             $('#page04innerscroll-label01').addClass('boxactive');
@@ -741,9 +749,6 @@ try {
                 });
             }
         });
-
-
-
         $('#page04innerscroll-center .accordion_one .accordion_header').off('click');  
         $('#page04innerscroll-center .accordion_one .accordion_header').click(function(){
             $(this).next().animate({width:'toggle'});
@@ -772,9 +777,6 @@ try {
             $(this).toggleClass("page04accordion05on");
             $('#page04innerscroll-center .accordion_one .accordion_header').not($(this)).toggleClass("page04accordion05on");
         });
-
-
-
         var page04label02Position = $('#page04innerscroll-label02').offset().top;
         if (scroll > page04label02Position - windowHeight + 170) {
             $('#page04innerscroll-label02').addClass('boxactive');
