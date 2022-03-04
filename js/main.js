@@ -741,6 +741,35 @@ try {
                 });
             }
         });
+
+
+
+        $('#page04innerscroll-center .accordion_one .accordion_header').off('click');  
+        $('#page04innerscroll-center .accordion_one .accordion_header').click(function(){
+            $(this).next().animate({width:'toggle'});
+            $(this).toggleClass("open");
+            $('#page04innerscroll-center .accordion_one .accordion_header').not($(this)).next().animate({width:'hide'});
+            $('#page04innerscroll-center .accordion_one .accordion_header').not($(this)).removeClass("open");
+            $('#page04innerscroll-center .accordion_one .accordion_header.stay').not($(this)).toggleClass("open");
+        });
+        $('#page04accordionheader01').click(function(){
+            $('#page04innerscroll-center .accordion_one .accordion_header').not($(this)).toggleClass("page04accordion01on");
+        });
+        $('#page04accordionheader02').click(function(){
+            $('#page04innerscroll-center .accordion_one .accordion_header').not($(this)).toggleClass("page04accordion02on");
+        });
+        $('#page04accordionheader03').click(function(){
+            $('#page04innerscroll-center .accordion_one .accordion_header').not($(this)).toggleClass("page04accordion03on");
+        });
+        $('#page04accordionheader04').click(function(){
+            $('#page04innerscroll-center .accordion_one .accordion_header').not($(this)).toggleClass("page04accordion04on");
+        });
+        $('#page04accordionheader05').click(function(){
+            $('#page04innerscroll-center .accordion_one .accordion_header').not($(this)).toggleClass("page04accordion05on");
+        });
+
+
+
         var page04label02Position = $('#page04innerscroll-label02').offset().top;
         if (scroll > page04label02Position - windowHeight + 170) {
             $('#page04innerscroll-label02').addClass('boxactive');
