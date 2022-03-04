@@ -2371,22 +2371,24 @@ header {
   position: relative;
   height: 209px;
   width: 100vw;
+  overflow: hidden;
 }
 #page04innerscroll-center #page04innerscroll-fade {
   width: 100%;
-  height: 100%;
-  letter-spacing: -.4em;
+  /* height: 100%; */
+  height: 209px;
+  /* letter-spacing: -.4em; */
 }
-#page04innerscroll-center #page04innerscroll-fade .fade_image_effect {
+/* #page04innerscroll-center #page04innerscroll-fade .fade_image_effect {
   width: 20%;
   height: 100%;
   display: inline-block;
   letter-spacing: normal;
-}
-#page04innerscroll-center #page04innerscroll-fade .fade_image_effect img {
+} */
+/* #page04innerscroll-center #page04innerscroll-fade .fade_image_effect img {
   height: 100%;
   width: auto;
-}
+} */
 #page04innerscroll-center #page04innerscroll-fade:hover .fade_image_effect:not(:hover) img {
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
@@ -2394,6 +2396,165 @@ header {
   -ms-filter: grayscale(100%);
   filter: grayscale(100%);
   /* transition: .3s ease; */
+}
+#page04innerscroll-center .accordion_area {
+  width: 100%;
+  height: 209px;
+  overflow: hidden;
+}
+#page04innerscroll-center .accordion_one {
+  width: 100%;
+}
+#page04innerscroll-center .accordion_one .accordion_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  height: 209px;
+  float: left;
+  padding: 0;
+  /* position: relative; */
+  position: absolute;
+  z-index: +1;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+#page04innerscroll-center .accordion_one:nth-of-type(1) .accordion_header {
+  left: 0;
+}
+#page04innerscroll-center .accordion_one:nth-of-type(2) .accordion_header {
+  left: 20%;
+}
+#page04innerscroll-center .accordion_one:nth-of-type(3) .accordion_header {
+  left: 40%;
+}
+#page04innerscroll-center .accordion_one:nth-of-type(4) .accordion_header {
+  left: 60%;
+}
+#page04innerscroll-center .accordion_one:nth-of-type(5) .accordion_header {
+  left: 80%;
+}
+
+#page04innerscroll-center .accordion_one #page04accordionheader02.page04accordion01on {
+  transform: translateX(400%);
+}
+#page04innerscroll-center .accordion_one #page04accordionheader03.page04accordion01on {
+  transform: translateX(300%);
+}
+#page04innerscroll-center .accordion_one #page04accordionheader04.page04accordion01on {
+  transform: translateX(200%);
+}
+#page04innerscroll-center .accordion_one #page04accordionheader05.page04accordion01on {
+  transform: translateX(100%);
+}
+
+#page04innerscroll-center .accordion_one #page04accordionheader01.page04accordion02on {
+  transform: translateX(-100%);
+}
+#page04innerscroll-center .accordion_one #page04accordionheader02.page04accordion02on {
+  transform: translateX(-20%);
+}
+#page04innerscroll-center .accordion_one #page04accordionheader03.page04accordion02on {
+  transform: translateX(300%);
+}
+#page04innerscroll-center .accordion_one #page04accordionheader04.page04accordion02on {
+  transform: translateX(200%);
+}
+#page04innerscroll-center .accordion_one #page04accordionheader05.page04accordion02on {
+  transform: translateX(100%);
+}
+
+#page04innerscroll-center .accordion_one #page04accordionheader01.page04accordion03on {
+  transform: translateX(-100%);
+}
+#page04innerscroll-center .accordion_one #page04accordionheader02.page04accordion03on {
+  transform: translateX(-200%);
+}
+#page04innerscroll-center .accordion_one #page04accordionheader03.page04accordion03on {
+  transform: translateX(-40%);
+}
+#page04innerscroll-center .accordion_one #page04accordionheader04.page04accordion03on {
+  transform: translateX(200%);
+}
+#page04innerscroll-center .accordion_one #page04accordionheader05.page04accordion03on {
+  transform: translateX(100%);
+}
+
+#page04innerscroll-center .accordion_one #page04accordionheader01.page04accordion04on {
+  transform: translateX(-100%);
+}
+#page04innerscroll-center .accordion_one #page04accordionheader02.page04accordion04on {
+  transform: translateX(-200%);
+}
+#page04innerscroll-center .accordion_one #page04accordionheader03.page04accordion04on {
+  transform: translateX(-300%);
+}
+#page04innerscroll-center .accordion_one #page04accordionheader04.page04accordion04on {
+  transform: translateX(-60%);
+}
+#page04innerscroll-center .accordion_one #page04accordionheader05.page04accordion04on {
+  transform: translateX(100%);
+}
+
+#page04innerscroll-center .accordion_one #page04accordionheader01.page04accordion05on {
+  transform: translateX(-100%);
+}
+#page04innerscroll-center .accordion_one #page04accordionheader02.page04accordion05on {
+  transform: translateX(-200%);
+}
+#page04innerscroll-center .accordion_one #page04accordionheader03.page04accordion05on {
+  transform: translateX(-300%);
+}
+#page04innerscroll-center .accordion_one #page04accordionheader04.page04accordion05on {
+  transform: translateX(-400%);
+}
+#page04innerscroll-center .accordion_one #page04accordionheader05.page04accordion05on {
+  transform: translateX(-80%);
+}
+#page04innerscroll-center .accordion_one .accordion_header.open {
+  width: 100%;
+}
+#page04innerscroll-center .accordion_one .accordion_header .header_inner {
+  width: 100%;
+  height: 100%;
+}
+#page04innerscroll-center .accordion_one .accordion_header .header_inner img {
+  height: 100%;
+  width: 100vw;
+  object-fit: cover;
+  overflow: hidden;
+}
+#page04innerscroll-center .accordion_one #page04accordionheader01 .header_inner img {
+  object-position: left;
+}
+#page04innerscroll-center .accordion_one #page04accordionheader02 .header_inner img {
+  object-position: 20%;
+}
+#page04innerscroll-center .accordion_one #page04accordionheader03 .header_inner img {
+  object-position: 40%;
+}
+#page04innerscroll-center .accordion_one #page04accordionheader04 .header_inner img {
+  object-position: 60%;
+}
+#page04innerscroll-center .accordion_one #page04accordionheader05 .header_inner img {
+  object-position: 80%;
+}
+#page04innerscroll-center .accordion_one .accordion_inner {
+  float: left;
+  width: 0;
+  height: 209px;
+  overflow: hidden;
+  display: none;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+#page04innerscroll-center .accordion_one .accordion_inner.stay {
+  display: block;
+}
+#page04innerscroll-center .accordion_one .accordion_inner .box_one {
+  width: 100%;
+  position: absolute;
 }
 #page04innerscroll-imgbottom {
   overflow: hidden;

@@ -2358,12 +2358,6 @@ header {
   width: 100%;
   position: absolute;
 }
-#page04innerscroll-center .accordion_one:nth-of-type(1) .accordion_inner .box_one img {
-  width: 95px;
-}
-#page04innerscroll-center .accordion_one:nth-of-type(2) .accordion_inner .box_one img {
-  width: 210px;
-}
 #page04innerscroll-imgbottom {
   overflow: hidden;
   position: relative;
