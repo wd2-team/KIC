@@ -393,7 +393,7 @@ button {
   z-index: 999;
   top: 0;
   width: 100%;
-  min-width: 1440px;
+  min-width: 1080px;
   height: 100vh;
 }
 .circle-bg {
@@ -2152,7 +2152,7 @@ header {
   width: 186px;
   height: 69px;
   display: block;
-  margin-top: 145px;
+  margin-top: 173px;
   margin-left: 165px;
   font-size: calc((100vw - 1080px) / (840 / 8) + 10px);
   padding-top: calc((100vw - 1080px) / (840 / 13) + 11px);
@@ -2167,7 +2167,7 @@ header {
 }
 #page04innerscroll-p01all {
   text-align: left;
-  padding-left: 448px;
+  padding-left: 430px;
   margin-top: -78px;
   font-size: calc((100vw - 1080px) / (840 / 6) + 14px);
   line-height: calc((100vw - 1080px) / (840 / 10) + 30px);
@@ -2219,7 +2219,7 @@ header {
   position: absolute;
   z-index: +1;
   cursor: pointer;
-  transition-duration: 0.2s;
+  transition-duration: 0.5s;
 }
 #page04innerscroll-center .accordion_one:nth-of-type(1) .accordion_header {
   left: 0;
@@ -2364,7 +2364,7 @@ header {
   height: 2300px;
 }
 #page04innerscroll-imgbottom #page04innerscroll-label02 {
-  left: 147px;
+  left: 110px;
   width: 318px;
   height: 69px;
   margin-top: 235px;
@@ -2383,7 +2383,7 @@ header {
 #page04innerscroll-imgbottom #page04innerscroll-p02all {
   position: absolute;
   margin-top: 400px;
-  left: 147px;
+  left: 110px;
   text-align: left;
   font-size: calc((100vw - 1080px) / (840 / 3) + 14px);
   line-height: calc((100vw - 1080px) / (840 / 7) + 30px);
@@ -2409,14 +2409,14 @@ header {
 }
 #page04innerscroll-imgbottom #page04innerscroll-imgbottomimg01 {
   position: absolute;
-  top: 670px;
+  top: 650px;
   left: 110px;
-  width: 420px;
+  width: 430px;
 }
 #page04innerscroll-imgbottom #page04innerscroll-imgbottomimg02 {
   position: absolute;
   top: 924px;
-  right: 67px;
+  right: 100px;
   width: 374px;
 }
 #page04innerscroll-imgbottom #page04innerscroll-imgbottomimg03 {
@@ -2445,9 +2445,6 @@ header {
 }
 #page04innerscroll-imgbottom #page04innerscroll-imgbottomp rt {
   font-size: 20px;
-}
-#page04 #pageunder a {
-  pointer-events: none;
 }
 #page04 #pageunder a #pageunderbg {
   background-image: url('../images/05.svg');
@@ -2589,7 +2586,7 @@ header {
 }
 #page05innerscroll-center {
   position: relative;
-  height: 450px;
+  min-height: 450px;
 }
 #page05innerscroll-center #page05innerscroll-centerimg {
   width: 100%;
@@ -2640,7 +2637,7 @@ header {
   transition: 3s;
 }
 #page05innerscroll-imgbottom #page05innerscroll-label01 {
-  right: 181px;
+  right: 215px;
   top: 195px;
   width: 230px;
   height: 68px;
@@ -2659,7 +2656,7 @@ header {
 #page05innerscroll-p02all {
   width: 310px;
   text-align: left;
-  right: 100px;
+  right: 134px;
   top: 315px;
   font-size: 14px;
   line-height: 30px;
@@ -2871,7 +2868,7 @@ header {
 }
 #page06innerscroll-center {
   position: relative;
-  height: 450px;
+  min-height: 450px;
 }
 #page06innerscroll-center #page06innerscroll-centerimg {
   width: 100%;
@@ -2922,7 +2919,7 @@ header {
   transition: 3s;
 }
 #page06innerscroll-imgbottom #page06innerscroll-label01 {
-  right: 181px;
+  right: 215px;
   top: 195px;
   width: 230px;
   height: 68px;
@@ -2941,7 +2938,7 @@ header {
 #page06innerscroll-p02all {
   width: 317px;
   text-align: left;
-  right: 93px;
+  right: 127px;
   top: 315px;
   font-size: 14px;
   line-height: 30px;
@@ -3158,7 +3155,7 @@ header {
 }
 #page07innerscroll-center {
   position: relative;
-  height: 450px;
+  min-height: 450px;
 }
 #page07innerscroll-center #page07innerscroll-centerimg {
   width: 100%;
@@ -3209,7 +3206,7 @@ header {
   transition: 3s;
 }
 #page07innerscroll-imgbottom #page07innerscroll-label01 {
-  right: 181px;
+  right: 215px;
   top: 195px;
   width: 230px;
   height: 68px;
@@ -3228,7 +3225,7 @@ header {
 #page07innerscroll-p02all {
   width: 350px;
   text-align: left;
-  right: 60px;
+  right: 94px;
   top: 315px;
   font-size: 14px;
   line-height: 30px;
