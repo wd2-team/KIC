@@ -753,18 +753,23 @@ try {
             $('#page04innerscroll-center .accordion_one .accordion_header.stay').not($(this)).toggleClass("open");
         });
         $('#page04accordionheader01').click(function(){
+            $(this).toggleClass("page04accordion01on");
             $('#page04innerscroll-center .accordion_one .accordion_header').not($(this)).toggleClass("page04accordion01on");
         });
         $('#page04accordionheader02').click(function(){
+            $(this).toggleClass("page04accordion02on");
             $('#page04innerscroll-center .accordion_one .accordion_header').not($(this)).toggleClass("page04accordion02on");
         });
         $('#page04accordionheader03').click(function(){
+            $(this).toggleClass("page04accordion03on");
             $('#page04innerscroll-center .accordion_one .accordion_header').not($(this)).toggleClass("page04accordion03on");
         });
         $('#page04accordionheader04').click(function(){
+            $(this).toggleClass("page04accordion04on");
             $('#page04innerscroll-center .accordion_one .accordion_header').not($(this)).toggleClass("page04accordion04on");
         });
         $('#page04accordionheader05').click(function(){
+            $(this).toggleClass("page04accordion05on");
             $('#page04innerscroll-center .accordion_one .accordion_header').not($(this)).toggleClass("page04accordion05on");
         });
 
