@@ -2142,7 +2142,7 @@ header {
   line-height: 240px;
   color: #FFB100;
   margin-top: -240px;
-  filter: drop-shadow(2px 4px 6px #000000);
+  filter: drop-shadow(2px 2px 2px #000000);
 }
 #page04innerscroll-label01 {
   width: 186px;
