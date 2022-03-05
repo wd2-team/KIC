@@ -2120,6 +2120,7 @@ header {
 }
 #page04innerscroll-title #page04innerscroll-titleback {
   width: 100vw;
+  min-width: 1080px;
   height: 240px;
   transition: 1.5s;
   position: relative;
@@ -2180,6 +2181,7 @@ header {
   position: relative;
   height: 510px;
   width: 100vw;
+  min-width: 1080px;
 }
 #page04innerscroll-center #page04innerscroll-fade {
   width: 100%;
