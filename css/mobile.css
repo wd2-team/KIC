@@ -2383,33 +2383,20 @@ header {
 }
 #page04innerscroll-center #page04innerscroll-fade {
   width: 100%;
-  /* height: 100%; */
   height: 209px;
   /* letter-spacing: -.4em; */
   position: relative;
 }
-/* #page04innerscroll-center #page04innerscroll-fade .fade_image_effect {
-  width: 20%;
-  height: 100%;
-  display: inline-block;
-  letter-spacing: normal;
-} */
-/* #page04innerscroll-center #page04innerscroll-fade .fade_image_effect img {
-  height: 100%;
-  width: auto;
-} */
-#page04innerscroll-center #page04innerscroll-fade:hover .fade_image_effect:not(:hover) img {
+/* #page04innerscroll-center #page04innerscroll-fade:hover .fade_image_effect:not(:hover) img {
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   -o-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
   filter: grayscale(100%);
-  /* transition: .3s ease; */
-}
+} */
 #page04innerscroll-center .accordion_area {
   width: 100%;
   height: 209px;
-
 }
 #page04innerscroll-center .accordion_one {
   width: 100%;
