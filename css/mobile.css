@@ -2308,10 +2308,10 @@ header {
   transition: 3s;
 }
 #page04innerscroll-title {
-  height: 700px;
+  height: 730px;
 }
 #page04innerscroll-title p#page04innerscroll-titlep {
-  font-size: 28px;
+  font-size: 30px;
   line-height: 42px;
   color: #FFB100;
   opacity: 0;
@@ -2336,11 +2336,11 @@ header {
   transition: 3s;
 }
 #page04innerscroll-title #page04innerscroll-titleback p {
-  font-size: 20px;
+  font-size: 22px;
   line-height: 84px;
   color: #FFB100;
   margin-top: -84px;
-  filter: drop-shadow(2px 4px 6px #000000);
+  filter: drop-shadow(2px 2px 2px #000000);
 }
 #page04innerscroll-label01 {
   width: 144px;
@@ -2363,8 +2363,8 @@ header {
   text-align: left;
   padding-left: 25px;
   margin-top: 44px;
-  font-size: 11px;
-  line-height: 22px;
+  font-size: 13px;
+  line-height: 28px;
   position: relative;
   /* overflow: hidden; */
   height: calc((100vw - 1080px) / (840 / 320) + 85px);
@@ -2579,8 +2579,8 @@ header {
   text-align: left;
   padding-left: 25px;
   margin-top: 44px;
-  font-size: 11px;
-  line-height: 22px;
+  font-size: 13px;
+  line-height: 28px;
   position: relative;
 }
 #page04innerscroll-imgbottom .page04innerscroll-imgbottomimg {
