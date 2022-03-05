@@ -902,12 +902,21 @@ button {
 #index #topright a p.active {
   transform: translateY(-50%);
 }
-#index #topright a p img {
+/* #index #topright a p img {
   width: 160px;
 }
 #index #topright a p span {
   font-size: 14px;
   letter-spacing: 0.3em;
+} */
+#index #topright a p img {
+  width: 210px;
+  margin-left: -10px;
+}
+#index #topright a p span {
+  font-size: 14px;
+  letter-spacing: 1.5em;
+  margin-left: 10px;
 }
 #index #topright a #toprightbg{
   width: 100%;
@@ -915,7 +924,7 @@ button {
   position: absolute;
   top: 0;
   left: 0;
-  background: url('../images/01.svg');
+  background: url('../images/07.svg');
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
