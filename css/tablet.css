@@ -2098,12 +2098,24 @@ header {
   padding-top: calc(100vh + 50px);
   overflow: hidden;
   position: relative;
-  height: calc(100vh + 50px + 375px);
+  height: calc(100vh + 50px + 420px);
 }
 #page04innerscroll-imgtop #page04innerscroll-imgtopmain {
   width: 746px;
-  filter: grayscale(1);
+  /* filter: grayscale(1); */
   transition: 3s;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+}
+#page04innerscroll-imgtop #page04innerscroll-imgtopmaincover {
+  width: 746px;
+  /* top: -425px; */
+  position: absolute;
+  mix-blend-mode: color-burn;
+  transition: 3s;
+  left: 50%;
+  transform: translateX(-50%);
 }
 #page04innerscroll-title {
   height: 1100px;

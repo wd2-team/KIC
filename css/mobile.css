@@ -2300,12 +2300,23 @@ header {
   padding-top: 100vh;
   overflow: hidden;
   position: relative;
-  height: calc(100vh +189 * (100vw / 375));
+  height: calc(100vh + 189 * (100vw / 375));
 }
 #page04innerscroll-imgtop #page04innerscroll-imgtopmain {
   width: 100%;
-  filter: grayscale(1);
+  /* filter: grayscale(1); */
   transition: 3s;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+}
+#page04innerscroll-imgtop #page04innerscroll-imgtopmaincover {
+  width: 100%;
+  position: absolute;
+  mix-blend-mode: color-burn;
+  transition: 3s;
+  left: 50%;
+  transform: translateX(-50%);
 }
 #page04innerscroll-title {
   height: 730px;

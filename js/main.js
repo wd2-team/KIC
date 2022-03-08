@@ -696,8 +696,8 @@ try {
         var page04imgtopPosition = $('#page04innerscroll-imgtop').offset().top;
         if (scroll > page04imgtopPosition + 170) {
             setTimeout(function(){
-                $('#page04innerscroll-imgtop #page04innerscroll-imgtopmain').css('filter', 'grayscale(0)');
-            },1500);
+                $('#page04innerscroll-imgtop #page04innerscroll-imgtopmaincover').css('opacity', '0');
+            },1000);
         }
         var page04titlePosition = $('#page04innerscroll-title').offset().top;
         if (scroll > page04titlePosition - windowHeight + 170) {
