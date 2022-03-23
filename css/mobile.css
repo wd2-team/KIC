@@ -2319,7 +2319,7 @@ header {
   transform: translateX(-50%);
 }
 #page04innerscroll-title {
-  height: 730px;
+  height: 670px;
 }
 #page04innerscroll-title p#page04innerscroll-titlep {
   font-size: 30px;
@@ -2385,6 +2385,23 @@ header {
 }
 #page04innerscroll-p01-01 {
   opacity: 0;
+}
+#page04innerscroll-video {
+  position: relative;
+  width: 100%;
+  height: calc(210 * 100vw / 375 + 80px);
+  min-height: 250px;
+  overflow: hidden;
+  display: none;
+}
+#page04innerscroll-video #page04video{
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  width: 100%;
+  height: auto;
+  z-index: 1;
 }
 #page04innerscroll-center {
   position: relative;
@@ -2563,6 +2580,13 @@ header {
 #page04innerscroll-center .accordion_one .accordion_inner .box_one {
   width: 100%;
   position: absolute;
+}
+#page04innerscroll-center img#page04pointer {
+  width: 43px;
+  opacity: 0;
+  position: absolute;
+  top: calc(50% - 20px);
+  z-index: 1;
 }
 #page04innerscroll-imgbottom {
   overflow: hidden;
