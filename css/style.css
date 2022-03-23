@@ -1042,6 +1042,21 @@ header {
   visibility: hidden;
   transition: .3s;
 }
+#page00 #pageheader ul li:nth-child(1) a::after,
+#page01 #pageheader ul li:nth-child(2) a::after,
+#page02 #pageheader ul li:nth-child(3) a::after,
+#page03 #pageheader ul li:nth-child(4) a::after,
+#page04 #pageheader ul li:nth-child(5) a::after,
+#page05 #pageheader ul li:nth-child(6) a::after,
+#page06 #pageheader ul li:nth-child(7) a::after,
+#page07 #pageheader ul li:nth-child(8) a::after,
+#page08 #pageheader ul li:nth-child(9) a::after,
+#page09 #pageheader ul li:nth-child(10) a::after,
+#page10 #pageheader ul li:nth-child(11) a::after {
+  bottom: -4px;
+  opacity: 1;
+  visibility: visible;
+}
 #pageheader ul li a::after {
   background: #FFDE53;
 }
