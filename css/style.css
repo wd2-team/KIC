@@ -2421,7 +2421,8 @@ header {
   position: absolute;
 }
 #page04innerscroll-center img#page04pointer {
-  width: 86px;
+  width: 180px;
+  left: calc(50% - 90px);
   opacity: 0;
   position: absolute;
   top: calc(50% - 40px);
