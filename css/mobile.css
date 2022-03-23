@@ -2588,6 +2588,7 @@ header {
   left: calc(50% - 35px);
   top: calc(50% - 20px);
   z-index: 1;
+  pointer-events: none;
 }
 #page04innerscroll-imgbottom {
   overflow: hidden;
