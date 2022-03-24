@@ -756,11 +756,11 @@ try {
             }
         });
         var page04centerPosition = $('#page04innerscroll-center').offset().top;
-        if (scroll > page04centerPosition - windowHeight + 170) {
+        if (scroll > page04centerPosition - windowHeight) {
             setTimeout(function(){
                 $('#page04pointer').css('opacity', '1');
                 $('#page04pointer').addClass("active");
-            },1500)
+            },1000)
         }
         $('#page04innerscroll-center .accordion_one .accordion_header').off('click');
         $('#page04innerscroll-center .accordion_one .accordion_header').click(function(){
