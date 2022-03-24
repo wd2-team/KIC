@@ -2354,7 +2354,7 @@ header {
   filter: drop-shadow(2px 2px 2px #000000);
 }
 #page04innerscroll-label01 {
-  width: 144px;
+  width: 210px;
   height: 53px;
   display: block;
   margin-top: 79px;
@@ -2368,7 +2368,7 @@ header {
   display: inline-block;
 }
 #page04innerscroll-label01 span:nth-child(3) {
-  font-size: 15px;
+  font-size: 13px;
 }
 #page04innerscroll-p01all {
   text-align: left;
@@ -2399,7 +2399,7 @@ header {
   left: 50%;
   top: 0;
   transform: translateX(-50%);
-  width: 100%;
+  width: 80%;
   height: auto;
   z-index: 1;
 }
@@ -2582,13 +2582,14 @@ header {
   position: absolute;
 }
 #page04innerscroll-center img#page04pointer {
-  width: 70px;
+  width: 100px;
   opacity: 0;
   position: absolute;
-  left: calc(50% - 35px);
+  left: calc(50% - 50px);
   top: calc(50% - 20px);
   z-index: 1;
   pointer-events: none;
+  filter: drop-shadow(2px 2px 2px #000000);
 }
 #page04innerscroll-imgbottom {
   overflow: hidden;

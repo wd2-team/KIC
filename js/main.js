@@ -760,9 +760,9 @@ try {
             setTimeout(function(){
                 $('#page04pointer').css('opacity', '1');
                 $('#page04pointer').addClass("active");
-            },2000)
+            },1500)
         }
-        $('#page04innerscroll-center .accordion_one .accordion_header').off('click');  
+        $('#page04innerscroll-center .accordion_one .accordion_header').off('click');
         $('#page04innerscroll-center .accordion_one .accordion_header').click(function(){
             $(this).next().animate({width:'toggle'});
             $(this).toggleClass("open");
@@ -814,7 +814,7 @@ try {
             $('#pageleftnumber img:nth-child(3)').css('opacity', '0');
         } else {
             $('#pageleftnumber img:nth-child(3)').css('opacity', '0.3');
-        }        
+        }
     };
 } catch {}
 

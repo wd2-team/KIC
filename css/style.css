@@ -2194,11 +2194,11 @@ header {
   filter: drop-shadow(2px 2px 2px #000000);
 }
 #page04innerscroll-label01 {
-  width: 186px;
+  width: 210px;
   height: 69px;
   display: block;
   margin-top: 173px;
-  margin-left: 165px;
+  margin-left: 125px;
   font-size: calc((100vw - 1080px) / (840 / 8) + 10px);
   padding-top: calc((100vw - 1080px) / (840 / 13) + 11px);
   line-height: calc((100vw - 1080px) / (840 / 6) + 19px);
@@ -2428,6 +2428,7 @@ header {
   top: calc(50% - 40px);
   z-index: 1;
   pointer-events: none;
+  filter: drop-shadow(2px 2px 2px #000000);
 }
 #page04innerscroll-imgbottom {
   overflow: hidden;
