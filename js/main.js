@@ -1281,6 +1281,15 @@ try {
                 $(this).addClass("active");
             }
         });
+        $(".page08innerscroll-p04").each(function() {
+            var scroll = $(window).scrollTop();
+            var blockPosition = $(this).offset().top;
+            var windowHeight = $(window).height();
+            if (scroll > blockPosition - windowHeight + 170) {
+                $(this).css('opacity', '1');
+                $(this).addClass("active");
+            }
+        });
         var scroll = $(window).scrollTop();
         var windowHeight = $(window).height();
         var page08course3pPosition = $('#page08innerscroll-course3p').offset().top;
@@ -1344,8 +1353,79 @@ try {
             $('#page08innerscroll-course1line02').css('opacity', '1');
             $('#page08innerscroll-course1line02').addClass("active");
         }
-
-
+        var page08course2title01Position = $('#page08innerscroll-course2title01').offset().top;
+        if (scroll > page08course2title01Position - windowHeight + 470) {
+            $('#page08innerscroll-course2title01').css('opacity', '1');
+            $('#page08innerscroll-course2title01').addClass("active");
+        }
+        var page08course2fullPosition = $('#page08innerscroll-course2full').offset().top;
+        if (scroll > page08course2fullPosition - windowHeight + 170) {
+            setTimeout(function(){
+                $('#page08innerscroll-course2fullimg').fadeIn(1500);
+            },1000);
+        }
+        var page08course2title02Position = $('#page08innerscroll-course2title02').offset().top;
+        if (scroll > page08course2title02Position - windowHeight + 170) {
+            $('#page08innerscroll-course2title02').css('opacity', '1');
+            $('#page08innerscroll-course2title02').addClass("active");
+        }
+        var fadedelaySpeed = 300;
+        $("#page08 #page08innerscroll-course2fade.fade_trigger1 .fade_image_effect").each(function(i){
+            var element = $("#page08 #page08innerscroll-course2fade.fade_trigger1").offset().top;
+            if (scroll > element - windowHeight + windowHeight / 5){
+                $(this).delay(i*(fadedelaySpeed)).queue(function(){
+                    $(this).addClass("fadeactive");
+                });
+                setTimeout(function(){
+                    $('#page08innerscroll-course2fade .fade_image_effect.fadeactive img').css('filter', 'grayscale(0)');
+                },1500);
+            }
+        });
+        var page08course2fadePosition = $("#page08innerscroll-course2fade").offset().top;
+        if (scroll > page08course2fadePosition - windowHeight + 170 + 188) {
+            $('#page08innerscroll-course2line01').css('opacity', '1');
+            $('#page08innerscroll-course2line01').addClass("active");
+        }
+        if (scroll > page08course2fadePosition - windowHeight + 170 + 188 + 250) {
+            $('#page08innerscroll-course2logowrap').fadeIn();
+            setTimeout(function(){
+                $('#page08innerscroll-course2logo img').css('opacity', '1');
+                $('#page08innerscroll-course2logo img').addClass("active");
+            },500);
+        }
+        var page08course3title01Position = $('#page08innerscroll-course3title01').offset().top;
+        if (scroll > page08course3title01Position - windowHeight + 470) {
+            $('#page08innerscroll-course3title01').css('opacity', '1');
+            $('#page08innerscroll-course3title01').addClass("active");
+        }
+        var page08course3fullPosition = $('#page08innerscroll-course3full').offset().top;
+        if (scroll > page08course3fullPosition - windowHeight + 170) {
+            setTimeout(function(){
+                $('#page08innerscroll-course3fullimg').fadeIn(1500);
+            },1000);
+        }
+        var page08course3title02Position = $('#page08innerscroll-course3title02').offset().top;
+        if (scroll > page08course3title02Position - windowHeight + 170) {
+            $('#page08innerscroll-course3title02').css('opacity', '1');
+            $('#page08innerscroll-course3title02').addClass("active");
+        }
+        var fadedelaySpeed = 300;
+        $("#page08 #page08innerscroll-course3fade.fade_trigger1 .fade_image_effect").each(function(i){
+            var element = $("#page08 #page08innerscroll-course3fade.fade_trigger1").offset().top;
+            if (scroll > element - windowHeight + windowHeight / 5){
+                $(this).delay(i*(fadedelaySpeed)).queue(function(){
+                    $(this).addClass("fadeactive");
+                });
+                setTimeout(function(){
+                    $('#page08innerscroll-course3fade .fade_image_effect.fadeactive img').css('filter', 'grayscale(0)');
+                },1500);
+            }
+        });
+        var page08course3fadePosition = $("#page08innerscroll-course3fade").offset().top;
+        if (scroll > page08course3fadePosition - windowHeight + 170 + 188) {
+            $('#page08innerscroll-course3line01').css('opacity', '1');
+            $('#page08innerscroll-course3line01').addClass("active");
+        }
         var page08course3pPosition = $('#page08innerscroll-course3p').offset().top;
         if (scroll > page08course3pPosition - windowHeight + 170) {
             $('#page08innerscroll-course3p').css('opacity', '1');

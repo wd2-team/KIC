@@ -3557,18 +3557,18 @@ header {
   text-align: center;
   position: relative;
 }
-#page08innerscroll-course1fade.fade_image.fade_trigger1 {
+#page08innerscroll-course1 #page08innerscroll-course1fade.fade_image.fade_trigger1 {
   position: relative;
   z-index: 1;
   height: calc((100vw - 1080px) / (840 / 130) + 165px);
 }
-#page08innerscroll-course1fade .fade_image_effect {
+#page08innerscroll-course1 #page08innerscroll-course1fade .fade_image_effect {
   width: calc((100vw - 1080px) / (840 / 193) + 247px);
   height: 100%;
   /* overflow: auto;
   overflow-x: hidden; */
 }
-#page08innerscroll-course1fade .fade_image_effect img {
+#page08innerscroll-course1 #page08innerscroll-course1fade .fade_image_effect img {
   width: auto;
   height: 100%;
   filter: grayscale(1);
@@ -3577,21 +3577,176 @@ header {
 #page08innerscroll-course1 #page08innerscroll-course1line02 {
   position: absolute;
   right: 0;
-  top: calc(100vh + 1150px);
+  top: calc(100vh + 1250px);
   width: 282px;
 }
 
+#page08innerscroll-course2 {
+  position: relative;
+  width: 100%;
+}
+#page08innerscroll-course2 p#page08innerscroll-course2title01 {
+  font-size: 61px;
+  line-height: 69px;
+  color: #FFB100;
+  opacity: 0;
+  padding-top: 400px;
+  margin-bottom: 170px;
+  margin-left: 40%;
+  text-align: center;
+  width: 50%;
+  position: absolute;
+}
+#page08innerscroll-course2 p#page08innerscroll-course2title01 span {
+  font-size: 30px;
+}
+#page08innerscroll-course2 #page08innerscroll-p03all {
+  width: 50%;
+  text-align: left;
+  padding-left: 89px;
+  padding-top: 400px;
+  font-size: 14px;
+  line-height: 30px;
+  position: relative;
+  /* overflow: hidden; */
+  height: 700px;
+}
+#page08innerscroll-course2 #page08innerscroll-course2full {
+  position: relative;
+  min-height: 450px;
+}
+#page08innerscroll-course2 #page08innerscroll-course2full #page08innerscroll-course2fullimg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  display: none;
+}
+#page08innerscroll-course2 p#page08innerscroll-course2title02 {
+  font-size: 40px;
+  line-height: 52px;
+  color: #FFB100;
+  opacity: 0;
+  margin-top: 148px;
+  margin-bottom: 170px;
+  text-align: center;
+  position: relative;
+}
+#page08innerscroll-course2 #page08innerscroll-course2fade.fade_image.fade_trigger1 {
+  position: relative;
+  z-index: 1;
+  height: calc((100vw - 1080px) / (840 / 130) + 165px);
+}
+#page08innerscroll-course2 #page08innerscroll-course2fade .fade_image_effect {
+  width: calc((100vw - 1080px) / (840 / 193) + 247px);
+  height: 100%;
+  /* overflow: auto;
+  overflow-x: hidden; */
+}
+#page08innerscroll-course2 #page08innerscroll-course2fade .fade_image_effect img {
+  width: auto;
+  height: 100%;
+  filter: grayscale(1);
+  transition: 3s;
+}
+#page08innerscroll-course2 #page08innerscroll-course2logowrap {
+  width: 572px;
+  height: 139px;
+  display: none;
+  position: absolute;
+  left: 0;
+  margin-top: 263px;
+}
+#page08innerscroll-course2 #page08innerscroll-course2logo {
+  width: 100%;
+  height: 100%;
+}
+#page08innerscroll-course2 #page08innerscroll-course2logo img {
+  width: 310px;
+  margin-top: 65px;
+  opacity: 0;
+}
+#page08innerscroll-course2 #page08innerscroll-course2line01 {
+  position: absolute;
+  right: 300px;
+  width: 282px;
+}
 
 #page08innerscroll-course3 {
   overflow: hidden;
   position: relative;
-  height: 2000px;
+}
+#page08innerscroll-course3 p#page08innerscroll-course3title01 {
+  font-size: 61px;
+  line-height: 69px;
+  color: #FFB100;
+  opacity: 0;
+  padding-top: 450px;
+  margin-bottom: 170px;
+  text-align: center;
+  width: 100%;
+  position: relative;
+}
+#page08innerscroll-course3 p#page08innerscroll-course3title01 span {
+  font-size: 30px;
+}
+#page08innerscroll-course3 #page08innerscroll-p04all {
+  text-align: center;
+  font-size: 14px;
+  line-height: 30px;
+  position: relative;
+  /* overflow: hidden; */
+  height: 300px;
+}
+#page08innerscroll-course3 #page08innerscroll-course3full {
+  position: relative;
+  min-height: 450px;
+}
+#page08innerscroll-course3 #page08innerscroll-course3full #page08innerscroll-course3fullimg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  display: none;
+}
+#page08innerscroll-course3 p#page08innerscroll-course3title02 {
+  font-size: 40px;
+  line-height: 52px;
+  color: #FFB100;
+  opacity: 0;
+  margin-top: 148px;
+  margin-bottom: 170px;
+  text-align: center;
+  position: relative;
+}
+#page08innerscroll-course3 #page08innerscroll-course3line01 {
+  position: absolute;
+  right: 300px;
+  margin-top: 150px;
+  width: 282px;
+}
+#page08innerscroll-course3 #page08innerscroll-course3fade.fade_image.fade_trigger1 {
+  position: relative;
+  z-index: 1;
+  height: calc((100vw - 1080px) / (840 / 130) + 165px);
+}
+#page08innerscroll-course3 #page08innerscroll-course3fade .fade_image_effect {
+  width: calc((100vw - 1080px) / (840 / 193) + 247px);
+  height: 100%;
+  /* overflow: auto;
+  overflow-x: hidden; */
+}
+#page08innerscroll-course3 #page08innerscroll-course3fade .fade_image_effect img {
+  width: auto;
+  height: 100%;
+  filter: grayscale(1);
+  transition: 3s;
 }
 #page08innerscroll-course3 #page08innerscroll-course3p {
   font-size: calc((100vw - 1080px) / (840 / 33) + 53px);
   line-height: calc((100vw - 1080px) / (840 / 33) + 82px);
   color: #FFB100;
-  margin-top: 550px;
+  margin-top: 400px;
 }
 #page08 #pageunder a #pageunderbg {
   background-image: url('../images/09.svg');
