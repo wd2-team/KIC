@@ -3375,3 +3375,224 @@ header {
 #page07 #pageunder a #pageunderbg {
   background-image: url('../images/08.svg');
 }
+
+/* page08 */
+#page08 {
+  overflow-y: hidden;
+  min-width: 1080px;
+}
+#page08back {
+  position: absolute;
+  top: 53%;
+  right: -10%;
+  transform: translateY(-50%);
+  display: none;
+}
+#page08back video {
+  width: 100%;
+}
+#page08innerscroll {
+  height: 100vh;
+  position: absolute;
+  overflow-y: scroll;
+  width: 100%;
+  top: 0;
+  z-index: 5;
+}
+#page08innerscroll #pageright {
+  position: absolute;
+  top: calc(100vh - 260px);
+  right: 120px;
+  width: 250px;
+  height: 209px;
+  display: none;
+}
+#page08innerscroll #pageright.animation {
+  transform: translateY(calc(30px));
+}
+#page08innerscroll #pageright.active {
+  transform: translateY(0);
+}
+#page08innerscroll #pageright a {
+  pointer-events: none;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+#page08innerscroll #pageright a p {
+  font-size: 24px;
+  position: relative;
+  top: 50%;
+  display: none;
+}
+#page08innerscroll #pageright a p.animation {
+  transform: translateY(calc(-50% + 30px));
+}
+#page08innerscroll #pageright a p.active {
+  transform: translateY(-50%);
+}
+#page08innerscroll #pageright a p img {
+  width: 200px;
+}
+#page08innerscroll #pageright a p span {
+  font-size: 14px;
+  letter-spacing: 0.4em;
+}
+#page08innerscroll #pageright a #pagerightbg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url('../images/08.svg');
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+}
+#page08innerscroll-title {
+  padding-top: calc(100vh + 50px);
+  height: calc(100vh + 50px + 750px);
+  position: relative;
+}
+#page08innerscroll-title p#page08innerscroll-titlep {
+  font-size: 80px;
+  line-height: 90px;
+  color: #FFB100;
+  opacity: 0;
+  margin-top: 148px;
+  margin-bottom: 170px;
+  margin-left: 164px;
+  text-align: left;
+}
+#page08innerscroll-p01all {
+  text-align: left;
+  padding-left: 164px;
+  margin-top: -57px;
+  font-size: 14px;
+  line-height: 30px;
+  position: relative;
+  /* overflow: hidden; */
+  height: 330px;
+}
+.page08innerscroll-p01 {
+  margin-bottom: 30px;
+  display: inline-block;
+}
+#page08innerscroll-p01-01 {
+  opacity: 0;
+}
+#page08innerscroll-course1 {
+  position: relative;
+  width: 100%;
+}
+#page08innerscroll-course1 #page08innerscroll-course1line01 {
+  position: absolute;
+  right: 375px;
+  top: 100px;
+  width: 282px;
+}
+#page08innerscroll-course1 #page08innerscroll-course1logowrap {
+  width: 572px;
+  height: 139px;
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#page08innerscroll-course1 #page08innerscroll-course1logo {
+  width: 100%;
+  height: 100%;
+}
+#page08innerscroll-course1 #page08innerscroll-course1logo img {
+  width: 310px;
+  margin-top: 40px;
+  opacity: 0;
+}
+#page08innerscroll-course1 p#page08innerscroll-course1title01 {
+  font-size: 61px;
+  line-height: 69px;
+  color: #FFB100;
+  opacity: 0;
+  padding-top: 400px;
+  margin-bottom: 170px;
+  margin-left: 75px;
+  text-align: center;
+  width: 50%;
+  position: absolute;
+}
+#page08innerscroll-course1 p#page08innerscroll-course1title01 span {
+  font-size: 30px;
+}
+#page08innerscroll-course1 #page08innerscroll-p02all {
+  width: 50%;
+  margin-left: 50%;
+  text-align: left;
+  padding-left: 164px;
+  padding-top: 400px;
+  font-size: 14px;
+  line-height: 30px;
+  position: relative;
+  /* overflow: hidden; */
+  height: 700px;
+}
+#page08innerscroll-course1 #page08innerscroll-course1full {
+  position: relative;
+  min-height: 450px;
+}
+#page08innerscroll-course1 #page08innerscroll-course1full #page08innerscroll-course1fullimg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  display: none;
+}
+#page08innerscroll-course1 p#page08innerscroll-course1title02 {
+  font-size: 40px;
+  line-height: 52px;
+  color: #FFB100;
+  opacity: 0;
+  margin-top: 148px;
+  margin-bottom: 170px;
+  text-align: center;
+  position: relative;
+}
+#page08innerscroll-course1fade.fade_image.fade_trigger1 {
+  position: relative;
+  z-index: 1;
+  height: calc((100vw - 1080px) / (840 / 130) + 165px);
+}
+#page08innerscroll-course1fade .fade_image_effect {
+  width: calc((100vw - 1080px) / (840 / 193) + 247px);
+  height: 100%;
+  /* overflow: auto;
+  overflow-x: hidden; */
+}
+#page08innerscroll-course1fade .fade_image_effect img {
+  width: auto;
+  height: 100%;
+  filter: grayscale(1);
+  transition: 3s;
+}
+#page08innerscroll-course1 #page08innerscroll-course1line02 {
+  position: absolute;
+  right: 0;
+  top: calc(100vh + 1150px);
+  width: 282px;
+}
+
+
+#page08innerscroll-course3 {
+  overflow: hidden;
+  position: relative;
+  height: 2000px;
+}
+#page08innerscroll-course3 #page08innerscroll-course3p {
+  font-size: calc((100vw - 1080px) / (840 / 33) + 53px);
+  line-height: calc((100vw - 1080px) / (840 / 33) + 82px);
+  color: #FFB100;
+  margin-top: 550px;
+}
+#page08 #pageunder a #pageunderbg {
+  background-image: url('../images/09.svg');
+}

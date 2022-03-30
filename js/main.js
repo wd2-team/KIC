@@ -1250,6 +1250,119 @@ try {
     };
 } catch {}
 
+try {
+    var page08innerscroll = document.getElementById( 'page08innerscroll' );
+    var now = new Date().getTime();
+    page08innerscroll.onscroll = function(){
+        $(".page08innerscroll-p01").each(function() {
+            var scroll = $(window).scrollTop();
+            var blockPosition = $(this).offset().top;
+            var windowHeight = $(window).height();
+            if (scroll > blockPosition - windowHeight + 170) {
+                $(this).css('opacity', '1');
+                $(this).addClass("active");
+            }
+        });
+        $(".page08innerscroll-p02").each(function() {
+            var scroll = $(window).scrollTop();
+            var blockPosition = $(this).offset().top;
+            var windowHeight = $(window).height();
+            if (scroll > blockPosition - windowHeight + 170) {
+                $(this).css('opacity', '1');
+                $(this).addClass("active");
+            }
+        });
+        $(".page08innerscroll-p03").each(function() {
+            var scroll = $(window).scrollTop();
+            var blockPosition = $(this).offset().top;
+            var windowHeight = $(window).height();
+            if (scroll > blockPosition - windowHeight + 170) {
+                $(this).css('opacity', '1');
+                $(this).addClass("active");
+            }
+        });
+        var scroll = $(window).scrollTop();
+        var windowHeight = $(window).height();
+        var page08course3pPosition = $('#page08innerscroll-course3p').offset().top;
+        if (scroll > page08course3pPosition - windowHeight + 170) {
+            $('#page08back').addClass('showvideo');
+            let page08back = document.getElementById('page08back');
+            if (document.getElementById("topvideo") == null) {
+                page08back.insertAdjacentHTML('beforeend', '<video id="topvideo" src="images/car02.mp4" autoplay muted playsinline></video>');
+            }
+            $('#page08back video').fadeIn();
+        } else {
+            $('#page08back video').fadeOut();
+        }
+        var page08titlePosition = $('#page08innerscroll-title').offset().top;
+        if (scroll > page08titlePosition - windowHeight + 170) {
+            $('#page08innerscroll-titlep').css('opacity', '1');
+            $('#page08innerscroll-titlep').addClass("active");
+        }
+        var page08course1Position = $('#page08innerscroll-course1').offset().top;
+        if (scroll > page08course1Position - windowHeight + 170) {
+            $('#page08innerscroll-course1logowrap').fadeIn();
+            setTimeout(function(){
+                $('#page08innerscroll-course1logo img').css('opacity', '1');
+                $('#page08innerscroll-course1logo img').addClass("active");
+            },500);
+        }
+        if (scroll > page08course1Position - windowHeight + 170 - 139) {
+            $('#page08innerscroll-course1line01').css('opacity', '1');
+            $('#page08innerscroll-course1line01').addClass("active");
+        }
+        var page08course1title01Position = $('#page08innerscroll-course1title01').offset().top;
+        if (scroll > page08course1title01Position - windowHeight + 470) {
+            $('#page08innerscroll-course1title01').css('opacity', '1');
+            $('#page08innerscroll-course1title01').addClass("active");
+        }
+        var page08course1fullPosition = $('#page08innerscroll-course1full').offset().top;
+        if (scroll > page08course1fullPosition - windowHeight + 170) {
+            setTimeout(function(){
+                $('#page08innerscroll-course1fullimg').fadeIn(1500);
+            },1000);
+        }
+        var page08course1title02Position = $('#page08innerscroll-course1title02').offset().top;
+        if (scroll > page08course1title02Position - windowHeight + 170) {
+            $('#page08innerscroll-course1title02').css('opacity', '1');
+            $('#page08innerscroll-course1title02').addClass("active");
+        }
+        var fadedelaySpeed = 300;
+        $("#page08 #page08innerscroll-course1fade.fade_trigger1 .fade_image_effect").each(function(i){
+            var element = $("#page08 #page08innerscroll-course1fade.fade_trigger1").offset().top;
+            if (scroll > element - windowHeight + windowHeight / 5){
+                $(this).delay(i*(fadedelaySpeed)).queue(function(){
+                    $(this).addClass("fadeactive");
+                });
+                setTimeout(function(){
+                    $('#page08innerscroll-course1fade .fade_image_effect.fadeactive img').css('filter', 'grayscale(0)');
+                },1500);
+            }
+        });
+        var page08course1fadePosition = $("#page08innerscroll-course1fade").offset().top;
+        if (scroll > page08course1fadePosition - windowHeight) {
+            $('#page08innerscroll-course1line02').css('opacity', '1');
+            $('#page08innerscroll-course1line02').addClass("active");
+        }
+
+
+        var page08course3pPosition = $('#page08innerscroll-course3p').offset().top;
+        if (scroll > page08course3pPosition - windowHeight + 170) {
+            $('#page08innerscroll-course3p').css('opacity', '1');
+            $('#page08innerscroll-course3p').addClass("active");
+            $('#pageleftnumber img:nth-child(3)').css('opacity', '0');
+        } else {
+            $('#pageleftnumber img:nth-child(3)').css('opacity', '0.3');
+        }
+        var page08bluePosition = $('#pageblue').offset().top;
+        if(scroll > page08bluePosition - 150) {
+            $('#pagescroll').fadeOut();
+        } else {
+            $('#pagescroll').fadeIn();
+        }
+    };
+} catch {}
+
 // 画像読み込み
 if(window.navigator.userAgent.indexOf("Chrome") >= 0 && window.navigator.userAgent.indexOf("Edge") == -1){
 }else{
