@@ -3569,8 +3569,6 @@ header {
   overflow-x: hidden; */
 }
 #page08innerscroll-course1 #page08innerscroll-course1fade .fade_image_effect img {
-  width: auto;
-  height: 100%;
   filter: grayscale(1);
   transition: 3s;
 }
@@ -3644,8 +3642,6 @@ header {
   overflow-x: hidden; */
 }
 #page08innerscroll-course2 #page08innerscroll-course2fade .fade_image_effect img {
-  width: auto;
-  height: 100%;
   filter: grayscale(1);
   transition: 3s;
 }
@@ -3737,8 +3733,6 @@ header {
   overflow-x: hidden; */
 }
 #page08innerscroll-course3 #page08innerscroll-course3fade .fade_image_effect img {
-  width: auto;
-  height: 100%;
   filter: grayscale(1);
   transition: 3s;
 }
@@ -3747,6 +3741,7 @@ header {
   line-height: calc((100vw - 1080px) / (840 / 33) + 82px);
   color: #FFB100;
   margin-top: 400px;
+  margin-bottom: 50px;
 }
 #page08 #pageunder a #pageunderbg {
   background-image: url('../images/09.svg');
