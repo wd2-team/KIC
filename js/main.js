@@ -1760,13 +1760,9 @@ try {
                 $('#page10innerscroll-imgtopleft img:nth-child(1)').addClass("active");
             },500);
             setTimeout(function(){
-                $('#page10innerscroll-imgtopleft img:nth-child(3)').css('opacity', '1');
-                $('#page10innerscroll-imgtopleft img:nth-child(3)').addClass("active");
-            },1000);
-            setTimeout(function(){
                 $('#page10innerscroll-imgtopleft img:nth-child(2)').show().attr('src', 'images/levin_logo_animated.svg'+'?'+''+now);
                 $('#page10innerscroll-imgtopcarline').show().attr('src', 'images/carline.svg'+'?'+''+now);
-            },1500);
+            },1000);
         }
         var fadedelaySpeed = 300;
         $("#page10innerscroll-fade1 .fade_image_effect").each(function(i){
