@@ -3919,7 +3919,6 @@ header {
   margin-top: 50px;
   font-size: 14px;
   line-height: 30px;
-  position: relative;
   /* overflow: hidden; */
   height: 400px;
   margin-top: -150px;
@@ -4004,7 +4003,6 @@ header {
   margin-top: 50px;
   font-size: 14px;
   line-height: 30px;
-  position: relative;
   /* overflow: hidden; */
   height: 120px;
   margin-top: 130px;
@@ -4180,7 +4178,7 @@ header {
 }
 #page09innerscroll-engine3 #page09innerscroll-engine3random #page09innerscroll-engine3img03 {
   position: absolute;
-  right: 0;
+  left: 0;
   top: 860px;
   width: 595px;
 }
@@ -4202,6 +4200,8 @@ header {
   color: #FFB100;
   margin-top: 400px;
   margin-bottom: 100px;
+  margin-left: 140px;
+  text-align: left;
 }
 #page09 #pageunder a #pageunderbg {
   background-image: url('../images/10.svg');
