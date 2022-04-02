@@ -4274,17 +4274,21 @@ header {
 /* #page10 */
 #page10 {
   overflow-y: hidden;
-  min-width: 1080px;
+}
+#page10 #wrapper {
+  height: 100vh;
+  overflow-y: hidden;
 }
 #page10back {
   position: absolute;
-  top: 53%;
-  right: -10%;
+  top: 60%;
   transform: translateY(-50%);
+  left: -50%;
+  overflow: hidden;
   display: none;
 }
 #page10back video {
-  width: 100%;
+  width: 135%;
 }
 #page10innerscroll {
   height: 100vh;
@@ -4295,12 +4299,12 @@ header {
   z-index: 5;
 }
 #page10innerscroll #pageright {
-  position: absolute;
-  top: calc(100vh - 260px);
-  right: 120px;
-  width: 250px;
-  height: 209px;
+  position: relative;
+  top: calc(100% - 82px - 47px);
+  width: 210px;
+  height: 47px;
   display: none;
+  margin: 0 auto;
 }
 #page10innerscroll #pageright.animation {
   transform: translateY(calc(30px));
@@ -4327,11 +4331,11 @@ header {
   transform: translateY(-50%);
 }
 #page10innerscroll #pageright a p img {
-  width: 160px;
+  width: 200px;
 }
 #page10innerscroll #pageright a p span {
   font-size: 14px;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.4em;
 }
 #page10innerscroll #pageright a #pagerightbg {
   width: 100%;
@@ -4347,18 +4351,17 @@ header {
   display: none;
 }
 #page10innerscroll-title {
-  padding-top: calc(100vh + 50px);
-  height: calc(100vh + 50px + 450px);
+  padding-top: 100vh;
+  height: calc(100vh + 200px);
   position: relative;
 }
 #page10innerscroll-title p#page10innerscroll-titlep {
-  font-size: 75px;
-  line-height: 90px;
+  font-size: 24px;
+  line-height: 47px;
   color: #FFB100;
   opacity: 0;
-  margin-top: 148px;
-  margin-bottom: 170px;
-  margin-left: 60px;
+  margin-top: 50px;
+  margin-left: 28px;
   text-align: left;
 }
 #page10innerscroll-content1 {
@@ -4366,51 +4369,50 @@ header {
   width: 100%;
 }
 #page10innerscroll-content1 #page10innerscroll-content1img {
-  width: 824px;
+  width: 100%;
   display: none;
 }
 #page10innerscroll-p01all {
   text-align: left;
   color: #FFB100;
-  padding-left: 126px;
-  margin-top: 167px;
-  font-size: 26px;
-  line-height: 70px;
+  padding-left: 28px;
+  margin-top: 60px;
+  font-size: 12px;
+  line-height: 32px;
   position: relative;
   /* overflow: hidden; */
 }
 .page10innerscroll-p01 {
-  margin-bottom: 70px;
+  margin-bottom: 40px;
   display: block;
 }
 #page10innerscroll-p01-01,
 #page10innerscroll-p01-02 {
   opacity: 0;
 }
+
 #page10innerscroll-imgtop {
   text-align: left;
-  padding-left: 160px;
+  padding-left: 25px;
   overflow: hidden;
   position: relative;
-  height: calc(430px + 210px + (100vw - 1080px) / (840 / 450));
+  margin-top: 95px;
+  height: calc(92px + 200px + 65px);
 }
 #page10innerscroll-imgtopleft {
-  width: calc((100vw - 1080px) / (840 / 190) + 260px);
+  width: 188px;
   position: relative;
-}
-#page10innerscroll-imgtopleft>img:nth-child(1) {
-  opacity: 0;
 }
 #page10innerscroll-imgtopleft>img:nth-child(2) {
   position: absolute;
   left: 0;
-  top: calc((100vw - 1080px) / (840 / 20) + 30px);
+  top: 20px;
   display: inline;
 }
 #page10innerscroll-imgtop>img {
   position: absolute;
-  top: 130px;
-  width: 800px;
+  top: 92px;
+  width: 482px;
 }
 #page10innerscroll-content2 {
   position: relative;
@@ -4420,9 +4422,10 @@ header {
   position: relative;
   text-align: left;
   z-index: 1;
+  width: 100%;
 }
 #page10innerscroll-content2 #page10innerscroll-fade1 .fade_image_effect {
-  width: 540px;
+  width: 50%;
   /* overflow: auto;
   overflow-x: hidden; */
 }
@@ -4434,15 +4437,15 @@ header {
 #page10innerscroll-p02all {
   text-align: left;
   color: #FFB100;
-  padding-left: 126px;
-  margin-top: 167px;
-  font-size: 26px;
-  line-height: 70px;
+  padding-left: 28px;
+  margin-top: 73px;
+  font-size: 10px;
+  line-height: 28px;
   position: relative;
   /* overflow: hidden; */
 }
 .page10innerscroll-p02 {
-  margin-bottom: 70px;
+  margin-bottom: 40px;
   display: block;
 }
 #page10innerscroll-p02-01,
@@ -4460,15 +4463,15 @@ header {
 #page10innerscroll-p03all {
   text-align: left;
   color: #FFB100;
-  padding-left: 126px;
-  margin-top: 167px;
-  font-size: 26px;
-  line-height: 70px;
+  padding-left: 28px;
+  margin-top: 73px;
+  font-size: 10px;
+  line-height: 28px;
   position: relative;
   /* overflow: hidden; */
 }
 .page10innerscroll-p03 {
-  margin-bottom: 70px;
+  margin-bottom: 40px;
   display: block;
 }
 #page10innerscroll-p03-01 {
@@ -4479,19 +4482,21 @@ header {
   width: 100%;
 }
 #page10innerscroll-content4 #page10innerscroll-content4imgwrap {
-  min-height: 273px;
+  min-height: 120px;
+  margin-top: 100px;
 }
 #page10innerscroll-content4 #page10innerscroll-content4img {
-  width: 500px;
+  width: 265px;
   display: none;
 }
 #page10innerscroll-content4 #page10innerscroll-fade2.fade_image.fade_trigger1 {
   position: relative;
   z-index: 1;
-  margin-top: 230px;
+  margin-top: 106px;
+  width: 100%;
 }
 #page10innerscroll-content4 #page10innerscroll-fade2 .fade_image_effect {
-  width: 414px;
+  width: 50%;
   /* overflow: auto;
   overflow-x: hidden; */
 }
@@ -4501,10 +4506,10 @@ header {
   padding-right: 2px;
 }
 #page10innerscroll-content4 #page10innerscroll-content4p {
-  font-size: calc((100vw - 1080px) / (840 / 33) + 53px);
-  line-height: calc((100vw - 1080px) / (840 / 33) + 82px);
+  font-size: 22px;
+  line-height: 37px;
   color: #FFB100;
-  margin-top: 240px;
+  margin-top: 128px;
   margin-bottom: 100px;
 }
 #page10 #pageunder a #pageunderbg {
