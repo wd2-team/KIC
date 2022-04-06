@@ -3516,7 +3516,7 @@ header {
   opacity: 0;
   padding-top: 400px;
   margin-bottom: 170px;
-  margin-left: 75px;
+  margin-left: 35px;
   text-align: center;
   width: 50%;
   position: absolute;
@@ -3528,7 +3528,7 @@ header {
   width: 50%;
   margin-left: 50%;
   text-align: left;
-  padding-left: 164px;
+  padding-left: 94px;
   padding-top: 400px;
   font-size: 14px;
   line-height: 30px;
@@ -3560,10 +3560,10 @@ header {
 #page08innerscroll-course1 #page08innerscroll-course1fade.fade_image.fade_trigger1 {
   position: relative;
   z-index: 1;
-  height: calc((100vw - 1080px) / (840 / 130) + 165px);
+  height: 179px;
 }
 #page08innerscroll-course1 #page08innerscroll-course1fade .fade_image_effect {
-  width: calc((100vw - 1080px) / (840 / 193) + 247px);
+  width: 288px;
   height: 100%;
   /* overflow: auto;
   overflow-x: hidden; */
@@ -3588,7 +3588,7 @@ header {
   line-height: 69px;
   color: #FFB100;
   opacity: 0;
-  padding-top: 400px;
+  padding-top: 300px;
   margin-bottom: 170px;
   margin-left: 40%;
   text-align: center;
@@ -3602,12 +3602,12 @@ header {
   width: 50%;
   text-align: left;
   padding-left: 89px;
-  padding-top: 400px;
+  padding-top: 300px;
   font-size: 14px;
   line-height: 30px;
   position: relative;
   /* overflow: hidden; */
-  height: 700px;
+  height: 600px;
 }
 #page08innerscroll-course2 #page08innerscroll-course2full {
   position: relative;
@@ -3633,10 +3633,10 @@ header {
 #page08innerscroll-course2 #page08innerscroll-course2fade.fade_image.fade_trigger1 {
   position: relative;
   z-index: 1;
-  height: calc((100vw - 1080px) / (840 / 130) + 165px);
+  height: 179px;
 }
 #page08innerscroll-course2 #page08innerscroll-course2fade .fade_image_effect {
-  width: calc((100vw - 1080px) / (840 / 193) + 247px);
+  width: 288px;
   height: 100%;
   /* overflow: auto;
   overflow-x: hidden; */
@@ -3673,12 +3673,12 @@ header {
   position: relative;
 }
 #page08innerscroll-course3 p#page08innerscroll-course3title01 {
-  font-size: 61px;
-  line-height: 69px;
+  font-size: 64px;
+  line-height: 72px;
   color: #FFB100;
   opacity: 0;
   padding-top: 500px;
-  margin-bottom: 170px;
+  margin-bottom: 140px;
   text-align: center;
   width: 100%;
   position: relative;
@@ -3692,7 +3692,7 @@ header {
   line-height: 30px;
   position: relative;
   /* overflow: hidden; */
-  height: 300px;
+  height: 330px;
 }
 #page08innerscroll-course3 #page08innerscroll-course3full {
   position: relative;
@@ -3724,10 +3724,10 @@ header {
 #page08innerscroll-course3 #page08innerscroll-course3fade.fade_image.fade_trigger1 {
   position: relative;
   z-index: 1;
-  height: calc((100vw - 1080px) / (840 / 130) + 165px);
+  height: 179px;
 }
 #page08innerscroll-course3 #page08innerscroll-course3fade .fade_image_effect {
-  width: calc((100vw - 1080px) / (840 / 193) + 247px);
+  width: 288px;
   height: 100%;
   /* overflow: auto;
   overflow-x: hidden; */
@@ -3740,8 +3740,11 @@ header {
   font-size: calc((100vw - 1080px) / (840 / 33) + 53px);
   line-height: calc((100vw - 1080px) / (840 / 33) + 82px);
   color: #FFB100;
-  margin-top: 400px;
+  margin-top: 350px;
   margin-bottom: 50px;
+}
+#page08 #pageunder a p img {
+  width: 85%;
 }
 #page08 #pageunder a #pageunderbg {
   background-image: url('../images/09.svg');
@@ -3803,7 +3806,7 @@ header {
   transform: translateY(-50%);
 }
 #page09innerscroll #pageright a p img {
-  width: 160px;
+  width: 220px;
 }
 #page09innerscroll #pageright a p span {
   font-size: 14px;
@@ -3942,8 +3945,8 @@ header {
   line-height: 80px;
   color: #FFB100;
   opacity: 0;
-  padding-top: 270px;
-  margin-bottom: 270px;
+  padding-top: 230px;
+  margin-bottom: 230px;
   text-align: center;
   width: 100%;
   position: relative;
@@ -4195,13 +4198,16 @@ header {
   width: 855px;
 }
 #page09innerscroll-engine3 #page09innerscroll-engine3p {
-  font-size: calc((100vw - 1080px) / (840 / 33) + 53px);
-  line-height: calc((100vw - 1080px) / (840 / 33) + 82px);
+  font-size: calc((100vw - 1080px) / (840 / 33) + 60px);
+  line-height: calc((100vw - 1080px) / (840 / 33) + 89px);
   color: #FFB100;
   margin-top: 400px;
   margin-bottom: 100px;
   margin-left: 140px;
   text-align: left;
+}
+#page09 #pageunder a p img {
+  width: 65%;
 }
 #page09 #pageunder a #pageunderbg {
   background-image: url('../images/10.svg');
@@ -4264,7 +4270,7 @@ header {
   transform: translateY(-50%);
 }
 #page10innerscroll #pageright a p img {
-  width: 160px;
+  width: 180px;
 }
 #page10innerscroll #pageright a p span {
   font-size: 14px;
@@ -4440,11 +4446,17 @@ header {
   padding-right: 2px;
 }
 #page10innerscroll-content4 #page10innerscroll-content4p {
-  font-size: calc((100vw - 1080px) / (840 / 33) + 53px);
-  line-height: calc((100vw - 1080px) / (840 / 33) + 82px);
+  font-size: calc((100vw - 1080px) / (840 / 33) + 60px);
+  line-height: calc((100vw - 1080px) / (840 / 33) + 89px);
   color: #FFB100;
   margin-top: 200px;
   margin-bottom: 100px;
+}
+#page10 #pageunder a {
+  pointer-events: none;
+}
+#page10 #pageunder a p span {
+  letter-spacing: 1.5em;
 }
 #page10 #pageunder a #pageunderbg {
   background-image: url('../images/go.svg');
