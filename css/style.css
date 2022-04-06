@@ -4234,6 +4234,9 @@ header {
   margin-left: 140px;
   text-align: left;
 }
+#page09 #pageunder a p {
+  left: 26px;
+}
 #page09 #pageunder a p img {
   width: 65%;
 }
