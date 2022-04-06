@@ -3589,7 +3589,7 @@ header {
 #page08innerscroll-p01all {
   text-align: left;
   padding-left: 25px;
-  font-size: 10px;
+  font-size: 13px;
   line-height: 28px;
   position: relative;
   /* overflow: hidden; */
@@ -3640,8 +3640,8 @@ header {
 #page08innerscroll-course1 #page08innerscroll-p02all {
   width: 100%;
   padding-top: 255px;
-  font-size: 10px;
-  line-height: 20px;
+  font-size: 13px;
+  line-height: 28px;
   position: relative;
   /* overflow: hidden; */
   height: 420px;
@@ -3704,8 +3704,8 @@ header {
 #page08innerscroll-course2 #page08innerscroll-p03all {
   width: 100%;
   padding-top: 205px;
-  font-size: 10px;
-  line-height: 20px;
+  font-size: 13px;
+  line-height: 28px;
   position: relative;
   /* overflow: hidden; */
   height: 360px;
@@ -3784,8 +3784,8 @@ header {
 }
 #page08innerscroll-course3 #page08innerscroll-p04all {
   width: 100%;
-  font-size: 10px;
-  line-height: 20px;
+  font-size: 13px;
+  line-height: 28px;
   position: relative;
   /* overflow: hidden; */
   height: 200px;
@@ -3969,8 +3969,8 @@ header {
   text-align: left;
   padding-left: 28px;
   margin-top: 35px;
-  font-size: 10px;
-  line-height: 25px;
+  font-size: 13px;
+  line-height: 28px;
   position: relative;
   /* overflow: hidden; */
   height: 220px;
@@ -4012,8 +4012,8 @@ header {
   text-align: left;
   padding-left: 28px;
   margin-top: 35px;
-  font-size: 10px;
-  line-height: 25px;
+  font-size: 13px;
+  line-height: 28px;
   position: relative;
   /* overflow: hidden; */
   min-height: 155px;
@@ -4088,8 +4088,8 @@ header {
 #page09innerscroll-p03all {
   text-align: left;
   padding-left: 28px;
-  font-size: 10px;
-  line-height: 25px;
+  font-size: 13px;
+  line-height: 28px;
   /* overflow: hidden; */
   height: 105px;
   margin-top: 45px;
@@ -4149,8 +4149,8 @@ header {
 #page09innerscroll-p04all {
   text-align: left;
   padding-left: 28px;
-  font-size: 10px;
-  line-height: 25px;
+  font-size: 13px;
+  line-height: 28px;
   /* overflow: hidden; */
   height: 150px;
   margin-top: 50px;
@@ -4209,8 +4209,8 @@ header {
 #page09innerscroll-p05all {
   text-align: left;
   padding-left: 28px;
-  font-size: 10px;
-  line-height: 25px;
+  font-size: 13px;
+  line-height: 28px;
   /* overflow: hidden; */
   height: 120px;
   margin-top: 160px;
@@ -4377,8 +4377,8 @@ header {
   color: #FFB100;
   padding-left: 28px;
   margin-top: 60px;
-  font-size: 12px;
-  line-height: 32px;
+  font-size: 13px;
+  line-height: 28px;
   position: relative;
   /* overflow: hidden; */
 }
@@ -4439,7 +4439,7 @@ header {
   color: #FFB100;
   padding-left: 28px;
   margin-top: 63px;
-  font-size: 10px;
+  font-size: 13px;
   line-height: 28px;
   position: relative;
   /* overflow: hidden; */
@@ -4466,7 +4466,7 @@ header {
   color: #FFB100;
   padding-left: 28px;
   margin-top: 73px;
-  font-size: 10px;
+  font-size: 13px;
   line-height: 28px;
   position: relative;
   /* overflow: hidden; */
