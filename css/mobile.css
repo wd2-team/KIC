@@ -3484,7 +3484,7 @@ header {
   pointer-events: none;
 }
 #page07 #pageunder a p img {
-  width: 190px;
+  width: 150px;
 }
 #page07 #pageunder a p span {
   letter-spacing: 1.5em;
@@ -3692,7 +3692,7 @@ header {
   line-height: 38px;
   color: #FFB100;
   opacity: 0;
-  padding-top: 96px;
+  padding-top: 75px;
   margin-bottom: 53px;
   text-align: center;
   width: 100%;
@@ -3703,12 +3703,12 @@ header {
 }
 #page08innerscroll-course2 #page08innerscroll-p03all {
   width: 100%;
-  padding-top: 255px;
+  padding-top: 205px;
   font-size: 10px;
   line-height: 20px;
   position: relative;
   /* overflow: hidden; */
-  height: 420px;
+  height: 360px;
 }
 #page08innerscroll-course2 #page08innerscroll-course2full {
   position: relative;
@@ -3839,9 +3839,6 @@ header {
 }
 #page08 #pageunder a p img {
   width: 170px;
-}
-#page08 #pageunder a p span {
-  letter-spacing: 1.5em;
 }
 #page08 #pageunder a #pageunderbg {
   background-image: url('../images/09.svg');
