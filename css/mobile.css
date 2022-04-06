@@ -4513,6 +4513,12 @@ header {
   margin-top: 128px;
   margin-bottom: 100px;
 }
+#page10 #pageunder a {
+  pointer-events: none;
+}
+#page10 #pageunder a p span {
+  letter-spacing: 1.5em;
+}
 #page10 #pageunder a #pageunderbg {
   background-image: url('../images/go.svg');
 }
