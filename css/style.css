@@ -3542,7 +3542,8 @@ header {
 }
 #page08innerscroll-course1 #page08innerscroll-course1full #page08innerscroll-course1fullimg {
   width: 100%;
-  height: 100%;
+  height: 622px;
+  object-position: bottom;
   object-fit: cover;
   position: relative;
   display: none;
@@ -3615,7 +3616,8 @@ header {
 }
 #page08innerscroll-course2 #page08innerscroll-course2full #page08innerscroll-course2fullimg {
   width: 100%;
-  height: 100%;
+  height: 622px;
+  object-position: center;
   object-fit: cover;
   position: relative;
   display: none;
@@ -3700,7 +3702,8 @@ header {
 }
 #page08innerscroll-course3 #page08innerscroll-course3full #page08innerscroll-course3fullimg {
   width: 100%;
-  height: 100%;
+  height: 622px;
+  object-position: center;
   object-fit: cover;
   position: relative;
   display: none;
@@ -3966,6 +3969,9 @@ header {
 #page09innerscroll-engine2 #page09innerscroll-fade1topwrapimg {
   width: 756px;
   display: none;
+  height: 469px;
+  object-fit: cover;
+  object-position: center;
 }
 #page09innerscroll-engine2 #page09innerscroll-fade1.fade_image.fade_trigger1 {
   position: relative;
@@ -3977,6 +3983,9 @@ header {
   width: 252px;
   /* overflow: auto;
   overflow-x: hidden; */
+  height: 156px;
+  object-fit: cover;
+  object-position: center;
 }
 #page09innerscroll-engine2 #page09innerscroll-fade1 .fade_image_effect span {
   font-size: 10px;
@@ -4041,6 +4050,9 @@ header {
 #page09innerscroll-engine2 #page09innerscroll-fade2topwrapimg {
   width: 504px;
   display: none;
+  height: 313px;
+  object-fit: cover;
+  object-position: center;
 }
 #page09innerscroll-engine2 #page09innerscroll-fade2.fade_image.fade_trigger1 {
   position: relative;
@@ -4052,6 +4064,13 @@ header {
   width: 252px;
   /* overflow: auto;
   overflow-x: hidden; */
+  height: 156px;
+  object-fit: cover;
+  object-position: center;
+}
+#page09innerscroll-engine2 #page09innerscroll-fade2 .fade_image_effect:nth-child(2) img {
+  object-position: 50% 17%;
+  width: 120%;
 }
 #page09innerscroll-engine2 #page09innerscroll-fade2 .fade_image_effect span {
   font-size: 10px;
@@ -4178,12 +4197,18 @@ header {
   left: 243px;
   top: 450px;
   width: 569px;
+  height: 241px;
+  object-fit: cover;
+  object-position: center;
 }
 #page09innerscroll-engine3 #page09innerscroll-engine3random #page09innerscroll-engine3img03 {
   position: absolute;
   left: 0;
   top: 860px;
   width: 595px;
+  height: 253px;
+  object-fit: cover;
+  object-position: center;
 }
 #page09innerscroll-engine3 #page09innerscroll-engine3random #page09innerscroll-engine3line01 {
   position: absolute;
@@ -4196,6 +4221,9 @@ header {
   right: 0;
   top: 1265px;
   width: 855px;
+  height: 363px;
+  object-fit: cover;
+  object-position: center;
 }
 #page09innerscroll-engine3 #page09innerscroll-engine3p {
   font-size: calc((100vw - 1080px) / (840 / 33) + 60px);
@@ -4310,6 +4338,9 @@ header {
 #page10innerscroll-content1 #page10innerscroll-content1img {
   width: 824px;
   display: none;
+  height: 500px;
+  object-fit: cover;
+  object-position: center;
 }
 #page10innerscroll-p01all {
   text-align: left;
@@ -4369,6 +4400,11 @@ header {
   /* overflow: auto;
   overflow-x: hidden; */
 }
+#page10innerscroll-content2 #page10innerscroll-fade1 .fade_image_effect img {
+  height: 326px;
+  object-fit: cover;
+  object-position: center;
+}
 #page10innerscroll-content2 #page10innerscroll-fade1 .fade_image_effect span {
   font-size: 10px;
   display: inline-block;
@@ -4400,6 +4436,9 @@ header {
 #page10innerscroll-content3 #page10innerscroll-content3img {
   width: 100%;
   display: none;
+  height: 655px;
+  object-fit: cover;
+  object-position: center;
 }
 #page10innerscroll-p03all {
   text-align: left;
@@ -4439,6 +4478,11 @@ header {
   width: 414px;
   /* overflow: auto;
   overflow-x: hidden; */
+}
+#page10innerscroll-content4 #page10innerscroll-fade2 .fade_image_effect img {
+  height: 253px;
+  object-fit: cover;
+  object-position: center;
 }
 #page10innerscroll-content4 #page10innerscroll-fade2 .fade_image_effect span {
   font-size: 10px;
