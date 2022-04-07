@@ -476,7 +476,7 @@ button {
 }
 #mobiletopheader ul li.futurelink a img,
 #mobileheader ul li.futurelink a img {
-  opacity: 0.3;
+  opacity: 0.2;
 }
 
 /* menu */
@@ -1412,7 +1412,7 @@ header {
   margin-bottom: 50px;
 }
 #page00 #pageunder a p span {
-  letter-spacing: 0.7em;
+  letter-spacing: 0.5em;
 }
 #page00 #pageunder a #pageunderbg {
   background-image: url('../images/01.svg');
@@ -3771,8 +3771,8 @@ header {
   position: relative;
 }
 #page08innerscroll-course3 p#page08innerscroll-course3title01 {
-  font-size: 33px;
-  line-height: 38px;
+  font-size: 38px;
+  line-height: 31px;
   color: #FFB100;
   opacity: 0;
   padding-top: 235px;
@@ -4048,7 +4048,8 @@ header {
 }
 #page09innerscroll-engine2 #page09innerscroll-fade1topwrap {
   position: relative;
-  min-height: calc(233 * 100vw / 375);
+  /* min-height: calc(233 * 100vw / 375); */
+  min-height: 233px;
   width: 100%;
   text-align: right;
 }
@@ -4062,7 +4063,7 @@ header {
 #page09innerscroll-engine2 #page09innerscroll-fade1.fade_image.fade_trigger1 {
   position: relative;
   z-index: 1;
-  margin-top: -4px;
+  margin-top: -5px;
   width: 100%;
 }
 #page09innerscroll-engine2 #page09innerscroll-fade1 .fade_image_effect {
@@ -4114,7 +4115,8 @@ header {
 }
 #page09innerscroll-engine2 #page09innerscroll-fade2topwrap {
   position: relative;
-  min-height: calc(233 * 100vw / 375);
+  /* min-height: calc(233 * 100vw / 375); */
+  min-height: 233px;
   width: 100%;
   margin-top: 47px;
 }
@@ -4129,7 +4131,7 @@ header {
   position: relative;
   text-align: left;
   z-index: 1;
-  margin-top: -4px;
+  margin-top: -5px;
   width: 100%;
 }
 #page09innerscroll-engine2 #page09innerscroll-fade2 .fade_image_effect {
@@ -4246,7 +4248,7 @@ header {
 #page09innerscroll-engine3 #page09innerscroll-engine3random {
   position: relative;
   margin-top: 94px;
-  height: 800px;
+  height: 710px;
 }
 #page09innerscroll-engine3 #page09innerscroll-engine3random .page09innerscroll-engine3img {
   transition: 1s;
@@ -4260,7 +4262,7 @@ header {
 #page09innerscroll-engine3 #page09innerscroll-engine3random #page09innerscroll-engine3img02 {
   position: absolute;
   left: 77px;
-  top: 183px;
+  top: 180px;
   width: 233px;
   height: 99px;
   object-fit: cover;
@@ -4269,7 +4271,7 @@ header {
 #page09innerscroll-engine3 #page09innerscroll-engine3random #page09innerscroll-engine3img03 {
   position: absolute;
   left: 0;
-  top: 381px;
+  top: 350px;
   width: 244px;
   height: 103px;
   object-fit: cover;
@@ -4278,7 +4280,7 @@ header {
 #page09innerscroll-engine3 #page09innerscroll-engine3random #page09innerscroll-engine3img04 {
   position: absolute;
   right: 0;
-  top: 607px;
+  top: 540px;
   width: 297px;
   height: 126px;
   object-fit: cover;
@@ -4293,13 +4295,23 @@ header {
   margin-left: 25px;
   text-align: left;
 }
+#page09 #pageunder a p {
+  margin-left: 20px;
+}
+
 #page09 #pageunder a p img {
-    width: 130px;
+    width: 90px;
 }
 #page09 #pageunder a #pageunderbg {
   background-image: url('../images/10.svg');
 }
-
+#page09 #pageunder a p {
+  font-size: 22px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 20px;
+}
 /* #page10 */
 #page10 {
   overflow-y: hidden;
@@ -4559,6 +4571,9 @@ header {
 }
 #page10 #pageunder a p span {
   letter-spacing: 1.5em;
+}
+#page10 #pageunder a p img {
+  width: 120px;
 }
 #page10 #pageunder a #pageunderbg {
   background-image: url('../images/go.svg');
