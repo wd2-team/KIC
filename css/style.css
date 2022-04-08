@@ -3369,9 +3369,6 @@ header {
   color: #FFB100;
   margin-top: 550px;
 }
-#page07 #pageunder a {
-  pointer-events: none;
-}
 #page07 #pageunder a #pageunderbg {
   background-image: url('../images/08.svg');
 }
@@ -4321,7 +4318,7 @@ header {
 }
 #page10innerscroll-title {
   padding-top: calc(100vh + 50px);
-  height: calc(100vh + 50px + 450px);
+  height: calc(100vh + 50px + 550px);
   position: relative;
 }
 #page10innerscroll-title p#page10innerscroll-titlep {
@@ -4360,7 +4357,8 @@ header {
   display: block;
 }
 #page10innerscroll-p01-01,
-#page10innerscroll-p01-02 {
+#page10innerscroll-p01-02,
+#page10innerscroll-p01-03 {
   opacity: 0;
 }
 #page10innerscroll-imgtop {

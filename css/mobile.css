@@ -3480,9 +3480,6 @@ header {
 #page07 #pageunder {
   width: 190px;
 }
-#page07 #pageunder a {
-  pointer-events: none;
-}
 #page07 #pageunder a p img {
   width: 150px;
 }
@@ -4393,7 +4390,7 @@ header {
 }
 #page10innerscroll-title {
   padding-top: 100vh;
-  height: calc(100vh + 200px);
+  height: calc(100vh + 240px);
   position: relative;
 }
 #page10innerscroll-title p#page10innerscroll-titlep {
@@ -4431,7 +4428,8 @@ header {
   display: block;
 }
 #page10innerscroll-p01-01,
-#page10innerscroll-p01-02 {
+#page10innerscroll-p01-02,
+#page10innerscroll-p01-03 {
   opacity: 0;
 }
 
