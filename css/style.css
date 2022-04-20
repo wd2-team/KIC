@@ -4507,3 +4507,132 @@ header {
 #page10 #pageunder a #pageunderbg {
   background-image: url('../images/go.svg');
 }
+
+/* GO */
+body#go {
+  background: linear-gradient(90deg, #FFCE00 20%, #FF7600 60%);
+}
+#goshutter {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000000;
+  z-index: 9999;
+  -webkit-animation: byeShutter 5s forwards;
+          animation: byeShutter 5s forwards;
+}
+#goshutter::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  background: linear-gradient(90deg, #FFCE00 20%, #FF7600 60%);
+  width: 0;
+  height: 1px;
+  -webkit-animation: shutterOpen 4s forwards;
+          animation: shutterOpen 4s forwards;
+}
+#gotext1 {
+  position: absolute;
+  top: calc(50% - 52px - 22px);
+  left: 0;
+  right: 0;
+  z-index: -999;
+}
+#gotext1 img {
+  width: 500px;
+}
+#gotext2 {
+  position: absolute;
+  top: calc(50% + 12px);
+  left: 0;
+  right: 0;
+  color: #FFA219;
+  font-size: 20px;
+  z-index: -999;
+}
+#gocontainer {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+#gocontainer #gocontent {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#gocontainer #gocontent iframe {
+  width: 863px !important;
+  height: 469px !important;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#gocontainer #gocontent a.js-modal-close {
+  position: absolute;
+  right: 46px;
+  top: 32px;
+}
+#gocontainer #gocontent a.js-modal-close img {
+  width: 48px;
+}
+@-webkit-keyframes byeShutter {
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+    z-index: -1;
+  }
+}
+@keyframes byeShutter {
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+    z-index: -1;
+  }
+}
+@-webkit-keyframes shutterOpen {
+  0% {
+    width: 0;
+    height: 9px;
+  }
+  50% {
+    width: 100%;
+    height: 9px;
+  }
+  90% {
+    width: 100%;
+    height: 100%;
+  }
+  100% {
+    width: 100%;
+    height: 100%;
+  }
+}
+@keyframes shutterOpen {
+  0% {
+    width: 0;
+    height: 9px;
+  }
+  50% {
+    width: 100%;
+    height: 9px;
+  }
+  90% {
+    width: 100%;
+    height: 100%;
+  }
+  100% {
+    width: 100%;
+    height: 100%;
+  }
+}
