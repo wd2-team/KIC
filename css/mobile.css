@@ -1128,7 +1128,6 @@ header {
   width: 25px;
   height: 7px;
   padding-bottom: 3px;
-  margin-left: -2px;
 }
 #pageheader ul li a {
   position: relative;
@@ -4625,7 +4624,7 @@ header {
   z-index: -999;
 }
 #gotext2 img {
-  width: 61px;
+  width: 100px;
 }
 #gocontainer {
   width: 100%;
@@ -4638,7 +4637,7 @@ header {
   position: relative;
 }
 #gocontainer #gocontent iframe {
-  width: 302px !important;
+  width: 310px !important;
   height: 184px !important;
   position: relative;
   top: 50%;
@@ -4647,7 +4646,7 @@ header {
 #gocontainer #gocontent a.js-modal-close {
   position: absolute;
   right: 46px;
-  top: 32px;
+  top: 46px;
 }
 #gocontainer #gocontent a.js-modal-close img {
   width: 48px;
