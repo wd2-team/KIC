@@ -4493,9 +4493,6 @@ header {
   margin-top: 200px;
   margin-bottom: 100px;
 }
-#page10 #pageunder a {
-  /* pointer-events: none; */
-}
 #page10 #pageunder a p span {
   letter-spacing: 1.5em;
 }

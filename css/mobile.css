@@ -437,7 +437,6 @@ button {
   width: 25px;
   height: 6px;
   padding-bottom: 2px;
-  margin-left: -2px;
 }
 #mobiletopheader ul li a,
 #mobileheader ul li a {
@@ -4563,20 +4562,27 @@ header {
   margin-top: 128px;
   margin-bottom: 100px;
 }
-#page10 #pageunder a {
-  pointer-events: none;
-}
 /* #page10 #pageunder a p span {
   letter-spacing: 1.5em;
 } */
+#page10 #pageunder {
+  width: 170px;
+}
 #page10 #pageunder a p img {
-  width: 120px;
+  width: 130px;
+}
+#page10 #pageunder a p span {
+  display: block;
+  margin-top: 3px;
 }
 #page10 #pageunder a #pageunderbg {
   background-image: url('../images/go.svg');
 }
 
 /* GO */
+#gohtml {
+  background: linear-gradient(90deg, #FFCE00 20%, #FF7600 60%);
+}
 #go {
   background: linear-gradient(90deg, #FFCE00 20%, #FF7600 60%);
 }
@@ -4624,7 +4630,7 @@ header {
   z-index: -999;
 }
 #gotext2 img {
-  width: 100px;
+  width: 80px;
 }
 #gocontainer {
   width: 100%;
