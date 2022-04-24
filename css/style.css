@@ -2199,16 +2199,20 @@ header {
   display: block;
   margin-top: 173px;
   margin-left: 125px;
-  font-size: calc((100vw - 1080px) / (840 / 8) + 10px);
+  /* font-size: calc((100vw - 1080px) / (840 / 8) + 10px);
   padding-top: calc((100vw - 1080px) / (840 / 13) + 11px);
-  line-height: calc((100vw - 1080px) / (840 / 6) + 19px);
+  line-height: calc((100vw - 1080px) / (840 / 6) + 19px); */
+  font-size: 10px;
+  padding-top: 11px;
+  line-height: 19px;
   position: relative;
 }
 #page04innerscroll-label01 span {
   display: inline-block;
 }
 #page04innerscroll-label01 span:nth-child(3) {
-  font-size: calc((100vw - 1080px) / (840 / 9) + 15px);
+  /* font-size: calc((100vw - 1080px) / (840 / 9) + 15px); */
+  font-size: 15px;
 }
 #page04innerscroll-p01all {
   text-align: left;
@@ -2441,16 +2445,20 @@ header {
   height: 69px;
   margin-top: 235px;
   display: block;
-  font-size: calc((100vw - 1080px) / (840 / 8) + 10px);
+  /* font-size: calc((100vw - 1080px) / (840 / 8) + 10px);
   padding-top: calc((100vw - 1080px) / (840 / 13) + 11px);
-  line-height: calc((100vw - 1080px) / (840 / 6) + 19px);
+  line-height: calc((100vw - 1080px) / (840 / 6) + 19px); */
+  font-size: 10px;
+  padding-top: 11px;
+  line-height: 19px;
   position: absolute;
 }
 #page04innerscroll-imgbottom #page04innerscroll-label02 span {
   display: inline-block;
 }
 #page04innerscroll-imgbottom #page04innerscroll-label02 span:nth-child(3) {
-  font-size: calc((100vw - 1080px) / (840 / 9) + 15px);
+  /* font-size: calc((100vw - 1080px) / (840 / 9) + 15px); */
+  font-size: 15px;
 }
 #page04innerscroll-imgbottom #page04innerscroll-p02all {
   position: absolute;
@@ -3540,7 +3548,8 @@ header {
 #page08innerscroll-course1 #page08innerscroll-course1full #page08innerscroll-course1fullimg {
   width: 100%;
   height: 622px;
-  object-position: bottom;
+  /* object-position: bottom; */
+  object-position: center;
   object-fit: cover;
   position: relative;
   display: none;

@@ -1845,7 +1845,7 @@ function setResult(){
 function getAngle(){
   let angle = screen && screen.orientation && screen.orientation.angle;
   if ( angle === undefined ) {
-    angle = window.orientation;
+    angle = window.orientation || 0;
   }
   const isPortrait = (angle === 0);
   return({
