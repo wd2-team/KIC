@@ -3547,9 +3547,9 @@ header {
 }
 #page08innerscroll-course1 #page08innerscroll-course1full #page08innerscroll-course1fullimg {
   width: 100%;
-  height: 622px;
-  /* object-position: bottom; */
-  object-position: center;
+  /* height: 622px; */
+  height: 100%;
+  object-position: bottom;
   object-fit: cover;
   position: relative;
   display: none;
@@ -3622,7 +3622,8 @@ header {
 }
 #page08innerscroll-course2 #page08innerscroll-course2full #page08innerscroll-course2fullimg {
   width: 100%;
-  height: 622px;
+  /* height: 622px; */
+  height: 100%;
   object-position: center;
   object-fit: cover;
   position: relative;
@@ -3708,7 +3709,8 @@ header {
 }
 #page08innerscroll-course3 #page08innerscroll-course3full #page08innerscroll-course3fullimg {
   width: 100%;
-  height: 622px;
+  /* height: 622px; */
+  height: 100%;
   object-position: center;
   object-fit: cover;
   position: relative;
